@@ -9,7 +9,7 @@ export function HeaderActions({ header_icons, languages }) {
   const { basketMenu, basketMenuOpen, basketIconRef } = useContext(CartContext);
   const { heartMenu, heartMenuOpen, heartIconRef } = useContext(HeartContext); 
   const { searchIconRef, handleSearchBar } = useContext(SearchContext);
-
+  
   return (
     <div className="actions">
       <div className="icons">
@@ -20,16 +20,16 @@ export function HeaderActions({ header_icons, languages }) {
           ref={searchIconRef}
         />
 
-        <img
+       {<img
           ref={heartIconRef} 
-          src={heartMenuOpen ? "./Black_heart.svg" : "./heart.svg"}
+          src={heartMenuOpen ? BACKEND_API_URL + header_icons.heart_icon?.split('-')[1] : BACKEND_API_URL + header_icons.heart_icon?.split('-')[0]}
           alt="heart"
           onClick={heartMenu}
-        />
+        />}
 
         <img
           ref={basketIconRef}
-          src={basketMenuOpen ? "./Black_bag.svg" : "./bag.svg"}
+          src={basketMenuOpen ? BACKEND_API_URL + header_icons.cart_icon?.split('-')[1] : BACKEND_API_URL + header_icons.cart_icon?.split('-')[0]}
           alt="cart"
           onClick={basketMenu}
         />
