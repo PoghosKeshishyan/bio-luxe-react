@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   height: 110vh;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #home .row {
@@ -552,7 +552,7 @@
 }
 @media screen and (max-width:440px) {
   #home{
-    height: 68vh;
+    height: 74vh;
   }
   #home .container .row .content{
     padding-left: 1rem;
@@ -576,7 +576,7 @@
 @media screen and (max-width:400px) {
 
   #home{
-    height: 65vh;
+    height: 70vh;
     padding-top: 80px;
   }
 
@@ -702,6 +702,6 @@
       margin: 5px;
     }
     #home{
-      height: 60vh;
+      height: 65vh;
     }
   }
