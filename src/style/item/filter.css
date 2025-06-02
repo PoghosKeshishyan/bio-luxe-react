@@ -55,7 +55,8 @@
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
-  white-space: nowrap;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 
 .filter_box .filter_wrapper .filter_group .dropdown .dropdown_list1 .dropdown_item_checkbox span {
