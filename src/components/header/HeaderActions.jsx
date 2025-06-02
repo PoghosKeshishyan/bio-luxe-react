@@ -22,14 +22,14 @@ export function HeaderActions({ header_icons, languages }) {
 
         <img
           ref={heartIconRef} 
-          src={heartMenuOpen ? "/images/Black_heart.svg" : "/images/heart.svg"}
+          src={heartMenuOpen ? "/Black_heart.svg" : "/heart.svg"}
           alt="heart"
           onClick={heartMenu}
         />
 
         <img
           ref={basketIconRef}
-          src={basketMenuOpen ? "/images/Black_bag.svg" : "/images/bag.svg"}
+          src={basketMenuOpen ? "/Black_bag.svg" : "/bag.svg"}
           alt="cart"
           onClick={basketMenu}
         />

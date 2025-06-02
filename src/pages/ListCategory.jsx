@@ -41,12 +41,13 @@ export function ListCategory() {
 
 
                 const resItems = await axios.get(`items?category=${category_name}`);
+                
                 const fetchedItems = resItems.data || [];
 
                 const resCategories = await axios.get(`categories?lang=${currentLanguage}`);
-                const fetchedCategories = resCategories.data || [];
-
-                setCategories(fetchedCategories.map(category => category.title));
+                setCategories(resCategories.data);
+                // const fetchedCategories = resCategories.data || [];
+                // setCategories(fetchedCategories.map(category => category.title));
 
                 const processedItems = fetchedItems.map(item => ({
                     ...item,

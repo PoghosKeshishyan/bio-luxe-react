@@ -41,15 +41,12 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
     };
 
     const toggleCategory = (category) => {
-        if (category_name === category) {
+        if ('/category/' + category_name ===  category) {
             return;
         }
-        const updatedCategories = checkedCategories.includes(category)
-            ? checkedCategories.filter((c) => c !== category)
-            : [...checkedCategories, category];
-
-        setCheckedCategories(updatedCategories);
-        navigate(`/category/${updatedCategories.join("/")}`);
+        
+        setCheckedCategories(category);
+        navigate(category);
     };
 
     const toggleMaterial = (material) => {
@@ -105,13 +102,13 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
                         {openDropdown === "category" && (
                             <div className="dropdown_list1">
                                 {categories.map((category) => (
-                                    <div key={category} className="dropdown_item_checkbox" onClick={() => toggleCategory(category)}>
+                                    <div key={category.id} className="dropdown_item_checkbox" onClick={() => toggleCategory(category.category_name)}>
                                         <input
                                             type="checkbox"
-                                            checked={category === category_name}
+                                            checked={category.category_name === `/category/${category_name}`}
                                             onChange={() => { }}
                                         />
-                                        <span>{category}</span>
+                                        <span>{category.title}</span>
                                     </div>
                                 ))}
                             </div>
