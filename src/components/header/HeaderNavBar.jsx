@@ -14,7 +14,7 @@ export function HeaderNavBar({navbar}){
                       {
                         item.submenu.map((elem, index) => (
                           <li key={index}>
-                            <Link to={`/category${elem.route}`}>{elem.title}</Link>
+                            <Link to={`${elem.route}`}>{elem.title}</Link>
                           </li>
                         ))
                       }
