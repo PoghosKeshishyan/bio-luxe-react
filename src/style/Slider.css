@@ -1,0 +1,686 @@
+#home {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  padding-top: 50px;
+}
+
+#home .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+#home .row .content {
+  width: 50%;
+}
+@keyframes slideFade {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.show {
+  animation: slideFade 0.8s ease-in-out;
+}
+
+#home .row .img_div {
+  width: 50%;
+}
+
+#home .row .img_div img {
+  width: 100%;
+  z-index: 20;
+}
+
+#home .container .row h1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 90%;
+  color: #fff;
+  animation: slideFade 1s ease-in-out;
+}
+
+#home .container .row .descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 36px;
+  padding-bottom: 50px;
+  animation: slideFade 1s ease-in-out;
+}
+
+#home .container .row .btn {
+  border: 1px solid #1e4051;
+  font-family: var(--second-family);
+  border-radius: 4px;
+  padding: 12px 24px;
+  width: 181px;
+  height: 45px;
+  background: #f6f7f9;
+  text-transform: uppercase;
+  color: var(--text_color);
+}
+#home .container .row .controls {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-right: 70px;
+}
+
+#home .container .row .controls .arrow_div {
+  border-radius: 8px;
+  width: 70px;
+  height: 70px;
+  --backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .container .row .controls .number {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 101%;
+  color: rgba(255, 255, 255, 0.9);
+  --backdrop-filter: blur(4px);
+}
+.cloud {
+  position: absolute;
+  width: 70px;
+  height: auto;
+  opacity: 0.4;
+  z-index: 10;
+}
+
+.cloud1 {
+  top: 10%;
+  left: 8%;
+  animation: float 6s infinite ease-in-out;
+}
+
+.cloud2 {
+  top: 21%;
+  right: 12%;
+  animation: float 8s infinite ease-in-out;
+  z-index: 1;
+}
+
+.cloud3 {
+  top: 24%;
+  left: 45%;
+  animation: float 10s infinite ease-in-out;
+}
+
+.cloud4 {
+  top: 53%;
+  right: 43%;
+  animation: float 7s infinite ease-in-out;
+}
+
+
+@media screen and (max-width:1330px) {
+  #home .container .row .content{
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width:1285.60px) {
+  #home .container .row h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 103px;
+    line-height: 90%;
+    color: #fff;
+    animation: slideFade 1s ease-in-out;
+    margin: 10px;
+  }
+  #home .container .row .descr {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    padding-top: 36px;
+    padding-bottom: 50px;
+    animation: slideFade 1s ease-in-out;
+    margin: 10px;
+  }
+  #home .container .row .controls .arrow_div {
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    --backdrop-filter: blur(14px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cloud {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 10%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 20%;
+    right: 7%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 30%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 54%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+}
+@media screen and (max-width:1100px) {
+
+  #home{
+    height: 90vh;
+  }
+
+  #home .container .row h1 {
+  font-size: 86px;
+  }
+  #home .container .row .descr {
+    font-size: 15px;
+  }
+  #home .container .row .controls .arrow_div {
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    --backdrop-filter: blur(14px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cloud {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 10%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 18%;
+    right: 6.5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 25%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 48%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+}
+@media screen and (max-width:1000px) {
+  #home .container .row h1 {
+  font-size: 77px;
+  }
+  .cloud {
+    position: absolute;
+    width: 60px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 10%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 17%;
+    right: 6.5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 23%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 44%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+}
+@media screen and (max-width:900px) {
+
+  #home {
+    height: 70vh;
+  }
+  #home .container .row h1 {
+  font-size: 69px;
+  }
+  .cloud {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 10%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 16%;
+    right: 6.5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 20%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 40%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+  #home{
+    height: 80vh;
+  }
+}
+@media screen and (max-width:800px) {
+
+  #home{
+    height: 70vh;
+  }
+  #home .container .row h1 {
+  font-size: 61px;
+  }
+  .cloud {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 10%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 15%;
+    right: 6.5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 18%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 37%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+  #home .container .row .controls {
+    scale: 80%;
+  }
+}
+@media screen and (max-width:700px) {
+  #home{
+    padding-top:90px;
+  }
+  #home .container .row h1 {
+  font-size: 53px;
+  }
+  #home .container .row .descr {
+    font-size: 11px;
+  }
+  #home .btn{
+    padding: 5px 7px;
+  }
+  .cloud {
+    position: absolute;
+    width: 35px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 12%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 19.5%;
+    right: 6.5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 21%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 38%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+}
+@media screen and (max-width:600px) {
+
+  #home .container .row .content a{
+    font-size: 12px;
+  }
+  #home .container .row h1 {
+  font-size: 46px;
+  }
+  #home .container .row .descr {
+    font-size: 11px;
+    padding-top: 16px;
+    padding-bottom: 30px;
+  }
+  .cloud {
+    position: absolute;
+    width: 35px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 10%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 18%;
+    right: 6.5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 18%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 34%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+}
+@media screen and (max-width:517.60px) {
+  #home .container .row .btn {
+    padding: 10px ;
+  }
+}
+@media screen and (max-width:500px) {
+  #home{
+    height: 60vh;
+    padding-top:110px ;
+  }
+  #home .container .row h1 {
+  font-size: 38px;
+  }
+  #home .container .row .descr {
+    font-size: 9px;
+    padding-bottom: 20px;
+   
+  }
+  .cloud {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 10%;
+    left: 2%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 20%;
+    right: 6.5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 19%;
+    left: 38%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 32%;
+    right: 43%;
+    animation: float 7s infinite ease-in-out;
+  }
+  #home .container .row .controls .number {
+    font-size: 40px;
+  }
+  #home .container .row .btn {
+    border: 1px solid #1e4051;
+    border-radius: 4px;
+    padding: 8px 10px;
+    width: 181px;
+    height: 45px;
+    background: #f6f7f9;
+    text-transform: uppercase;
+    color: var(--text_color);
+    margin: 5px;
+  }
+
+  #home .container .row .controls {
+    padding-right: 20px;
+}
+}
+@media screen and (max-width:440px) {
+  #home .container .row .content{
+    padding-left: 1rem;
+  }
+  #home .container .row .controls {
+    padding-right: 20px;
+}
+}
+@media screen and (max-width:400px) {
+
+  #home{
+    height: 50vh;
+    padding-top: 80px;
+  }
+
+  #home .container .row .content a{
+    font-size: 10px;
+  }
+
+  #home .container .row h1 {
+  font-size: 27px;
+  transform: translateY(30px);
+  }
+  #home .container .row .descr {
+    font-size: 9px;
+    padding-top: 35px;
+  }
+  .cloud {
+    position: absolute;
+    width: 25px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .cloud1 {
+    top: 14%;
+    left: 3%;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .cloud2 {
+    top: 20.5%;
+    right: 5%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+  
+  .cloud3 {
+    top: 21%;
+    left: 45%;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .cloud4 {
+    top: 32%;
+    right: 41%;
+    animation: float 7s infinite ease-in-out;
+  }
+  #home .container .row .controls .number {
+    font-size: 30px;
+  }
+  #home .container .row .controls {
+    scale: 70%;
+    padding-right: 10px;
+  }
+  #home .container .row .btn {
+    border: 1px solid #1e4051;
+    border-radius: 4px;
+    padding: 9px 1px 6px 2px;
+    width: 60px;
+    height: 10px;
+    background: #f6f7f9;
+    text-transform: uppercase;
+    color: var(--text_color);
+    margin: 5px;
+  }
+}
+@media screen and (max-width:380px) {
+
+  #home .container .row h1 {
+    font-size: 28px;
+    transform: translateY(30px);
+    }
+    #home .container .row .descr {
+      font-size: 9px;
+    }
+    .cloud {
+      position: absolute;
+      width: 20px;
+      height: auto;
+      opacity: 0.4;
+      z-index: 0;
+    }
+    
+    .cloud1 {
+      top: 15%;
+      left: 3%;
+      animation: float 6s infinite ease-in-out;
+    }
+    
+    .cloud2 {
+      top: 21.3%;
+      right: 6.5%;
+      animation: float 8s infinite ease-in-out;
+      z-index: 0;
+    }
+    
+    .cloud3 {
+      top: 21%;
+      left: 43%;
+      animation: float 10s infinite ease-in-out;
+    }
+    
+    .cloud4 {
+      top: 30%;
+      right: 40%;
+      animation: float 7s infinite ease-in-out;
+    }
+    #home .container .row .controls .number {
+      font-size: 30px;
+    }
+    #home .container .row .controls {
+      scale: 65%;
+    }
+    #home .container .row .btn {
+      border: 1px solid #1e4051;
+      border-radius: 4px;
+      padding: 5px 2px 4px 2px;
+      width: 60px;
+      height: 10px;
+      background: #f6f7f9;
+      text-transform: uppercase;
+      color: var(--text_color);
+      margin: 5px;
+    }
+    #home{
+      height: 50vh;
+    }
+  }

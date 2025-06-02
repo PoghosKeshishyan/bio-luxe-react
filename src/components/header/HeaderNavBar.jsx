@@ -1,0 +1,28 @@
+import { NavLink as Link } from "react-router-dom"
+
+export function HeaderNavBar({navbar}){
+
+    return(
+          <nav className="nav_bar">
+            <ul>
+              {navbar.map((item) => (
+                <li key={item.id} className="nav-item">
+                  <Link to={item.route}>{item.title}</Link>
+
+                  {item.submenu.length > 0 && (
+                    <ul className="submenu">
+                      {
+                        item.submenu.map((elem, index) => (
+                          <li key={index}>
+                            <Link to={`/category${elem.route}`}>{elem.title}</Link>
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </nav>
+    )
+}

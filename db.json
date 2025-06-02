@@ -1,0 +1,7534 @@
+{
+  "logo": [
+    {
+      "id": "1",
+      "image": "images/Logo.svg"
+    }
+  ],
+  "shopping_bag_page": [
+    {
+      "id": "das5dsfsdf",
+      "lang": "en",
+      "main": "main",
+      "title": "Shopping bag",
+      "empty_error_text": "Your shopping bag is empty 🛒😔",
+      "quantity_and_prais_text": "Quantity:",
+      "size_title": "Size",
+      "heart_text": "save for later",
+      "btn_text": "Continue shopping",
+      "order_summary_field": "Order Summary",
+      "total_text_field": "Total",
+      "form_input_name_placeholder": "enter your name",
+      "form_input_tel_placeholder": "enter your telephone number",
+      "form_input_address_placeholder": "enter your address",
+      "form_input_checkbox_text": "Send me my delivery",
+      "form_btn_text": "Send"
+    },
+    {
+      "id": "das5dsfsdf",
+      "lang": "ru",
+      "main": "главная",
+      "title": "Корзина покупок",
+      "empty_error_text": "Ваша корзина пуста 🛒😔",
+      "quantity_and_prais_text": "Количество:",
+      "size_title": "Размер",
+      "heart_text": "сохранить на потом",
+      "btn_text": "Продолжить покупки",
+      "order_summary_field": "Итог заказа",
+      "total_text_field": "Итого",
+      "form_input_name_placeholder": "введите ваше имя",
+      "form_input_tel_placeholder": "введите ваш номер телефона",
+      "form_input_address_placeholder": "введите ваш адрес",
+      "form_input_checkbox_text": "Отправьте мне мою доставку",
+      "form_btn_text": "Отправить"
+    },
+    {
+      "id": "das5dsfsdf",
+      "lang": "am",
+      "main": "գլխավոր",
+      "title": "Գնման զամբյուղ",
+      "empty_error_text": "Ձեր զամբյուղը դատարկ է 🛒😔",
+      "quantity_and_prais_text": "Քանակ՝",
+      "size_title": "Չափս",
+      "heart_text": "պահպանել հետագայի համար",
+      "btn_text": "Շարունակել գնումները",
+      "order_summary_field": "Պատվերի ամփոփում",
+      "total_text_field": "Ընդամենը",
+      "form_input_name_placeholder": "մուտքագրեք ձեր անունը",
+      "form_input_tel_placeholder": "մուտքագրեք ձեր հեռախոսահամարը",
+      "form_input_address_placeholder": "մուտքագրեք ձեր հասցեն",
+      "form_input_checkbox_text": "Ուղարկեք ինձ իմ առաքումը",
+      "form_btn_text": "Ուղարկել"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "Cribs",
+      "category_name": "Cribs",
+      "image": "./images/Cribe_11.png",
+      "descr": "where every piece is a faithful friend, weaving comfort and care"
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "title": "Clothes",
+      "category_name": "Clothes",
+      "image": "./images/Cribe_11.png",
+      "descr": "where every thread is a loyal friend, weaving comfort and style"
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "title": "Furniture",
+      "category_name": "Furniture",
+      "image": "./images/Cribe_11.png",
+      "descr": "that weaves comfort and elegance into every piece"
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "title": "Mattresses",
+      "category_name": "Mattresses",
+      "image": "./images/Cribe_11.png",
+      "descr": "that weave comfort and support for your perfect rest"
+    },
+    {
+      "id": "5",
+      "lang": "ru",
+      "title": "Детские кроватки",
+      "category_name": "Cribs",
+      "image": "./images/Cribe_11.png",
+      "descr": "где каждый элемент — верный друг, дарящий уют и заботу"
+    },
+    {
+      "id": "6",
+      "lang": "ru",
+      "title": "Одежда",
+      "category_name": "Clothes",
+      "image": "./images/Cribe_11.png",
+      "descr": "где каждая нить — преданный друг, создающий комфорт и стиль"
+    },
+    {
+      "id": "7",
+      "lang": "ru",
+      "title": "Мебель",
+      "category_name": "Furniture",
+      "image": "./images/Cribe_11.png",
+      "descr": "которая приносит уют и элегантность в каждый элемент"
+    },
+    {
+      "id": "8",
+      "lang": "ru",
+      "title": "Матрасы",
+      "category_name": "Mattresses",
+      "image": "./images/Cribe_11.png",
+      "descr": "которые дарят комфорт и поддержку для идеального отдыха"
+    },
+    {
+      "id": "9",
+      "lang": "am",
+      "title": "Մանկական մահճակալներ",
+      "category_name": "Cribs",
+      "image": "./images/Cribe_11.png",
+      "descr": "որտեղ յուրաքանչյուր տարր հավատարիմ ընկեր է, ապահովելով հարմարավետություն և խնամք"
+    },
+    {
+      "id": "10",
+      "lang": "am",
+      "title": "Հագուստ",
+      "category_name": "Clothes",
+      "image": "./images/Cribe_11.png",
+      "descr": "որտեղ յուրաքանչյուր թել հավատարիմ ընկեր է, ստեղծելով հարմարավետություն և ոճ"
+    },
+    {
+      "id": "11",
+      "lang": "am",
+      "title": "Կահույք",
+      "category_name": "Furniture",
+      "image": "./images/Cribe_11.png",
+      "descr": "որը բերում է հարմարավետություն և նրբագեղություն յուրաքանչյուր կտորում"
+    },
+    {
+      "id": "12",
+      "lang": "am",
+      "title": "Մատրասներ",
+      "category_name": "Mattresses",
+      "image": "./images/Cribe_11.png",
+      "descr": "որոնք ապահովում են հարմարավետություն և աջակցություն ձեր կատարյալ հանգստի համար"
+    }
+  ],
+  "items_header": [
+    {
+      "id": "1",
+      "lang": "en",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Cribs",
+      "title": "Cribs",
+      "descr": "where every piece is a faithful friend,\nweaving comfort and care"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Cribs",
+      "title": "Кроватки",
+      "descr": "где каждый предмет — верный друг,\n создающий уют и заботу"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Cribs",
+      "title": "Մահճակալներ",
+      "descr": "«որտեղ յուրաքանչյուր իր հավատարիմ ընկեր է՝\n հյուսելով հարմարավետություն և հոգատարություն»"
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Clothes",
+      "title": "Clothes",
+      "descr": "soft essentials crafted\nfor tiny moments and big milestones"
+    },
+    {
+      "id": "5",
+      "lang": "ru",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Clothes",
+      "title": "Одежда",
+      "descr": "мягкие вещи, созданные\nдля маленьких моментов и больших достижений"
+    },
+    {
+      "id": "6",
+      "lang": "am",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Clothes",
+      "title": "Հագուստ",
+      "descr": "փափուկ անհրաժեշտ պարագաներ՝\n ստեղծված փոքրիկ պահերի և մեծ քայլերի համար"
+    },
+    {
+      "id": "7",
+      "lang": "en",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Furniture",
+      "title": "Furniture",
+      "descr": "designed to grow with your child,\nblending function and warmth"
+    },
+    {
+      "id": "8",
+      "lang": "ru",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Furniture",
+      "title": "Мебель",
+      "descr": "разработана, чтобы расти вместе с вашим ребёнком,\n сочетая функциональность и уют"
+    },
+    {
+      "id": "9",
+      "lang": "am",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Furniture",
+      "title": "Կահույք",
+      "descr": "նախատեսված է աճելու ձեր փոքրիկի հետ՝\n համադրելով հարմարավետությունն ու գործառույթը"
+    },
+    {
+      "id": "10",
+      "lang": "en",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Mattresses",
+      "title": "Mattresses",
+      "descr": "supportive layers for peaceful\n sleep and sweet dreams"
+    },
+    {
+      "id": "11",
+      "lang": "ru",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Mattresses",
+      "title": "Матрасы",
+      "descr": "поддерживающие слои для спокойного\n сна и сладких снов"
+    },
+    {
+      "id": "12",
+      "lang": "am",
+      "image": "/images/Cribe_1.png",
+      "category_name": "Mattresses",
+      "title": "Մատրասներ",
+      "descr": "աջակցող շերտեր՝ հանգիստ\n քնի և քաղցր երազների համար"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$10000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_3.png"
+        },
+        {
+          "id": 3,
+          "image": "/images/Cribe_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": true
+    },
+    {
+      "id": "2",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$1000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_2.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "3",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$7000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "4",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$300",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": true
+    },
+    {
+      "id": "5",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$6000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_6.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_6.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "6",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$200",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_6.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_6.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "7",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$8000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "8",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$400",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "9",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$9000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "10",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$500",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "11",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$5000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_7.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_7.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "12",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$4000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_8.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_8.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "13",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$3000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_9.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_9.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "14",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$2000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Cribe_10.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Cribe_10.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "15",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$10000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_2.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "16",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$1000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_2.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "17",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$9000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "18",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$500",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "19",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$8000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "20",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$400",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "21",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$7000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "22",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$300",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "23",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$6000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_6.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_6.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "24",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$200",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_6.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_6.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "25",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$5000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_7.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_7.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "26",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$4000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_8.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_8.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "27",
+      "lang": "multi",
+      "category_name": "Clothes",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$3000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_9.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_9.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "28",
+      "lang": "multi",
+      "category_name": "Cribs",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$2000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Clothes_10.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Clothes_10.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "29",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$10000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_2.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "30",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$1000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_2.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "31",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$9000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "32",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$500",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "33",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$8000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "34",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$400",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "35",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$7000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "36",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$300",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "37",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$6000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_6.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_6.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "38",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$200",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_6.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_6.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "39",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$5000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_7.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_7.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "40",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$4000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_8.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_8.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "41",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$3000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_9.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_9.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "42",
+      "lang": "multi",
+      "category_name": "Furniture",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$2000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Furniture_10.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Furniture_10.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "43",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$9000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_2.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "44",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$500",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_2.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_2.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "45",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$8000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "46",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$400",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_3.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_3.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "47",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$7000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "48",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$300",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_4.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_4.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "49",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$6000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "50",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$200",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "51",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$5000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_5.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_5.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "52",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$100",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_6.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_6.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "53",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$4000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_7.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_7.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "54",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$3000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_8.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_8.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "55",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$2000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_9.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_9.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    },
+    {
+      "id": "56",
+      "lang": "multi",
+      "category_name": "Mattresses",
+      "title": {
+        "en": "Classic White Crib",
+        "ru": "Классическая белая кроватка",
+        "am": "Դասական սպիտակ մահճակալ"
+      },
+      "price": "$1000",
+      "btn_text": {
+        "en": "ADD TO BAG",
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ"
+      },
+      "descr": {
+        "en": "White wooden crib with modern design.",
+        "ru": "Белая деревянная кроватка с современным дизайном.",
+        "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։"
+      },
+      "product_number": "000000001",
+      "product_material": {
+        "en": "Wood",
+        "ru": "Дерево",
+        "am": "Փայտ"
+      },
+      "about_delivery": {
+        "en": "Delivery in 3-5 days",
+        "ru": "Доставка в течение 3-5 дней",
+        "am": "Առաքումը՝ 3-5 օրվա ընթացքում"
+      },
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Mattress_10.png"
+        },
+        {
+          "id": 2,
+          "image": "/images/Mattress_10.png"
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": "47",
+          "status": "available"
+        },
+        {
+          "id": 2,
+          "size": "48",
+          "status": "available"
+        },
+        {
+          "id": 3,
+          "size": "49",
+          "status": "not available"
+        },
+        {
+          "id": 4,
+          "size": "50",
+          "status": "available"
+        },
+        {
+          "id": 5,
+          "size": "51",
+          "status": "available"
+        },
+        {
+          "id": 6,
+          "size": "52",
+          "status": "available"
+        },
+        {
+          "id": 7,
+          "size": "53",
+          "status": "available"
+        },
+        {
+          "id": 8,
+          "size": "54",
+          "status": "available"
+        },
+        {
+          "id": 9,
+          "size": "55",
+          "status": "available"
+        },
+        {
+          "id": 10,
+          "size": "56",
+          "status": "available"
+        },
+        {
+          "id": 11,
+          "size": "57",
+          "status": "available"
+        },
+        {
+          "id": 12,
+          "size": "58",
+          "status": "available"
+        },
+        {
+          "id": 13,
+          "size": "59",
+          "status": "available"
+        },
+        {
+          "id": 14,
+          "size": "60",
+          "status": "available"
+        }
+      ],
+      "heart_icon": false
+    }
+  ],
+  "navbar": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "categories",
+      "route": "#",
+      "submenu": "Cribs/Clothes/Furniture/Mattresses"
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "title": "about company",
+      "route": "/about",
+      "submenu": ""
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "title": "contacts",
+      "route": "/contact",
+      "submenu": ""
+    },
+    {
+      "id": "4",
+      "lang": "ru",
+      "title": "Категории",
+      "route": "#",
+      "submenu": "Cribs/Clothes/Furniture/Mattresses"
+    },
+    {
+      "id": "5",
+      "lang": "ru",
+      "title": "О компании",
+      "route": "/about",
+      "submenu": ""
+    },
+    {
+      "id": "6",
+      "lang": "ru",
+      "title": "Контакты",
+      "route": "/contact",
+      "submenu": ""
+    },
+    {
+      "id": "7",
+      "lang": "am",
+      "title": "Կատեգորիաներ",
+      "route": "#",
+      "submenu": "Cribs/Clothes/Furniture/Mattresses"
+    },
+    {
+      "id": "8",
+      "lang": "am",
+      "title": "Ընկերության մասին",
+      "route": "/about",
+      "submenu": ""
+    },
+    {
+      "id": "9",
+      "lang": "am",
+      "title": "Կոնտակտներ",
+      "route": "/contact",
+      "submenu": ""
+    }
+  ],
+  "header_icons": {
+    "id": 1,
+    "search_icon": "images/Search.svg",
+    "heart_icon": "images/Heart.svg",
+    "cart_icon": "images/Bag.svg",
+    "language_arrow_icon": "images/Select.svg"
+  },
+  "languages": [
+    {
+      "id": "1",
+      "label": "ARM",
+      "lang": "am",
+      "image": "images/Flag_am.svg"
+    },
+    {
+      "id": "2",
+      "label": "RUS",
+      "lang": "ru",
+      "image": "images/Flag_ru.svg"
+    },
+    {
+      "id": "3",
+      "label": "ENG",
+      "lang": "en",
+      "image": "images/Flag_um.svg"
+    }
+  ],
+  "slider": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "Bio Luxe kid's shop",
+      "descr": "Children's furniture, orthopedic mattresses and other accessories for your baby",
+      "btn_text": "Shop Collection",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "title": "Safe and Comfortable",
+      "descr": "Premium quality materials for your child's safety and comfort",
+      "btn_text": "Explore Now",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "title": "Little Dreamers Boutique",
+      "descr": "Explore stylish kids' furniture, ergonomic mattresses, and charming baby accessories. We create cozy, safe, and inspiring spaces for your child to grow, play, and dream",
+      "btn_text": "Shop Collection",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "4",
+      "lang": "ru",
+      "title": "Магазин Bio Luxe для детей",
+      "descr": "Детская мебель, ортопедические матрасы и другие аксессуары для вашего малыша",
+      "btn_text": "Перейти к коллекции",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "5",
+      "lang": "ru",
+      "title": "Безопасность и комфорт",
+      "descr": "Материалы премиум-класса для безопасности и комфорта вашего ребенка",
+      "btn_text": "Исследовать",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "6",
+      "lang": "ru",
+      "title": "Бутик Маленьких Мечтателей",
+      "descr": " Откройте для себя стильную детскую мебель, эргономичные матрасы и очаровательные аксессуары для малышей. Мы создаем уютные, безопасные и вдохновляющие пространства для роста, игр и мечтаний вашего ребенка",
+      "btn_text": "Shop Collection",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "7",
+      "lang": "am",
+      "title": "Bio Luxe մանկական խանութ",
+      "descr": "Մանկական կահույք, օրթոպեդիկ ներքնակներ և այլ աքսեսուարներ ձեր փոքրիկի համար",
+      "btn_text": "Գնալ հավաքածուին",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "8",
+      "lang": "am",
+      "title": "Անվտանգ և հարմարավետ",
+      "descr": "Պրեմիում որակի նյութեր՝ ձեր երեխայի անվտանգության և հարմարավետության համար",
+      "btn_text": "Ուսումնասիրել",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    },
+    {
+      "id": "9",
+      "lang": "am",
+      "title": "Փոքրիկ Երազանքների Բուտիկ",
+      "descr": " Բացահայտեք նորաձև մանկական կահույք, էրգոնոմիկ ներքնակներ և հմայիչ մանկական աքսեսուարներ: Մենք ստեղծում ենք հարմարավետ, անվտանգ և ոգեշնչող տարածքներ ձեր երեխայի աճի, խաղի և երազների համար",
+      "btn_text": "Shop Collection",
+      "btn_url": "#",
+      "background_image": "images/Color_background.png",
+      "image": "images/Cribe_12.png"
+    }
+  ],
+  "slider_icons": [
+    {
+      "id": "1",
+      "cloud_icon": "images/Cloud.png",
+      "left_arrow_icon": "images/Arrow_left.svg",
+      "right_arrow_icon": "images/Arrow_right.svg"
+    }
+  ],
+  "categories_heading": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "Categories"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "title": "Категории"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "title": "Կատեգորիաներ"
+    }
+  ],
+  "homepage_about_us": [
+    {
+      "id": "1",
+      "lang": "en",
+      "heading": "About us",
+      "descr": "Where each piece is not just metal, but a loyal friend, weaving tales of elegance and sentimentality into every cherished moment Where each piece is not just metal, but a loyal friend, weaving tales of elegance and sentimentality into every cherished momentmore",
+      "image_1": "/images/gallery1.jpg",
+      "image_2": "/images/gallery2.jpg",
+      "btn_text": "MORE",
+      "btn_url": "/about"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "heading": "О нас",
+      "descr": "Где каждая деталь — не просто металл, а верный друг, вплетающий истории элегантности и сентиментальности в каждый заветный момент Где каждая деталь — не просто металл, а верный друг, вплетающий истории элегантности и сентиментальности в каждый заветный моментеще",
+      "image_1": "/images/gallery1.jpg",
+      "image_2": "/images/gallery2.jpg",
+      "btn_text": "MORE",
+      "btn_url": "/about"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "heading": "Մեր մասին",
+      "descr": "Այնտեղ, որտեղ յուրաքանչյուր կտոր պարզապես մետաղ չէ, այլ հավատարիմ ընկեր, որը հյուսում է նրբագեղության և սենտիմենտալության մասին հեքիաթներ ամեն նվիրական պահի մեջ: Որտեղ յուրաքանչյուր կտոր պարզապես մետաղ չէ, այլ հավատարիմ ընկեր, հյուսում է էլեգանտության և սենտիմենտալության հեքիաթներ ամեն նվիրական պահի մեջ:",
+      "image_1": "/images/gallery1.jpg",
+      "image_2": "/images/gallery2.jpg",
+      "btn_text": "MORE",
+      "btn_url": "/about"
+    }
+  ],
+  "homepage_popular_items_heading": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "Popular items"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "title": "Популярные товары"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "title": "Սիրված ապրանքներ"
+    }
+  ],
+  "homepage_new_arrivals_heading": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "New arrivals"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "title": "Новые поступления"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "title": "Նոր ժամանումներ"
+    }
+  ],
+  "homepage_contacts": [
+    {
+      "id": "1",
+      "lang": "en",
+      "heading": "Contacts",
+      "map_image": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.1082841391026!2d44.519137876191365!3d40.20665417147408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd93493e4d4f%3A0xb58fcf6cb9686ca3!2sMorpho!5e0!3m2!1sru!2sam!4v1745063070662!5m2!1sru!2sam",
+      "map_url": "/"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "heading": "Контакты",
+      "map_image": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.1082841391026!2d44.519137876191365!3d40.20665417147408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd93493e4d4f%3A0xb58fcf6cb9686ca3!2sMorpho!5e0!3m2!1sru!2sam!4v1745063070662!5m2!1sru!2sam",
+      "map_url": "/"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "heading": "Կոնտակտներ",
+      "map_image": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.1082841391026!2d44.519137876191365!3d40.20665417147408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd93493e4d4f%3A0xb58fcf6cb9686ca3!2sMorpho!5e0!3m2!1sru!2sam!4v1745063070662!5m2!1sru!2sam",
+      "map_url": "/"
+    }
+  ],
+  "footer_info": [
+    {
+      "id": "1",
+      "lang": "en",
+      "addres": "Park Heights tower 1 Level 6, office 601-Rubai-United Arab Emirates",
+      "phone": "+1 123 456 7890",
+      "email": "info@company.com",
+      "addres_iccon": "/images/Vector.svg",
+      "phone_icon": "/images/Phone_icon.svg",
+      "email_icon": "/images/Maile.svg"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "addres": "Park Heights башня 1 уровень 6, офис 601-Rubai-Объединенные Арабские Эмираты",
+      "phone": "+1 123 456 7890",
+      "email": "info@company.com",
+      "addres_iccon": "/images/Vector.svg",
+      "phone_icon": "/images/Phone_icon.svg",
+      "email_icon": "/images/Maile.svg"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "addres": "Park Heights tower 1 Level 6, office 601-Rubai-Միացյալ Արաբական Էմիրություններ",
+      "phone": "+1 123 456 7890",
+      "email": "info@company.com",
+      "addres_iccon": "/images/Vector.svg",
+      "phone_icon": "/images/Phone_icon.svg",
+      "email_icon": "/images/Maile.svg"
+    }
+  ],
+  "footer_privacy_policy": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "clieant service",
+      "url": "#"
+    },
+    {
+      "id": "2",
+      "lang": "en",
+      "title": "return policy",
+      "url": "#"
+    },
+    {
+      "id": "3",
+      "lang": "en",
+      "title": "service policy",
+      "url": "#"
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "title": "shipping policy",
+      "url": "#"
+    },
+    {
+      "id": "5",
+      "lang": "en",
+      "title": "privacy policy",
+      "url": "#"
+    },
+    {
+      "id": "6",
+      "lang": "ru",
+      "title": "Обслуживание клиентов",
+      "url": "#"
+    },
+    {
+      "id": "7",
+      "lang": "ru",
+      "title": "Процесс возврата",
+      "url": "#"
+    },
+    {
+      "id": "8",
+      "lang": "ru",
+      "title": "Услуга",
+      "url": "#"
+    },
+    {
+      "id": "9",
+      "lang": "ru",
+      "title": "Перевозки",
+      "url": "#"
+    },
+    {
+      "id": "10",
+      "lang": "ru",
+      "title": "Конфиденциальность",
+      "url": "#"
+    },
+    {
+      "id": "11",
+      "lang": "am",
+      "title": "Հաճախորդի սպասարկում",
+      "url": "#"
+    },
+    {
+      "id": "12",
+      "lang": "am",
+      "title": "Վերադարցնելու գործընթաց ",
+      "url": "#"
+    },
+    {
+      "id": "13",
+      "lang": "am",
+      "title": "Սպասարկում",
+      "url": "#"
+    },
+    {
+      "id": "14",
+      "lang": "am",
+      "title": "Առաքում",
+      "url": "#"
+    },
+    {
+      "id": "15",
+      "lang": "am",
+      "title": "Գաղտնիություն",
+      "url": "#"
+    }
+  ],
+  "footer_social_links": [
+    {
+      "id": "1",
+      "icon": "/images/Icon-WhatsappLogo.svg",
+      "url": "#"
+    },
+    {
+      "id": "2",
+      "icon": "/images/Icon-InstagramLogo.svg",
+      "url": "#"
+    },
+    {
+      "id": "3",
+      "icon": "/images/Icon-FacebookLogo.svg",
+      "url": "#"
+    }
+  ],
+  "contact_title": [
+    {
+      "lang": "en",
+      "title": "Contacts",
+      "image_url": "images/about_kravat.png",
+      "main": "main",
+      "id": "c774"
+    },
+    {
+      "lang": "ru",
+      "title": "Контакты",
+      "image_url": "images/about_kravat.png",
+      "main": "главная",
+      "id": "cc12"
+    },
+    {
+      "lang": "am",
+      "title": "Կոնտակտներ",
+      "image_url": "images/about_kravat.png",
+      "main": "գլխավոր",
+      "id": "4af5"
+    }
+  ],
+  "contact_info": [
+    {
+      "id": "1",
+      "lang": "en",
+      "map_image": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.1082841391026!2d44.519137876191365!3d40.20665417147408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd93493e4d4f%3A0xb58fcf6cb9686ca3!2sMorpho!5e0!3m2!1sru!2sam!4v1745063070662!5m2!1sru!2sam",
+      "address": "Park Heights tower 1 Level 6, office 601-Rubai-United Arab Emirates",
+      "phone": "+1 123 456 7890",
+      "email": "info@company.com",
+      "address_icon": "/images/Vector.svg",
+      "phone_icon": "/images/Phone_icon.svg",
+      "email_icon": "/images/Maile.svg"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "map_image": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.1082841391026!2d44.519137876191365!3d40.20665417147408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd93493e4d4f%3A0xb58fcf6cb9686ca3!2sMorpho!5e0!3m2!1sru!2sam!4v1745063070662!5m2!1sru!2sam",
+      "address": "Park Heights башня 1 уровень 6, офис 601-Rubai-Объединенные Арабские Эмираты",
+      "phone": "+1 123 456 7890",
+      "email": "info@company.com",
+      "address_icon": "/images/Vector.svg",
+      "phone_icon": "/images/Phone_icon.svg",
+      "email_icon": "/images/Maile.svg"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "map_image": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.1082841391026!2d44.519137876191365!3d40.20665417147408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd93493e4d4f%3A0xb58fcf6cb9686ca3!2sMorpho!5e0!3m2!1sru!2sam!4v1745063070662!5m2!1sru!2sam",
+      "address": "Park Heights tower 1 Level 6, office 601-Rubai-Միացյալ Արաբական Էմիրություններ",
+      "phone": "+1 123 456 7890",
+      "email": "info@company.com",
+      "address_icon": "/images/Vector.svg",
+      "phone_icon": "/images/Phone_icon.svg",
+      "email_icon": "/images/Maile.svg"
+    }
+  ],
+  "contact_form": [
+    {
+      "id": "1",
+      "lang": "en",
+      "title": "Leave your contact details and we will contact you",
+      "input_placeholder_name": "Name",
+      "input_placeholder_email": "Email",
+      "input_placeholder_phone": "Phone",
+      "btn_text": "LOG IN",
+      "priacy_policy_text": "Read the Privacy Policy/Privacy Policy/for further information",
+      "priacy_policy_url": "#"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "title": "Оставьте свои контактные данные, и мы свяжемся с вами",
+      "input_placeholder_name": "Имя",
+      "input_placeholder_email": "Электронная почта",
+      "input_placeholder_phone": "Телефон",
+      "btn_text": "Войти",
+      "priacy_policy_text": "Ознакомьтесь с/Политикой конфиденциальности/для получения дополнительной информации",
+      "priacy_policy_url": "#"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "title": "Թողեք ձեր կոնտակտային տվյալները, և մենք կապ կհաստատենք ձեզ հետ",
+      "input_placeholder_name": "Անուն",
+      "input_placeholder_email": "Էլ. փոստ",
+      "input_placeholder_phone": "Հեռախոս",
+      "btn_text": "Մուտք գործել",
+      "priacy_policy_text": "Կարդացեք/Գաղտնիության Քաղաքականությունը/լրացուցիչ տեղեկությունների համար",
+      "priacy_policy_url": "#"
+    }
+  ],
+  "about_us": [
+    {
+      "id": "1",
+      "lang": "en",
+      "heading": "About us",
+      "image": "images/about_kravat.png",
+      "main": "main"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "heading": "о нас",
+      "image": "images/about_kravat.png",
+      "main": "главная"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "heading": "Մեր մասին",
+      "image": "images/about_kravat.png",
+      "main": "գլխավոր"
+    }
+  ],
+  "about_texts": [
+    {
+      "id": "1",
+      "lang": "en",
+      "heading": "Our purpose",
+      "content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "image": "images/about_demq.png"
+    },
+    {
+      "id": "2",
+      "lang": "ru",
+      "heading": "Наша цель",
+      "content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliquam.",
+      "content2": "Но болью греха обладают те, кто, кроме ослепления желанием, пренебрегает своими обязанностями, смягчающими душу, то есть делом труда.",
+      "image": "images/about_demq.png"
+    },
+    {
+      "id": "3",
+      "lang": "am",
+      "heading": "Մեր նպատակը",
+      "content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquam:",
+      "content2": "Բայց ցավը։ Բացի այն, որ նրանք կուրացած են ցանկությունից, մեղավոր են նրանք, ովքեր հրաժարվում են իրենց պարտականություններից, ինչը մեղմացնում է հոգին, այսինքն՝ աշխատանքի գործը։",
+      "image": "images/about_demq.png"
+    },
+    {
+      "id": "4",
+      "lang": "en",
+      "heading": "Our history",
+      "content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "content2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "image": "images/about_matani.png"
+    },
+    {
+      "id": "5",
+      "lang": "ru",
+      "heading": "Наша история",
+      "content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliquam.",
+      "content2": "Но болью греха обладают те, кто, кроме ослепления желанием, пренебрегает своими обязанностями, смягчающими душу, то есть делом труда.",
+      "image": "images/about_matani.png"
+    },
+    {
+      "id": "6",
+      "lang": "am",
+      "heading": "Մեր պատմությունը",
+      "content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquam:",
+      "content2": "Բայց ցավը։ Բացի այն, որ նրանք կուրացած են ցանկությունից, մեղավոր են նրանք, ովքեր հրաժարվում են իրենց պարտականություններից, ինչը մեղմացնում է հոգին, այսինքն՝ աշխատանքի գործը։",
+      "image": "images/about_matani.png"
+    }
+  ],
+  "navigation_arrows": [
+    {
+      "type": "right",
+      "image": "/images/right_arrow.svg",
+      "id": "992f"
+    },
+    {
+      "type": "left",
+      "image": "/images/left_arrow.svg",
+      "id": "5aff"
+    }
+  ],
+  "saved_heart_items": [
+    {
+      "lang": "en",
+      "heading": "Saved Items",
+      "add_button_icon": "🛍️",
+      "add_button_text": "add to bag",
+      "remove_button_icon": "🗑️",
+      "remove_button_text": "remove"
+    },
+    {
+      "lang": "ru",
+      "heading": "Сохранённые товары",
+      "add_button_icon": "🛍️",
+      "add_button_text": "добавить в корзину",
+      "remove_button_icon": "🗑️",
+      "remove_button_text": "удалить"
+    },
+    {
+      "lang": "am",
+      "heading": "Պահպանված նյութեր",
+      "add_button_icon": "🛍️",
+      "add_button_text": "ավելացնել զամբյուղ",
+      "remove_button_icon": "🗑️",
+      "remove_button_text": "հեռացնել"
+    }
+  ],
+  "saved_basket_items": [
+    {
+      "lang": "en",
+      "heading": "Shopping bag",
+      "quantity": "Quantity:",
+      "remove_button_icon": "🗑️",
+      "remove_button_text": "remove"
+    },
+    {
+      "lang": "ru",
+      "heading": "Корзина покупок",
+      "quantity": "Количество:",
+      "remove_button_icon": "🗑️",
+      "remove_button_text": "удалить"
+    },
+    {
+      "lang": "am",
+      "heading": "Գնումների զամբյուղ",
+      "quantity": "Քանակը՝",
+      "remove_button_icon": "🗑️",
+      "remove_button_text": "հեռացնել"
+    }
+  ],
+  "basket_heart_view_link": [
+    {
+      "lang": "en",
+      "text": "View all saved products",
+      "url": "shopping_bag"
+    },
+    {
+      "lang": "ru",
+      "text": "Просмотреть все сохранённые товары",
+      "url": "shopping_bag"
+    },
+    {
+      "lang": "am",
+      "text": "Դիտել բոլոր պահպանված ապրանքները",
+      "url": "shopping_bag"
+    }
+  ],
+  "item_page_fields": [
+    {
+      "id": 1,
+      "lang": "en",
+      "size_text_field": "Size",
+      "size_text_field_2": "Size guide",
+      "descr_text_field": "Description & Details",
+      "product_number_text_field": "Product number",
+      "material_text_field": "Material",
+      "about_delivery_text_field": "About delivery",
+      "not_available_text_field": "not available"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "size_text_field": "Размер",
+      "size_text_field_2": "Таблица размеров",
+      "descr_text_field": "Описание и детали",
+      "product_number_text_field": "Артикул",
+      "material_text_field": "Материал",
+      "about_delivery_text_field": "О доставке",
+      "not_available_text_field": "нет в наличии"
+    },
+    {
+      "id": 3,
+      "lang": "am",
+      "size_text_field": "Չափս",
+      "size_text_field_2": "Չափսերի աղյուսակ",
+      "descr_text_field": "Նկարագրություն և մանրամասներ",
+      "product_number_text_field": "Արտադրանքի համար",
+      "material_text_field": "Նյութ",
+      "about_delivery_text_field": "Առաքման մասին",
+      "not_available_text_field": "առկա չէ"
+    }
+  ],
+  "liked_product_heading": [
+    {
+      "id": "4b85",
+      "lang": "en",
+      "title": "You may also like"
+    },
+    {
+      "id": "6ef0",
+      "lang": "ru",
+      "title": "Вам также может понравиться"
+    },
+    {
+      "id": "4c4f",
+      "lang": "am",
+      "title": "Ձեզ կարող է նաև դուր գալ"
+    }
+  ],
+  "item_link": [
+    {
+      "id": "dasdasd",
+      "lang": "en",
+      "item": "item",
+      "catalog": "catalog",
+      "cribs": "cribs"
+    },
+    {
+      "id": "jkhjgchhj",
+      "lang": "ru",
+      "item": "товар",
+      "catalog": "каталог",
+      "cribs": "детские кроватки"
+    },
+    {
+      "id": "gtdthjthhgnb",
+      "lang": "am",
+      "item": "ապրանքը",
+      "catalog": "կատալոգ",
+      "cribs": "մանկական մահճակալներ"
+    }
+  ],
+  "infoAbout_delivery": [
+    {
+      "id": "afassa",
+      "lang": "en",
+      "title": "Shipping & Returns",
+      "texts": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quis nulla itaque assumenda nostrum dolorem delectus dicta accusantium libero distinctio, tempore blanditiis rem sunt nemo vel voluptatum, hic ex quasi.  Earum vel fugit corporis aperiam porro? Dicta sint praesentium cum quo, soluta voluptatum, culpa necessitatibus exercitationem excepturi obcaecati natus tempora, eaque eveniet accusamus distinctio at modi cupiditate dolore alias sapiente! Ad, cum id. Illo asperiores suscipit magni consequuntur voluptates delectus ipsam consectetur iusto optio iste itaque animi molestiae adipisci, possimus, repellendus sint nesciunt cupiditate laudantium aliquam voluptatibus. Expedita, quidem consectetur!",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quis nulla itaque assumenda nostrum dolorem delectus dicta accusantium libero distinctio, tempore blanditiis rem sunt nemo vel voluptatum, hic ex quasi.  Earum vel fugit corporis aperiam porro? Dicta sint praesentium cum quo, soluta voluptatum, culpa necessitatibus exercitationem excepturi obcaecati natus tempora, eaque eveniet accusamus distinctio at modi cupiditate dolore alias sapiente! Ad, cum id. Illo asperiores suscipit magni consequuntur voluptates delectus ipsam consectetur iusto optio iste itaque animi molestiae adipisci, possimus, repellendus sint nesciunt cupiditate laudantium aliquam voluptatibus. Expedita, quidem consectetur!"
+      ]
+    },
+    {
+      "id": "afasdff",
+      "lang": "ru",
+      "title": "Доставка и возврат",
+      "texts": [
+        "Мы придаём огромное значение качеству доставки и обеспечению надёжности процесса. Все заказы обрабатываются в кратчайшие сроки, и как правило, отправляются в течение 1–3 рабочих дней после подтверждения. Доставка осуществляется по всей территории, включая отдалённые регионы, с использованием проверенных логистических партнёров. Время доставки может варьироваться в зависимости от вашего местоположения, выбранного способа доставки, а также текущей загруженности транспортных служб.",
+        "Условия возврата предусматривают возможность вернуть приобретённый товар в течение 14 календарных дней с момента получения, при условии сохранения товарного вида и оригинальной упаковки. Возврат средств осуществляется после получения возвращённого товара и проведения его проверки на соответствие условиям возврата. Обычно процесс возврата средств занимает от 3 до 5 рабочих дней, в зависимости от платёжной системы и банка клиента. Мы стремимся обеспечить максимально комфортный и прозрачный процесс возврата для наших клиентов."
+      ]
+    },
+    {
+      "id": "kfchgh",
+      "lang": "am",
+      "title": "Առաքում և Վերադարձ",
+      "texts": [
+        "Լորեմ իպսում դոլոր սիթ ամետ կոնսեկտետուր ադիպիսիսինգ էլիտ։ Դոլորես քուիս նուլլա իտաքուե ասումենդա նոստրում դոլորեմ դելեկտուս դիկտա ակքուզանտիում լիբերով դիսթինկտիո, տեմպորե բլանդիտիիս ռեմ սունտ նեմո վել վոլյուպթատում, հիկ էքս քուասի։ Էարում վել ֆուգիտ կորպորիս ապերիամ պոռրո? Դիկտա սինթ պրեզենտիում քում քուո, սոլուտա վոլյուպթատում, կուլպա նեցեսսիտատիբուս էքսերսիտատյոնեմ էքսցեպտուրի օբցեակատի նատուս տեմպորա, եաքուե եվենիետ ակքուզամուս դիսթինկտիո ատ մոդի կուպիդիտատե դոլորե ալիաս սապիենտե! Ադ, քում իդ։ Իլլո ասպերիորես սուսցիպիտ մագնի կոնսեկուունտուր վոլյուպթատես դելեկտուս իպսամ կոնսեկտետուր իուստո օպտիո իստե իտաքուե անիմի մոլեստիաե ադիպիսցի, պոսսիմուս, ռեպելլենդուս սինթ նեսքիունտ կուպիդիտատե լաուդանթիում ալիքուամ վոլյուպթatibus։ Էքսպեդիտա, քուիդեմ կոնսեկտետուր։",
+        "Լորեմ իպսում դոլոր սիթ ամետ կոնսեկտետուր ադիպիսիսինգ էլիտ։ Դոլորես քուիս նուլլա իտաքուե ասումենդա նոստրում դոլորեմ դելեկտուս դիկտա ակքուզանտիում լիբերով դիսթինկտիո, տեմպորե բլանդիտիիս ռեմ սունտ նեմո վել վոլյուպթատում, հիկ էքս քուասի։ Էարում վել ֆուգիտ կորպորիս ապերիամ պոռրո? Դիկտա սինթ պրեզենտիում քում քուո, սոլուտա վոլյուպթատում, կուլպա նեցեսսիտատիբուս էքսերսիտատյոնեմ էքսցեպտուրի օբցեակատի նատուս տեմպորա, եաքուե եվենիետ ակքուզամուս դիսթինկտիո ատ մոդի կուպիդիտատե դոլորե ալիաս սապիենտե! Ադ, քում իդ։ Իլլո ասպերիորես սուսցիպիտ մագնի կոնսեկուունտուր վոլյուպթատես դելեկտուս իպսամ կոնսեկտետուր իուստո օպտիո իստե իտաքուե անիմի մոլեստիաե ադիպիսցի, պոսսիմուս, ռեպելլենդուս սինթ նեսքիունտ կուպիդիտատե լաուդանթիում ալիքուամ վոլյուպթatibus։ Էքսպեդիտա, քուիդեմ կոնսեկտետուր։"
+      ]
+    }
+  ],
+  "categories_link": [
+    {
+      "id": "dasdasd",
+      "lang": "en",
+      "main": "main",
+      "catalog": "catalog",
+      "filter_by": "filter by:",
+      "category": "category",
+      "materials": "materials",
+      "price": "price",
+      "sort_by": "sort by:",
+      "from": "from",
+      "to": "to"
+    },
+    {
+      "id": "asdaedc",
+      "lang": "ru",
+      "main": "товар",
+      "catalog": "каталог",
+      "filter_by": "фильтровать по:",
+      "category": "категория",
+      "materials": "материалы",
+      "price": "цена",
+      "sort_by": "сортировать по:",
+      "from": "от",
+      "to": "до"
+    },
+    {
+      "id": "kgytgvw",
+      "lang": "am",
+      "main": "ապրանք",
+      "catalog": "կատալոգ",
+      "filter_by": "զտել ըստ․",
+      "category": "կատեգորիա",
+      "materials": "նյութեր",
+      "price": "գին",
+      "sort_by": "դասավորել ըստ․",
+      "from": "սկսած",
+      "to": "մինչև"
+    }
+  ]
+}
