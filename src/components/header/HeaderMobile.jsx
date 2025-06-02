@@ -42,11 +42,12 @@ export function HeaderMobile({ navbar, setIsMenuOpen, menuButtonRef }) {
         {navbar.map((item) => (
           <li key={item.id}>
             <Link
-              to={item.route}
+              to={`${item.route}`}
               onClick={(e) => {
                 if (item.submenu) {
-                  e.preventDefault();
                   handleTopLinkClick(item.id);
+                  setIsMenuOpen(false);
+                  setOpenSubmenu(false);
                 } else {
                   setIsMenuOpen(false);
                 }
