@@ -33,7 +33,7 @@
 }
 
 #home .row .img_div {
-  width: 50%;
+  width: 39%;
 }
 
 #home .row .img_div img {
@@ -297,11 +297,11 @@
 }
 @media screen and (max-width:900px) {
 
-  #home {
-    height: 70vh;
-  }
   #home .container .row h1 {
-  font-size: 69px;
+  font-size: 64px;
+  }
+  #home .container .row .descr{
+    font-size: 15px;
   }
   .cloud {
     position: absolute;
@@ -336,16 +336,17 @@
     animation: float 7s infinite ease-in-out;
   }
   #home{
-    height: 80vh;
+    height: 90vh;
   }
 }
 @media screen and (max-width:800px) {
 
-  #home{
-    height: 70vh;
-  }
+
   #home .container .row h1 {
-  font-size: 61px;
+  font-size: 51px;
+  }
+  #home .container .row .descr{
+    font-size: 13px;
   }
   .cloud {
     position: absolute;
@@ -381,6 +382,9 @@
   }
   #home .container .row .controls {
     scale: 80%;
+  }
+  #home{
+    height: 90vh;
   }
 }
 @media screen and (max-width:700px) {
@@ -482,7 +486,7 @@
 }
 @media screen and (max-width:500px) {
   #home{
-    height: 60vh;
+    height: 80vh;
     padding-top:110px ;
   }
   #home .container .row h1 {
@@ -545,17 +549,30 @@
 }
 }
 @media screen and (max-width:440px) {
+
   #home .container .row .content{
     padding-left: 1rem;
   }
+  #home .container .row .descr{
+    font-size: 9px;
+  }
+  #home .container .row h1 {
+    font-size: 30px;
+  }
   #home .container .row .controls {
-    padding-right: 20px;
+    scale: 70%;
+    padding-right: 4px;
+}
+  #home .container .row .btn {
+    padding: 5px 2px;
+    width: 30px;
+    height: 20px;
 }
 }
 @media screen and (max-width:400px) {
 
   #home{
-    height: 50vh;
+    height: 80vh;
     padding-top: 80px;
   }
 
@@ -625,11 +642,11 @@
 @media screen and (max-width:380px) {
 
   #home .container .row h1 {
-    font-size: 28px;
+    font-size: 20px;
     transform: translateY(30px);
     }
     #home .container .row .descr {
-      font-size: 9px;
+      font-size: 6.5px;
     }
     .cloud {
       position: absolute;
@@ -681,6 +698,6 @@
       margin: 5px;
     }
     #home{
-      height: 50vh;
+      height: 70vh;
     }
   }

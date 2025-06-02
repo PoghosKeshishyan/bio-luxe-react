@@ -88,6 +88,10 @@ footer .container .row .footer_info .policy a {
   text-decoration: none;
 }
 
+footer .container .row .social_media{
+  display: flex;
+}
+
 @media (max-width: 1100px) {
   footer {
     margin-bottom: 20px;
@@ -159,6 +163,7 @@ footer .container .row .footer_info .policy a {
 
 @media (max-width: 510px){
   footer .container .row .footer_info .policy {
+    flex-direction: column;
     gap: 15px;
   }
   footer .container .row .footer_info .policy a {

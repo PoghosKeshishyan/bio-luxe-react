@@ -9,7 +9,7 @@ export function Categories({ categories, c_heading }) {
         <div id="categories">
             <div className="container">
                 <h2 className="heading">
-                    <span>{c_heading} 1</span>
+                    <span>{c_heading}</span>
                     <div className="line"></div>
                 </h2>
                 <div className="box_container">
