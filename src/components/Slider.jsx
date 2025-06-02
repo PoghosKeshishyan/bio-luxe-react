@@ -22,7 +22,7 @@ export function Slider({ slider, sliderIcons }) {
             <div className="container">
                 <div className="row">
                     <div className="content show" key={currentIndex}>
-                        <h1>2 {slider[currentIndex].title}</h1>
+                        <h1>3 {slider[currentIndex].title}</h1>
                         <p className="descr">{slider[currentIndex].descr}</p>
                         <a href="/" className="btn">{slider[currentIndex].btn_text}</a>
                     </div>

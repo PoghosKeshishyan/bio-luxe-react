@@ -434,7 +434,9 @@
   }
 }
 @media screen and (max-width:600px) {
-
+  #home{
+    height: 80vh;
+  }
   #home .container .row .content a{
     font-size: 12px;
   }
@@ -549,7 +551,9 @@
 }
 }
 @media screen and (max-width:440px) {
-
+  #home{
+    height: 68vh;
+  }
   #home .container .row .content{
     padding-left: 1rem;
   }
@@ -572,7 +576,7 @@
 @media screen and (max-width:400px) {
 
   #home{
-    height: 80vh;
+    height: 65vh;
     padding-top: 80px;
   }
 
@@ -646,7 +650,7 @@
     transform: translateY(30px);
     }
     #home .container .row .descr {
-      font-size: 6.5px;
+      font-size: 8px;
     }
     .cloud {
       position: absolute;
@@ -698,6 +702,6 @@
       margin: 5px;
     }
     #home{
-      height: 70vh;
+      height: 60vh;
     }
   }
