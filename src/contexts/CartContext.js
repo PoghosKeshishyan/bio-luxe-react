@@ -8,12 +8,17 @@ export function CartProvider({ children }) {
         return storedOrders ? JSON.parse(storedOrders) : [];
     });
 
+    const [amountOrders, setAmount] = useState(0);
+
     const [basketMenuOpen, setBasketMenuOpen] = useState(false);
     const basketSidebarRef = useRef(null);
     const basketIconRef = useRef(null);
 
     useEffect(() => {
         localStorage.setItem('orders', JSON.stringify(orders));
+
+        const amount = orders.reduce((acc, elem) => acc += elem.quantity, 0);
+        setAmount(amount);
     }, [orders]);
 
     useEffect(() => {
@@ -124,6 +129,7 @@ export function CartProvider({ children }) {
             basketIconRef,
             addToBasket,
             removeFromCart,
+            amountOrders,
         }}>
             {children}
         </CartContext.Provider>

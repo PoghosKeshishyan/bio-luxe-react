@@ -6,33 +6,39 @@ import { SearchContext } from "../../contexts/SearchContext";
 import { BACKEND_API_URL } from "../../config";
 
 export function HeaderActions({ header_icons, languages }) {
-  const { basketMenu, basketMenuOpen, basketIconRef } = useContext(CartContext);
-  const { heartMenu, heartMenuOpen, heartIconRef } = useContext(HeartContext); 
+  const { basketMenu, basketMenuOpen, basketIconRef, amountOrders } = useContext(CartContext);
+  const { heartMenu, heartMenuOpen, heartIconRef, favoritesList } = useContext(HeartContext);
   const { searchIconRef, handleSearchBar } = useContext(SearchContext);
-  
+
   return (
     <div className="actions">
       <div className="icons">
-        <img 
-          src={BACKEND_API_URL + header_icons.search_icon} 
-          alt="search" 
+        <img
+          src={BACKEND_API_URL + header_icons.search_icon}
+          alt="search"
           onClick={handleSearchBar}
           ref={searchIconRef}
         />
 
-       {<img
-          ref={heartIconRef} 
-          src={heartMenuOpen ? BACKEND_API_URL + header_icons.heart_icon?.split('-')[1] : BACKEND_API_URL + header_icons.heart_icon?.split('-')[0]}
-          alt="heart"
-          onClick={heartMenu}
-        />}
+        <div className="basket-div">
+          {<img
+            ref={heartIconRef}
+            src={heartMenuOpen ? BACKEND_API_URL + header_icons.heart_icon?.split('-')[1] : BACKEND_API_URL + header_icons.heart_icon?.split('-')[0]}
+            alt="heart"
+            onClick={heartMenu}
+          />}
+          <p className="basketAmount">{favoritesList.length}</p>
+        </div>
 
-        <img
-          ref={basketIconRef}
-          src={basketMenuOpen ? BACKEND_API_URL + header_icons.cart_icon?.split('-')[1] : BACKEND_API_URL + header_icons.cart_icon?.split('-')[0]}
-          alt="cart"
-          onClick={basketMenu}
-        />
+        <div className="basket-div">
+          <img
+            ref={basketIconRef}
+            src={basketMenuOpen ? BACKEND_API_URL + header_icons.cart_icon?.split('-')[1] : BACKEND_API_URL + header_icons.cart_icon?.split('-')[0]}
+            alt="cart"
+            onClick={basketMenu}
+          />
+          <p className="basketAmount">{amountOrders}</p>
+        </div>
       </div>
 
       <SelectLanguage languages={languages} />
