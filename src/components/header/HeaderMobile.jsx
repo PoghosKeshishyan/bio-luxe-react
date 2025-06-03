@@ -39,15 +39,18 @@ export function HeaderMobile({ navbar, setIsMenuOpen, menuButtonRef }) {
   return (
     <div className="mobile_nav_dropdown" ref={dropdownRef}>
       <ul>
-        {navbar.map((item) => (
+        {navbar.map((item, i) => (
           <li key={item.id}>
             <Link
               to={`${item.route}`}
               onClick={(e) => {
                 if (item.submenu) {
                   handleTopLinkClick(item.id);
-                  setIsMenuOpen(false);
-                  setOpenSubmenu(false);
+
+                  if (i !== 0) {
+                    setIsMenuOpen(false);
+                    setOpenSubmenu(false);
+                  } 
                 } else {
                   setIsMenuOpen(false);
                 }
