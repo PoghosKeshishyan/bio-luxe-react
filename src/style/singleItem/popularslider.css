@@ -212,6 +212,8 @@
 
     .popular_slider_section .product-card img {
         border-radius: 16px;
+        height: 145px;
+        object-fit: cover;
     }
 
     .popular_slider_section .product-title {
@@ -326,7 +328,7 @@
 
 @media (max-width: 480px) {
     .popular_slider_section .slider_image_div {
-        height: 115px;
+        height: 145px;
         width: 100%;
     }
 
