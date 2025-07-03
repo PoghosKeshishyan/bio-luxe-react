@@ -29,6 +29,8 @@ export function BasketSideBar({ basket_items, basket_heart_view_link }) {
     };
   }, [basketMenuOpen]);
 
+
+
   return (
     <>
       {basketMenuOpen && (
@@ -41,17 +43,17 @@ export function BasketSideBar({ basket_items, basket_heart_view_link }) {
             <h3 className='basket_heading'>{basket_items.heading}</h3>
 
             <div className="cart-orders-container">
-              {orders.map(elem => (
+              {orders?.map(elem => (
                 <div className="sidebar-item" key={elem.id}>
                   <img
-                    src={BACKEND_API_URL + elem.images[0].image}
+                    src={BACKEND_API_URL + elem?.images[0]?.image}
                     alt="item"
                     className="sidebar-item-image"
                   />
                   <div className="sidebar-item-info">
                     <div className='item_info'>
-                      <p className='item_name'>{elem.title[currentLanguage]}</p>
-                      <p className='item_price'>{elem.price}</p>
+                      <p className='item_name'>{elem.title?.[currentLanguage]}</p>
+                      <p className='item_price'>{elem.price} ֏</p>
                     </div>
                     <div className="sidebar-item-actions">
                       <p className='item_Quantity'>{basket_items.quantity} {elem.quantity}</p>

@@ -12,6 +12,7 @@ import { BasketSideBar } from "./components/BasketSideBar";
 import { HeartSidebar } from './components/HeartSidebar';
 import { SearchSidebar } from "./components/SearchSideBar";
 import { ShoppingPage } from "./pages/ShoppingPage";
+import { PrivacyPolicy } from "./components/privacypolicy/PrivacyPolicy";
 
 
 
@@ -27,6 +28,15 @@ export function App() {
   const [footerPolicyData, setFooterPolicy] = useState([]);
   const [footerSocialData, setFooterSocial] = useState([]);
   const [languages, SetLanguages] = useState([]);
+
+  const [productChange, setProductChange] = useState([]);
+  // const [allAvailableSizes, setAllAvailableSizes] = useState([]);
+
+  const [allAvailableSizes, setAllAvailableSizes] = useState(() => {
+    const savedSizes = localStorage.getItem("availableSizes");
+    return savedSizes ? JSON.parse(savedSizes) : [];
+  });
+
 
   useEffect(() => {
     const loadingData = async () => {
@@ -82,20 +92,22 @@ export function App() {
         languages={languages}
       />
 
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/category/:category_name" element={<ListCategory />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/contact" element={<ContactsPage />} />
-        <Route path="/item/:item_id" element={<ItemPage />} />
-        <Route path="/shopping_bag" element={<ShoppingPage />} />
+        <Route path="/item/:item_id" element={<ItemPage productChange={productChange} setProductChange={setProductChange} setAllAvailableSizes={setAllAvailableSizes} />} />
+        <Route path="/shopping_bag" element={<ShoppingPage allAvailableSizes={allAvailableSizes} />} />
+        <Route path="/pravicy_polisy" element={<PrivacyPolicy />} />
       </Routes>
 
 
       <SearchSidebar />
       <HeartSidebar heart_items={heart_items} basket_heart_view_link={basket_heart_view_link} />
       <BasketSideBar basket_items={basket_items} basket_heart_view_link={basket_heart_view_link} />
- 
+
       <Footer
         footerInfoData={footerInfoData}
         footerPolicyData={footerPolicyData}

@@ -2,6 +2,11 @@
     margin: 72px 0;
 }
 
+.slider-header .slider-nav .swiper-button-prevv, .custom-nav, .swiper-button-prevv{
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0);
+}
+
 .popular_slider_section {
     width: 100%;
 }

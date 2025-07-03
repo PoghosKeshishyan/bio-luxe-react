@@ -77,7 +77,7 @@ header .row .actions .lang .lang_text {
   margin: .5rem 0;
   border: 1px solid #ccc;
   background: white;
-  width: 91px;
+  width: 100px;
   display: block;
 }
 
@@ -94,10 +94,27 @@ header .row .actions .lang .lang_text {
   background-color: #f0f0f0;
 }
 
-.flag-icon {
-  width: 20px;
-  height: 15px;
+
+.dropdown-container .lang_div {
+  display: flex;
+  
 }
+
+.dropdown-container .lang_div .flag_div {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-container .lang_div .flag_div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+  border-radius: 3px;
+
+}
+
 
 nav ul {
   display: flex;

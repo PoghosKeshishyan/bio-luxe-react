@@ -20,30 +20,37 @@ export function Footer({ footerInfoData, footerPolicyData, footerSocialData }) {
           <div className="footer_info">
 
             <div className="info_contact">
-              
+
               <div className="info_box">
-                <p>
-                  <img src={BACKEND_API_URL + footerInfoData.address_icon} alt="Address icon" />
-                  <span>{footerInfoData.address}</span>
-                </p>
+                <a href={`https://www.google.com/maps?q=${footerInfoData.address}`} target="_blank" rel="noreferrer noopener">
+                  <p>
+                    <img src={BACKEND_API_URL + footerInfoData.address_icon} alt="Address icon" />
+                    <span>{footerInfoData.address}</span>
+                  </p>
+                </a>
               </div>
 
               <div className="info_box">
+                <a href={`tel:${footerInfoData?.phone}`}>
+
                 <p>
                   <img
                     src={BACKEND_API_URL + footerInfoData?.phone_icon}
                     alt="Phone icon"
                     className="footer-icon" />
                   {footerInfoData?.phone}</p>
+                    </a>
               </div>
 
               <div className="info_box">
-                <p>
-                  <img
-                    src={BACKEND_API_URL + footerInfoData?.email_icon}
-                    alt="Email icon"
-                    className="footer-icon" />
-                  {footerInfoData?.email}</p>
+                <a href={`mailto:${footerInfoData?.email}`}>
+                  <p>
+                    <img
+                      src={BACKEND_API_URL + footerInfoData?.email_icon}
+                      alt="Email icon"
+                      className="footer-icon" />
+                    {footerInfoData?.email}</p>
+                </a>
               </div>
             </div>
 
@@ -60,6 +67,7 @@ export function Footer({ footerInfoData, footerPolicyData, footerSocialData }) {
           <div className="social_media">
             {footerSocialData?.map((link) => (
               <a key={link.id} href={link.url} className="footer-social-icon">
+
                 <img
                   src={BACKEND_API_URL + link.icon}
                   alt="social icon"

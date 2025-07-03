@@ -13,7 +13,6 @@ export function PopularSlider({ popularPlider, linkProductHeading }) {
     const currentLanguage = localStorage.getItem("lang") || "en";
     const navigate = useNavigate();
 
-
     const { handleHeartIcon, favoritesList } = useContext(HeartContext);
     const { addToBasket } = useContext(CartContext);
 
@@ -69,16 +68,18 @@ export function PopularSlider({ popularPlider, linkProductHeading }) {
                     300: { slidesPerView: 1 },
                 }}
             >
+
                 {popularPlider?.map(item => (
                     <SwiperSlide key={item?.id}>
                         <div className="product-card" onClick={(e) => handleClick(e, item)}>
-                            <div className='slider_image_div'>
-                                <img src={BACKEND_API_URL + item?.images[0].image} alt="product" className="product-image" />
-
-                            </div>
+                            {/* <a href="" className='swiperslide_a'> */}
+                                <div className='slider_image_div'>
+                                    <img src={BACKEND_API_URL + item?.images[0]?.image} alt="product" className="product-image" />
+                                </div>
+                            {/* </a> */}
                             <div className='slider_text_div'>
                                 <h3 className="product-title">{item?.category_name}</h3>
-                                <p className="product-price">{item?.price}</p>
+                                <p className="product-price">{item?.price} ֏</p>
                             </div>
 
                             <button className="add-to-bag">{item?.btn_text[currentLanguage]}</button>
@@ -87,6 +88,7 @@ export function PopularSlider({ popularPlider, linkProductHeading }) {
                                 <i className={is_heart_icon(item.id) ? "fa-solid fa-heart" : "fa-regular fa-heart"}></i>
                             </div>
                         </div>
+
                     </SwiperSlide>
                 ))}
             </Swiper>

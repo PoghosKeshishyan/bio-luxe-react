@@ -22,6 +22,7 @@ export function Pagination({ postsPerPage, totalPosts, paginate, currentPage }) 
     return pages;
   };
 
+
   const pageNumbers = getPageNumbers();
 
   return (

@@ -1,0 +1,779 @@
+// import { Link } from "react-router-dom";
+// import { useState, useEffect, useRef, useContext } from "react";
+// import { CartContext } from "../../contexts/CartContext";
+// import { HeartContext } from "../../contexts/HeartContext";
+
+// export function Info({ item, itemPageFields, infoAboutDelivery }) {
+//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const currentLanguage = localStorage.getItem("lang") || "en";
+//   const { addToBasket } = useContext(CartContext);
+//   const { handleHeartIcon, favoritesList } = useContext(HeartContext);
+//   const is_heart_icon = favoritesList.some(fav => fav.id === item.id);
+
+//   const [selectedSize, setSelectedSize] = useState(0);
+//   const [openDropdown, setOpenDropdown] = useState(null);
+//   const dropdownRefs = useRef({});
+
+//   const [activeColorId, setActiveColorId] = useState(null);
+
+//   const colors = [
+//     { id: "2ab6e450-ce07-41e1-9aa3-a8ebd4df092f", color: "#50A2AA", status: true },
+//     { id: "f68d9519-5770-484b-96a9-df82e5949d96", color: "#FFADED", status: true },
+//     { id: "6f5521ef-6314-4a6d-9097-2e4d283462b1", color: "#F15A24", status: true },
+//     { id: "aasdasfgsafdfsagasgvdfsagvs",          color: "#8E0000", status: true },
+//     { id: "bsd-fSDFSDgfasg-fsdfsag-fsfsd45421",   color: "#F6DF5C", status: true },
+//   ];
+ 
+//   useEffect(() => {
+//     const firstAvailableColor = colors.find(color => color.status === true);
+//     if (firstAvailableColor) {
+//       setActiveColorId(firstAvailableColor.id);
+//     }
+//   }, []);
+
+//   useEffect(() => {
+//     setSelectedSize(item.sizes && item.sizes[0].size);
+//   }, [item]);
+
+//   const toggleDropdown = (itemId) => {
+//     setOpenDropdown(prev => (prev === itemId ? null : itemId));
+//   };
+
+//   const handleSizeSelect = (size) => {
+//     if (size.status === 'unavailable') return;
+//     setSelectedSize(size.size);
+//     setOpenDropdown(null);
+//   };
+
+//   useEffect(() => {
+//     const handleClickOutside = (event) => {
+//       if (
+//         openDropdown !== null &&
+//         dropdownRefs.current[openDropdown] &&
+//         !dropdownRefs.current[openDropdown].contains(event.target)
+//       ) {
+//         setOpenDropdown(null);
+//       }
+//     };
+//     document.addEventListener('mousedown', handleClickOutside);
+//     return () => {
+//       document.removeEventListener('mousedown', handleClickOutside);
+//     };
+//   }, [openDropdown]);
+
+//   useEffect(() => {
+//     document.body.style.overflow = isModalOpen ? 'hidden' : '';
+//   }, [isModalOpen]);
+
+//   return (
+//     <div className="Info_page">
+//       <div className="cribe">
+//         <h2>{item.title?.[currentLanguage]}</h2>
+//         <span>{item.price} ֏</span>
+//       </div>
+
+//       <div className="info">
+//         <div className="for_kids">
+//           <span className="size_1">{itemPageFields?.size_text_field}: {selectedSize}</span>
+
+//           <div className='size' ref={(el) => dropdownRefs.current[item.id] = el}>
+//             <Link>
+//               <span className="size_2" onClick={() => toggleDropdown(item?.id)} style={{ cursor: 'pointer' }}>
+//                 {itemPageFields?.size_text_field_2}
+//                 <i className="fa-solid fa-angle-down"></i>
+//               </span>
+//             </Link>
+
+//             {openDropdown === item.id && (
+//               <div className="dropdown2">
+//                 {item.sizes.map(size => (
+//                   <div
+//                     key={size.id}
+//                     className={`dropdown-item ${size.status === 'unavailable' ? 'disabled' : ''}`}
+//                     onClick={() => handleSizeSelect(size)}
+//                   >
+//                     {size.size} {size.status === 'unavailable' && itemPageFields?.not_available_text_field}
+//                   </div>
+//                 ))}
+//               </div>
+//             )}
+//           </div>
+//         </div>
+
+//         <div className="color_section">
+//           <div className="heading_title">
+//             <span>color</span>
+//           </div>
+//           <div className="colors">
+//             {colors
+//               .filter(color => color.status)
+//               .map(color => (
+//                 <Link key={color.id} to="" onClick={() => setActiveColorId(color.id)}>
+//                   <div
+//                     className={`color ${activeColorId === color.id ? 'active' : ''}`}
+//                     style={{ background: color.color }}
+//                   ></div>
+//                 </Link>
+//             ))}
+//           </div>
+//         </div>
+
+//         <div className="description_details">
+//           <h2>{itemPageFields?.descr_text_field}</h2>
+//           <p>{item.descr?.[currentLanguage]}</p>
+//           <div className="product_info">
+//             <p>{itemPageFields?.product_number_text_field}: <span>{item.product_number}</span></p>
+//             <p>{itemPageFields?.material_text_field} <span>{item.product_material?.[currentLanguage]}</span></p>
+//           </div>
+
+//           <div className="delivery">
+//             <Link to='/' onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }}>
+//               <img src="/images/info.svg" alt="info" />
+//               {itemPageFields?.about_delivery_text_field}
+//             </Link>
+//           </div>
+
+//           <div className="btn_div">
+//             <div className="add_to_bag" onClick={() => addToBasket(item, item.id, selectedSize)}>
+//               <Link>{item.btn_text?.[currentLanguage]}</Link>
+//             </div>
+//             <div className="heart" onClick={() => handleHeartIcon(item)}>
+//               {is_heart_icon ?
+//                 <i className="fa-solid fa-heart"></i> :
+//                 <i className="fa-regular fa-heart"></i>
+//               }
+//             </div>
+//           </div>
+//         </div>
+
+//         {/* Modal */}
+//         {isModalOpen && (
+//           <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
+//             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+//               {infoAboutDelivery.map(item => (
+//                 <>
+//                   <div className="modal-header">
+//                     <h2>{item.title}</h2>
+//                     <button className="close-button" onClick={() => setIsModalOpen(false)}>
+//                       <img src="/images/icon.png" alt="xach" />
+//                     </button>
+//                   </div>
+//                   <div key={item.id} className="modal-body">
+//                     <div className="text_div">
+//                       <p>{item.texts[0]}</p>
+//                     </div>
+//                     <div className="text_div">
+//                       <p>{item.texts[1]}</p>
+//                     </div>
+//                   </div>
+//                 </>
+//               ))}
+//             </div>
+//           </div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// import { Link } from "react-router-dom";
+// import { useState, useEffect, useRef, useContext } from "react";
+// import { CartContext } from "../../contexts/CartContext";
+// import { HeartContext } from "../../contexts/HeartContext";
+
+// export function Info({ item, itemPageFields, infoAboutDelivery }) {
+//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const currentLanguage = localStorage.getItem("lang") || "en";
+//   const { addToBasket } = useContext(CartContext);
+//   const { handleHeartIcon, favoritesList } = useContext(HeartContext);
+//   const is_heart_icon = favoritesList.some(fav => fav.id === item.id);
+
+//   const [selectedSize, setSelectedSize] = useState(0);
+//   const [openDropdown, setOpenDropdown] = useState(null);
+//   const dropdownRefs = useRef({});
+
+//   const [activeColorId, setActiveColorId] = useState(null);
+//   const colors = [
+//     { id: "2ab6e450-ce07-41e1-9aa3-a8ebd4df092f", color: "#50A2AA", status: true },
+//     { id: "f68d9519-5770-484b-96a9-df82e5949d96", color: "#FFADED", status: true },
+//     { id: "6f5521ef-6314-4a6d-9097-2e4d283462b1", color: "#F15A24", status: true },
+//     { id: "aasdasfgsafdfsagasgvdfsagvs",          color: "#8E0000", status: true },
+//     { id: "bsd-fSDFSDgfasg-fsdfsag-fsfsd45421",   color: "#F6DF5C", status: true },
+//   ];
+ 
+//   useEffect(() => {
+//     const firstAvailableColor = colors.find(color => color.status === true);
+//     if (firstAvailableColor) {
+//       setActiveColorId(firstAvailableColor.id);
+//     }
+//   }, []);
+
+//   useEffect(() => {
+//     setSelectedSize(item.sizes && item.sizes[0].size);
+//   }, [item]);
+
+//   const toggleDropdown = (itemId) => {
+//     setOpenDropdown(prev => (prev === itemId ? null : itemId));
+//   };
+
+//   const handleSizeSelect = (size) => {
+//     if (size.status === 'unavailable') return;
+//     setSelectedSize(size.size);
+//     setOpenDropdown(null);
+//   };
+
+//   useEffect(() => {
+//     const handleClickOutside = (event) => {
+//       if (
+//         openDropdown !== null &&
+//         dropdownRefs.current[openDropdown] &&
+//         !dropdownRefs.current[openDropdown].contains(event.target)
+//       ) {
+//         setOpenDropdown(null);
+//       }
+//     };
+//     document.addEventListener('mousedown', handleClickOutside);
+//     return () => {
+//       document.removeEventListener('mousedown', handleClickOutside);
+//     };
+//   }, [openDropdown]);
+
+//   useEffect(() => {
+//     document.body.style.overflow = isModalOpen ? 'hidden' : '';
+//   }, [isModalOpen]);
+
+
+//                                         console.log(item.item);
+  
+
+//   return (
+//     <div className="Info_page">
+//       <div className="cribe">
+//         <h2>{item?.item?.title?.[currentLanguage]}</h2>
+//         <span>{item?.item?.price} ֏</span>
+//       </div>
+
+//       <div className="info">
+//         <div className="for_kids">
+//           <span className="size_1">{itemPageFields?.size_text_field}: {selectedSize}</span>
+
+//           <div className='size' ref={(el) => dropdownRefs.current[item.id] = el}>
+//             <Link>
+//               <span className="size_2" onClick={() => toggleDropdown(item?.id)} style={{ cursor: 'pointer' }}>
+//                 {itemPageFields?.size_text_field_2}
+//                 <i className="fa-solid fa-angle-down"></i>
+//               </span>
+//             </Link>
+                                        
+//             {openDropdown === item.id && (
+//               <div className="dropdown2">
+//                 {item.sizes.map(size => (
+//                   <div
+//                     key={size.id}
+//                     className={`dropdown-item ${size.status === 'unavailable' ? 'disabled' : ''}`}
+//                     onClick={() => handleSizeSelect(size)}
+//                   >
+//                     {size.size} {size.status === 'unavailable' && itemPageFields?.not_available_text_field}
+//                   </div>
+//                 ))}
+//               </div>
+//             )}
+//           </div>
+//         </div>
+
+//         <div className="color_section">
+//           <div className="heading_title">
+//             <span>color</span>
+//           </div>
+//           <div className="colors">
+//             {colors
+//               .filter(color => color.status)
+//               .map(color => (
+//                 <Link key={color.id} to="" onClick={() => setActiveColorId(color.id)}>
+//                   <div
+//                     className={`color ${activeColorId === color.id ? 'active' : ''}`}
+//                     style={{ background: color.color }}
+//                   ></div>
+//                 </Link>
+//             ))}
+//           </div>
+//         </div>
+
+//         <div className="description_details">
+//           <h2>{itemPageFields?.descr_text_field}</h2>
+//           <p>{item.descr?.[currentLanguage]}</p>
+//           <div className="product_info">
+//             <p>{itemPageFields?.product_number_text_field}: <span>{item?.item?.product_number}</span></p>
+//             <p>{itemPageFields?.material_text_field} <span>{item?.item?.product_material?.[currentLanguage]}</span></p>
+//           </div>
+
+//           <div className="delivery">
+//             <Link to='/' onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }}>
+//               <img src="/images/info.svg" alt="info" />
+//               {itemPageFields?.about_delivery_text_field}
+//             </Link>
+//           </div>
+
+//           <div className="btn_div">
+//             <div className="add_to_bag" onClick={() => addToBasket(item.item, item?.item?.id, selectedSize)}>
+//               <Link>{item?.item?.btn_text?.[currentLanguage]}</Link>
+//             </div>
+//             <div className="heart" onClick={() => handleHeartIcon(item.item)}>
+//               {is_heart_icon ?
+//                 <i className="fa-solid fa-heart"></i> :
+//                 <i className="fa-regular fa-heart"></i>
+//               }
+//             </div>
+//           </div>
+//         </div>
+
+//         {/* Modal */}
+//         {isModalOpen && (
+//           <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
+//             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+//               {infoAboutDelivery.map(item => (
+//                 <>
+//                   <div className="modal-header">
+//                     <h2>{item.title}</h2>
+//                     <button className="close-button" onClick={() => setIsModalOpen(false)}>
+//                       <img src="/images/icon.png" alt="xach" />
+//                     </button>
+//                   </div>
+//                   <div key={item.id} className="modal-body">
+//                     <div className="text_div">
+//                       <p>{item.texts[0]}</p>
+//                     </div>
+//                     <div className="text_div">
+//                       <p>{item.texts[1]}</p>
+//                     </div>
+//                   </div>
+//                 </>
+//               ))}
+//             </div>
+//           </div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// // ✅ React imports and context setup remain unchanged
+// import { Link } from "react-router-dom";
+// import { useState, useEffect, useRef, useContext, useMemo } from "react";
+// import { CartContext } from "../../contexts/CartContext";
+// import { HeartContext } from "../../contexts/HeartContext";
+
+// export function Info({ item, itemPageFields, infoAboutDelivery }) {
+//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const currentLanguage = localStorage.getItem("lang") || "en";
+//   const { addToBasket } = useContext(CartContext);
+//   const { handleHeartIcon, favoritesList } = useContext(HeartContext);
+//   const is_heart_icon = favoritesList.some(fav => fav.id === item.id);
+
+//   // ✅ Սկզբնական ապրանքը (որպես default / item.item)
+//   const defaultProduct = item?.item || {};
+//   const groupCode = defaultProduct.group_code;
+
+//   // ✅ Ընտրված գույն և չափս
+//   const [selectedSize, setSelectedSize] = useState(defaultProduct?.size || "");
+//   const [selectedColor, setSelectedColor] = useState(defaultProduct?.color || "");
+//   const [selectedProduct, setSelectedProduct] = useState(defaultProduct);
+
+//   const [openDropdown, setOpenDropdown] = useState(null);
+//   const dropdownRefs = useRef({});
+
+//   // ✅ Ամեն անգամ երբ փոխվում է size կամ color՝ գտնում ենք նոր ապրանք (relatedItems-ի միջից)
+//   useEffect(() => {
+//     if (!selectedSize || !selectedColor) return;
+//     const found = item.relatedItems?.find(
+//       p =>
+//         p.group_code === groupCode &&
+//         String(p.size) === String(selectedSize) &&
+//         String(p.color).toLowerCase().trim() === String(selectedColor).toLowerCase().trim()
+//     );
+//     if (found) setSelectedProduct(found);
+//   }, [selectedSize, selectedColor, item.relatedItems, groupCode]);
+
+//   // ✅ Բոլոր size-երը տվյալ խմբի համար (առանց կախված լինելու գույնից)
+//   const availableSizes = useMemo(() => {
+//     return Array.from(new Set(
+//       item.relatedItems
+//         ?.filter(p => p.group_code === groupCode)
+//         .map(p => String(p.size))
+//     )).sort((a, b) => Number(a) - Number(b));
+//   }, [item.relatedItems, groupCode]);
+
+//   // ✅ Բոլոր գույները տվյալ խմբի համար
+//   const availableColors = useMemo(() => {
+//     return Array.from(new Set(
+//       item.relatedItems
+//         ?.filter(p => p.group_code === groupCode)
+//         .map(p => String(p.color).toLowerCase().trim())
+//     ));
+//   }, [item.relatedItems, groupCode]);
+
+//   useEffect(() => {
+//     document.body.style.overflow = isModalOpen ? "hidden" : "";
+//   }, [isModalOpen]);
+
+//   const toggleDropdown = (itemId) => {
+//     setOpenDropdown(prev => (prev === itemId ? null : itemId));
+//   };
+
+//   const handleSizeSelect = (size) => {
+//     setSelectedSize(size);
+//     setOpenDropdown(null);
+//   };
+
+//   const handleColorSelect = (color) => {
+//     setSelectedColor(color);
+//   };
+
+//   return (
+//     <div className="Info_page">
+//       <div className="cribe">
+//         <h2>{selectedProduct?.title?.[currentLanguage]}</h2>
+//         <span>{selectedProduct?.price} ֏</span>
+//       </div>
+
+//       <div className="info">
+//         <div className="for_kids">
+//           <span className="size_1">{itemPageFields?.size_text_field}: {selectedSize}</span>
+
+//           <div className='size' ref={el => dropdownRefs.current[item.id] = el}>
+//             <Link>
+//               <span className="size_2" onClick={() => toggleDropdown(item?.id)} style={{ cursor: "pointer" }}>
+//                 {itemPageFields?.size_text_field_2}
+//                 <i className="fa-solid fa-angle-down"></i>
+//               </span>
+//             </Link>
+//             {openDropdown === item.id && (
+//               <div className="dropdown2">
+//                 {availableSizes.map(size => (
+//                   <div
+//                     key={size}
+//                     className={`dropdown-item ${selectedSize === size ? 'active' : ''}`}
+//                     onClick={() => handleSizeSelect(size)}
+//                   >
+//                     {size}
+//                   </div>
+//                 ))}
+//               </div>
+//             )}
+//           </div>
+//         </div>
+
+//         <div className="color_section">
+//           <div className="heading_title">
+//             <span>color</span>
+//           </div>
+//           <div className="colors">
+//             {availableColors.map(color => (
+//               <Link key={color} to="" onClick={() => handleColorSelect(color)}>
+//                 <div
+//                   className={`color ${selectedColor === color ? "active" : ""}`}
+//                   style={{ background: color }}
+//                 ></div>
+//               </Link>
+//             ))}
+//           </div>
+//         </div>
+
+//         <div className="description_details">
+//           <h2>{itemPageFields?.descr_text_field}</h2>
+//           <p>{selectedProduct?.descr?.[currentLanguage]}</p>
+//           <div className="product_info">
+//             <p>{itemPageFields?.product_number_text_field}: <span>{selectedProduct?.product_number}</span></p>
+//             <p>{itemPageFields?.material_text_field} <span>{selectedProduct?.product_material?.[currentLanguage]}</span></p>
+//           </div>
+
+//           <div className="delivery">
+//             <Link to='/' onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }}>
+//               <img src="/images/info.svg" alt="info" />
+//               {itemPageFields?.about_delivery_text_field}
+//             </Link>
+//           </div>
+
+//           <div className="btn_div">
+//             <div className="add_to_bag" onClick={() => addToBasket(selectedProduct, selectedProduct?.id, selectedSize)}>
+//               <Link>{selectedProduct?.btn_text?.[currentLanguage]}</Link>
+//             </div>
+//             <div className="heart" onClick={() => handleHeartIcon(selectedProduct)}>
+//               {is_heart_icon ?
+//                 <i className="fa-solid fa-heart"></i> :
+//                 <i className="fa-regular fa-heart"></i>
+//               }
+//             </div>
+//           </div>
+//         </div>
+
+//         {isModalOpen && (
+//           <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
+//             <div className="modal-content" onClick={e => e.stopPropagation()}>
+//               {infoAboutDelivery.map(item => (
+//                 <>
+//                   <div className="modal-header">
+//                     <h2>{item.title}</h2>
+//                     <button className="close-button" onClick={() => setIsModalOpen(false)}>
+//                       <img src="/images/icon.png" alt="xach" />
+//                     </button>
+//                   </div>
+//                   <div key={item.id} className="modal-body">
+//                     <div className="text_div">
+//                       <p>{item.texts[0]}</p>
+//                     </div>
+//                     <div className="text_div">
+//                       <p>{item.texts[1]}</p>
+//                     </div>
+//                   </div>
+//                 </>
+//               ))}
+//             </div>
+//           </div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// }
+///////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+// import { Link } from "react-router-dom";
+// import { useState, useEffect, useRef, useContext, useMemo } from "react";
+// import { CartContext } from "../../contexts/CartContext";
+// import { HeartContext } from "../../contexts/HeartContext";
+
+
+// export function Info({ item, itemPageFields, infoAboutDelivery, setProductChange  }) {
+//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const currentLanguage = localStorage.getItem("lang") || "en";
+//   const { addToBasket } = useContext(CartContext);
+//   const { handleHeartIcon, favoritesList } = useContext(HeartContext);
+//   const is_heart_icon = favoritesList.some(fav => fav.id === item.id);
+
+//   const defaultProduct = item?.item || {};
+//   const [selectedProduct, setSelectedProduct] = useState(defaultProduct);
+//   const [selectedSize, setSelectedSize] = useState(defaultProduct?.size || "");
+//   const [selectedColor, setSelectedColor] = useState(defaultProduct?.color || "");
+
+//   const [openDropdown, setOpenDropdown] = useState(null);
+//   const dropdownRefs = useRef({});
+
+//   const groupCode = selectedProduct?.group_code || defaultProduct?.group_code;
+
+// console.log(selectedProduct);
+
+//   useEffect(() => {
+//     setProductChange && setProductChange(selectedProduct); // Պարբերաբար ուղարկում ենք
+//   }, [selectedProduct]);
+
+//   useEffect(() => {
+//     if (item?.item?.id) {
+//       setSelectedProduct(item.item);
+//       setSelectedSize(item.item.size);
+//       setSelectedColor(item.item.color);
+//     }
+//   }, [item.item]);
+
+//   useEffect(() => {
+//     if (!selectedSize) return;
+
+//     let matched = item.relatedItems?.find(
+//       p =>
+//         p.group_code === groupCode &&
+//         String(p.size) === String(selectedSize) &&
+//         (!selectedColor || String(p.color).toLowerCase().trim() === String(selectedColor).toLowerCase().trim())
+//     );
+
+//     if (!matched) {
+//       matched = item.relatedItems?.find(
+//         p => p.group_code === groupCode && String(p.size) === String(selectedSize)
+//       );
+//     }
+
+//     if (matched) {
+//       setSelectedProduct(matched);
+//       setSelectedColor(matched.color);
+//     }
+//   }, [selectedSize, selectedColor, item.relatedItems, groupCode]);
+
+//   const availableSizes = useMemo(() => {
+//     return Array.from(new Set(
+//       item.relatedItems
+//         ?.filter(p => p.group_code === groupCode)
+//         .map(p => String(p.size))
+//     )).sort((a, b) => Number(a) - Number(b));
+//   }, [item.relatedItems, groupCode]);
+
+//   const availableColors = useMemo(() => {
+//     return Array.from(new Set(
+//       item.relatedItems
+//         ?.filter(p => p.group_code === groupCode && String(p.size) === String(selectedSize))
+//         .map(p => String(p.color).toLowerCase().trim())
+//     ));
+//   }, [item.relatedItems, groupCode, selectedSize]);
+
+//   useEffect(() => {
+//     document.body.style.overflow = isModalOpen ? "hidden" : "";
+//   }, [isModalOpen]);
+
+//   const toggleDropdown = (itemId) => {
+//     setOpenDropdown(prev => (prev === itemId ? null : itemId));
+//   };
+
+//   const handleSizeSelect = (size) => {
+//     setSelectedSize(size);
+//     setOpenDropdown(null);
+
+//     const matched = item.relatedItems?.find(p =>
+//       p.group_code === groupCode &&
+//       String(p.size) === String(size) &&
+//       (!selectedColor || String(p.color).toLowerCase().trim() === String(selectedColor).toLowerCase().trim())
+//     );
+
+//     if (matched) {
+//       setSelectedProduct(matched);
+//       setSelectedColor(matched.color);
+//     }
+//   };
+
+//   const handleColorSelect = (color) => {
+//     setSelectedColor(color);
+
+//     const matched = item.relatedItems?.find(p =>
+//       p.group_code === groupCode &&
+//       String(p.color).toLowerCase().trim() === String(color).toLowerCase().trim() &&
+//       (!selectedSize || String(p.size) === String(selectedSize))
+//     );
+
+//     if (matched) {
+//       setSelectedProduct(matched);
+//       setSelectedSize(matched.size);
+//     }
+//   };
+
+//   return (
+//     <div className="Info_page">
+//       <div className="cribe">
+//         <h2>{selectedProduct?.title?.[currentLanguage]}</h2>
+//         <span>{selectedProduct?.price} ֏</span>
+//       </div>
+
+//       <div className="info">
+//         <div className="for_kids">
+//           <span className="size_1">{itemPageFields?.size_text_field}: {selectedSize}</span>
+//           <div className='size' ref={el => dropdownRefs.current[item.id] = el}>
+//             <Link>
+//               <span className="size_2" onClick={() => toggleDropdown(item?.id)} style={{ cursor: "pointer" }}>
+//                 {itemPageFields?.size_text_field_2}
+//                 <i className="fa-solid fa-angle-down"></i>
+//               </span>
+//             </Link>
+//             {openDropdown === item.id && (
+//               <div className="dropdown2">
+//                 {availableSizes.map(size => (
+//                   <div
+//                     key={size}
+//                     className={`dropdown-item ${selectedSize === size ? 'active' : ''}`}
+//                     onClick={() => handleSizeSelect(size)}
+//                   >
+//                     {size}
+//                   </div>
+//                 ))}
+//               </div>
+//             )}
+//           </div>
+//         </div>
+
+//         <div className="color_section">
+//           <div className="heading_title">
+//             <span>color</span>
+//           </div>
+//           <div className="colors">
+//             {availableColors.map(color => (
+//               <Link key={color} to="" onClick={() => handleColorSelect(color)}>
+//                 <div
+//                   className={`color ${selectedColor === color ? "active" : ""}`}
+//                   style={{ background: color }}
+//                 ></div>
+//               </Link>
+//             ))}
+//           </div>
+//         </div>
+
+//         <div className="description_details">
+//           <h2>{itemPageFields?.descr_text_field}</h2>
+//           <p>{selectedProduct?.descr?.[currentLanguage]}</p>
+//           <div className="product_info">
+//             <p>{itemPageFields?.product_number_text_field}: <span>{selectedProduct?.product_number}</span></p>
+//             <p>{itemPageFields?.material_text_field} <span>{selectedProduct?.product_material?.[currentLanguage]}</span></p>
+//           </div>
+
+//           <div className="delivery">
+//             <Link to='/' onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }}>
+//               <img src="/images/info.svg" alt="info" />
+//               {itemPageFields?.about_delivery_text_field}
+//             </Link>
+//           </div>
+
+//           <div className="btn_div">
+//             <div className="add_to_bag" onClick={() => addToBasket(selectedProduct, selectedProduct?.id, selectedSize)}>
+//               <Link>{selectedProduct?.btn_text?.[currentLanguage]}</Link>
+//             </div>
+//             <div className="heart" onClick={() => handleHeartIcon(selectedProduct)}>
+//               {is_heart_icon ?
+//                 <i className="fa-solid fa-heart"></i> :
+//                 <i className="fa-regular fa-heart"></i>
+//               }
+//             </div>
+//           </div>
+//         </div>
+
+//         {isModalOpen && (
+//           <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
+//             <div className="modal-content" onClick={e => e.stopPropagation()}>
+//               {infoAboutDelivery.map(item => (
+//                 <>
+//                   <div className="modal-header">
+//                     <h2>{item.title}</h2>
+//                     <button className="close-button" onClick={() => setIsModalOpen(false)}>
+//                       <img src="/images/icon.png" alt="xach" />
+//                     </button>
+//                   </div>
+//                   <div key={item.id} className="modal-body">
+//                     <div className="text_div">
+//                       <p>{item.texts[0]}</p>
+//                     </div>
+//                     <div className="text_div">
+//                       <p>{item.texts[1]}</p>
+//                     </div>
+//                   </div>
+//                 </>
+//               ))}
+//             </div>
+//           </div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// }
+
+//////////////////////////////////z

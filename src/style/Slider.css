@@ -2,8 +2,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 110vh;
-  padding-top: 40px;
+  height: 100vh;
+  margin: 65px 0;
 }
 
 #home .row {
@@ -32,8 +32,8 @@
   animation: slideFade 0.8s ease-in-out;
 }
 
-#home .row .img_div {
-  width: 39%;
+#home .row .img_div  {
+  width: 50%;
 }
 
 #home .row .img_div img {
@@ -44,13 +44,13 @@
 #home .container .row h1 {
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 120px;
+  font-size: 115px;
   line-height: 90%;
   color: #fff;
   animation: slideFade 1s ease-in-out;
 }
 
-#home .container .row .descr {
+#home .container .row .descr{
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -58,6 +58,7 @@
   padding-top: 36px;
   padding-bottom: 50px;
   animation: slideFade 1s ease-in-out;
+  width: 480px;
 }
 
 #home .container .row .btn {
@@ -70,15 +71,16 @@
   background: #f6f7f9;
   text-transform: uppercase;
   color: var(--text_color);
+  margin-left:10px ;
 }
 #home .container .row .controls {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -1px;
+  bottom: 38px;
   display: flex;
   align-items: center;
   gap: 30px;
-  padding-right: 70px;
+  /* padding-right: 70px; */
 }
 
 #home .container .row .controls .arrow_div {
@@ -109,41 +111,45 @@
 }
 
 .cloud1 {
-  top: 10%;
-  left: 8%;
+  top: 20%;
+  left: 7%;
   animation: float 6s infinite ease-in-out;
 }
 
 .cloud2 {
-  top: 21%;
+  top: 26.2%;
   right: 12%;
   animation: float 8s infinite ease-in-out;
   z-index: 1;
 }
 
 .cloud3 {
-  top: 24%;
-  left: 45%;
+  top: 30%;
+  left: 43%;
   animation: float 10s infinite ease-in-out;
 }
 
 .cloud4 {
-  top: 53%;
-  right: 43%;
+  top: 60%;
+  right: 47%;
   animation: float 7s infinite ease-in-out;
 }
 
-@media screen and (max-width: 1330px) {
+/* @media screen and (max-width: 1330px) {
   #home .container .row .content {
     padding-left: 2rem;
   }
-}
+} */
 
 @media screen and (max-width: 1285.6px) {
+  #home{
+    height: 110vh;
+    margin-top: 20px ;
+  }
   #home .container .row h1 {
     font-family: var(--second-family);
     font-weight: 400;
-    font-size: 103px;
+    font-size: 96px;
     line-height: 90%;
     color: #fff;
     animation: slideFade 1s ease-in-out;
@@ -152,13 +158,18 @@
   #home .container .row .descr {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 19px;
+    font-size: 13px;
     color: #fff;
     padding-top: 36px;
     padding-bottom: 50px;
     animation: slideFade 1s ease-in-out;
     margin: 10px;
+    width: 320px;
   }
+    #home .container .row .controls {
+    right: 55px;
+  }
+
   #home .container .row .controls .arrow_div {
     border-radius: 8px;
     width: 60px;
@@ -178,14 +189,14 @@
   }
 
   .cloud1 {
-    top: 10%;
-    left: 2%;
+    top: 14%;
+    left: 5%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
-    top: 20%;
-    right: 7%;
+    top: 18.3%;
+    right: 9%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
@@ -198,20 +209,25 @@
 
   .cloud4 {
     top: 54%;
-    right: 43%;
+    right: 47%;
     animation: float 7s infinite ease-in-out;
   }
 }
-@media screen and (max-width: 1100px) {
-  #home {
-    height: 90vh;
+@media screen and (max-width:1250px){
+    #home .container .row h1 {
+    font-size: 75px;
   }
-
+}
+@media screen and (max-width: 1100px) {
+  #home{
+    padding-top: 70px;
+  }
   #home .container .row h1 {
-    font-size: 86px;
+    font-size: 82px;
   }
   #home .container .row .descr {
     font-size: 15px;
+    width: 350px;
   }
   #home .container .row .controls .arrow_div {
     border-radius: 8px;
@@ -232,33 +248,36 @@
   }
 
   .cloud1 {
-    top: 10%;
-    left: 2%;
+    top: 14%;
+    left: 6%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
-    top: 18%;
-    right: 6.5%;
+    top: 19.6%;
+    right: 8%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
 
   .cloud3 {
-    top: 25%;
-    left: 38%;
+    top: 27%;
+    left: 40%;
     animation: float 10s infinite ease-in-out;
   }
 
   .cloud4 {
-    top: 48%;
-    right: 43%;
+    top: 52%;
+    right: 46%;
     animation: float 7s infinite ease-in-out;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1060px) {
+  #home{
+    height: 108vh;
+  }
   #home .container .row h1 {
-    font-size: 77px;
+    font-size: 62px;
   }
   .cloud {
     position: absolute;
@@ -269,27 +288,27 @@
   }
 
   .cloud1 {
-    top: 10%;
-    left: 2%;
+    top: 14%;
+    left: 6%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
-    top: 17%;
-    right: 6.5%;
+    top: 18.7%;
+    right: 8%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
 
   .cloud3 {
-    top: 23%;
-    left: 38%;
+    top: 25%;
+    left: 40%;
     animation: float 10s infinite ease-in-out;
   }
 
   .cloud4 {
-    top: 44%;
-    right: 43%;
+    top: 47%;
+    right: 46%;
     animation: float 7s infinite ease-in-out;
   }
 }
@@ -309,39 +328,40 @@
   }
 
   .cloud1 {
-    top: 10%;
-    left: 2%;
+    top: 13%;
+    left: 6.4%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
-    top: 16%;
-    right: 6.5%;
+    top: 18%;
+    right: 8%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
 
   .cloud3 {
-    top: 20%;
+    top: 22%;
     left: 38%;
     animation: float 10s infinite ease-in-out;
   }
 
   .cloud4 {
-    top: 40%;
-    right: 43%;
+    top: 44%;
+    right: 46%;
     animation: float 7s infinite ease-in-out;
   }
   #home {
-    height: 90vh;
+    height: 106vh;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 860px) {
   #home .container .row h1 {
-    font-size: 51px;
+    font-size: 47px;
   }
   #home .container .row .descr {
-    font-size: 13px;
+    font-size: 12px;
+    width: 290px;
   }
   .cloud {
     position: absolute;
@@ -352,48 +372,53 @@
   }
 
   .cloud1 {
-    top: 10%;
-    left: 2%;
+    top: 13%;
+    left: 8%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
-    top: 15%;
-    right: 6.5%;
+    top: 18.3%;
+    right: 10%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
 
   .cloud3 {
-    top: 18%;
-    left: 38%;
+    top: 21%;
+    left: 41%;
     animation: float 10s infinite ease-in-out;
   }
 
   .cloud4 {
-    top: 37%;
-    right: 43%;
+    top: 39%;
+    right: 46%;
     animation: float 7s infinite ease-in-out;
   }
   #home .container .row .controls {
+    bottom: 15px;
     scale: 80%;
   }
   #home {
-    height: 90vh;
+    height: 88vh;
   }
 }
 @media screen and (max-width: 700px) {
-  #home {
-    padding-top: 90px;
-  }
+
   #home .container .row h1 {
-    font-size: 53px;
+    font-size: 47px;
   }
   #home .container .row .descr {
-    font-size: 11px;
+    font-size: 10px;
+    width: 250px;
   }
   #home .btn {
     padding: 5px 7px;
+  }
+    #home .container .row .controls {
+    bottom: 10px;
+    scale: 70%;
+    right: -1px;
   }
   .cloud {
     position: absolute;
@@ -405,43 +430,47 @@
 
   .cloud1 {
     top: 12%;
-    left: 2%;
+    left: 9%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
-    top: 19.5%;
-    right: 6.5%;
+    top: 19.1%;
+    right: 10%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
 
   .cloud3 {
     top: 21%;
-    left: 38%;
+    left: 40%;
     animation: float 10s infinite ease-in-out;
   }
 
   .cloud4 {
-    top: 38%;
-    right: 43%;
+    top: 37.4%;
+    right: 46%;
     animation: float 7s infinite ease-in-out;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   #home {
-    height: 80vh;
+    margin-top: 60px;
+    padding: 0;
+    padding-top: 20px;
+    height: 60vh;
   }
   #home .container .row .content a {
     font-size: 12px;
   }
   #home .container .row h1 {
-    font-size: 46px;
+    font-size: 39px;
   }
   #home .container .row .descr {
-    font-size: 11px;
+    font-size: 8px;
     padding-top: 16px;
     padding-bottom: 30px;
+    width: 200px;
   }
   .cloud {
     position: absolute;
@@ -452,82 +481,86 @@
   }
 
   .cloud1 {
-    top: 10%;
-    left: 2%;
+    top: 13%;
+    left: 10%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
-    top: 18%;
-    right: 6.5%;
+    top: 17.6%;
+    right: 10%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
 
   .cloud3 {
-    top: 18%;
-    left: 38%;
+    top: 21%;
+    left: 42%;
     animation: float 10s infinite ease-in-out;
   }
 
   .cloud4 {
     top: 34%;
-    right: 43%;
+    right: 46%;
     animation: float 7s infinite ease-in-out;
   }
 }
 @media screen and (max-width: 554px) {
   #home{
-    height: 90vh;
+    height: 56vh;
   }
 }
-@media screen and (max-width: 517.6px) {
+@media screen and (max-width: 570px) {
   #home .container .row .btn {
     padding: 10px;
   }
+  #home .container .row h1 {
+    font-size: 34px;
+  }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   #home {
-    height: 80vh;
-    padding-top: 110px;
+    height: 50vh;
+    /* padding-top: 110px; */
   }
   #home .container .row h1 {
-    font-size: 38px;
+    font-size: 30px;
   }
   #home .container .row .descr {
-    font-size: 9px;
+    font-size: 7px;
     padding-bottom: 20px;
+    width: 170px;
   }
   .cloud {
     position: absolute;
-    width: 30px;
+    width: 24px;
     height: auto;
     opacity: 0.4;
     z-index: 0;
   }
 
   .cloud1 {
-    top: 10%;
-    left: 2%;
+    top: 14%;
+    left: 10%;
     animation: float 6s infinite ease-in-out;
   }
 
   .cloud2 {
     top: 20%;
-    right: 6.5%;
+    right: 9%;
     animation: float 8s infinite ease-in-out;
     z-index: 0;
   }
 
   .cloud3 {
-    top: 19%;
-    left: 38%;
+    top: 23%;
+    left: 40%;
     animation: float 10s infinite ease-in-out;
   }
 
   .cloud4 {
-    top: 32%;
-    right: 43%;
+    top: 33%;
+    right: 47%;
     animation: float 7s infinite ease-in-out;
   }
   #home .container .row .controls .number {
@@ -546,12 +579,14 @@
   }
 
   #home .container .row .controls {
-    padding-right: 20px;
+    right: -15px;
+    scale: 60%;
   }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 450px) {
   #home {
-    height: 74vh;
+    margin-top: 65px;
+    height: 50vh;
   }
   #home .container .row .content {
     padding-left: 1rem;
@@ -563,7 +598,7 @@
     font-size: 30px;
   }
   #home .container .row .controls {
-    scale: 70%;
+    scale: 50%;
     padding-right: 4px;
   }
   #home .container .row .btn {
@@ -574,8 +609,9 @@
 }
 @media screen and (max-width: 400px) {
   #home {
-    height: 70vh;
-    padding-top: 80px;
+    margin-top: 40px;
+    padding-top: 10px;
+    height: 57vh;
   }
 
   #home .container .row .content a {
@@ -587,20 +623,15 @@
     transform: translateY(30px);
   }
   #home .container .row .descr {
-    font-size: 9px;
+    font-size: 5px;
     padding-top: 35px;
-  }
-  .cloud {
-    display: none;
+    width: 120px;
   }
 
   #home .container .row .controls .number {
     font-size: 30px;
   }
-  #home .container .row .controls {
-    scale: 70%;
-    padding-right: 10px;
-  }
+
   #home .container .row .btn {
     border: 1px solid #1e4051;
     border-radius: 4px;
@@ -612,11 +643,40 @@
     color: var(--text_color);
     margin: 5px;
   }
-}
-@media screen and (max-width: 393px) {
-  #home {
-    height: 80vh;
+    .cloud {
+    position: absolute;
+    width: 16px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
   }
+
+  .cloud1 {
+    top: 13%;
+    left: 10%;
+    animation: float 6s infinite ease-in-out;
+  }
+
+  .cloud2 {
+    top: 15%;
+    right: 9%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+
+  .cloud3 {
+    top: 19.5%;
+    left: 42%;
+    animation: float 10s infinite ease-in-out;
+  }
+
+  .cloud4 {
+    top: 27%;
+    right: 47%;
+    animation: float 7s infinite ease-in-out;
+  }
+}
+@media screen and (max-width: 410px) {
   #home .container .row h1 {
     font-size: 20px;
   }
@@ -627,11 +687,12 @@
 }
 @media screen and (max-width: 380px) {
   #home .container .row h1 {
-    font-size: 20px;
+    font-size: 25px;
     transform: translateY(30px);
   }
   #home .container .row .descr {
-    font-size: 8px;
+    font-size: 5.8px;
+    width:140px;
   }
   #home .container .row .controls .number {
     font-size: 30px;
@@ -651,23 +712,55 @@
     margin: 5px;
   }
   #home {
-    height: 65vh;
+    height: 50vh;
+  }
+  .cloud {
+    position: absolute;
+    width: 18px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
   }
 
+  .cloud1 {
+    top: 14%;
+    left: 10%;
+    animation: float 6s infinite ease-in-out;
+  }
+
+  .cloud2 {
+    top: 14.6%;
+    right: 9%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+
+  .cloud3 {
+    top: 18%;
+    left: 42%;
+    animation: float 10s infinite ease-in-out;
+  }
+
+  .cloud4 {
+    top: 26%;
+    right: 46%;
+    animation: float 7s infinite ease-in-out;
+  }
 }
-@media screen and (max-width:344px){
+@media screen and (max-width:360px){
   #home{
-    height: 75vh;
+    height: 45vh;
   }
   #home .container .row .controls{
     scale: 57%;
     padding-right:5px;
   }
     #home .container .row h1 {
-      font-size: 13px;
+      font-size: 24px;
     }
       #home .container .row .descr {
-        font-size: 6.5px;
+        font-size: 5.7px;
+        width: 140px;
       }
     #home .container .row .controls .number {
     font-size:  20px;
@@ -675,9 +768,80 @@
     #home .container .row .controls .arrow_div{
       font-size: 20px;
     }
+    .cloud {
+    position: absolute;
+    width: 13px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  .cloud1 {
+    top: 13%;
+    left: 11%;
+    animation: float 6s infinite ease-in-out;
+  }
+
+  .cloud2 {
+    top: 15%;
+    right: 9.4%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+
+  .cloud3 {
+    top: 18%;
+    left: 43%;
+    animation: float 10s infinite ease-in-out;
+  }
+
+  .cloud4 {
+    top: 25.5%;
+    right: 45%;
+    animation: float 7s infinite ease-in-out;
+  }
 }
 @media screen and (max-width:328px){
     #home .container .row .content a{
       font-size: 7px;
     }
+      #home .container .row h1 {
+      font-size: 20px;
+    }
+       #home .container .row .descr {
+        font-size: 5px;
+        width: 120px;
+      }
+      .cloud {
+    position: absolute;
+    width: 8px;
+    height: auto;
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  .cloud1 {
+    top: 13%;
+    left: 12%;
+    animation: float 6s infinite ease-in-out;
+  }  
+
+  .cloud2 {
+    top: 15%;
+    right: 11%;
+    animation: float 8s infinite ease-in-out;
+    z-index: 0;
+  }
+
+  .cloud3 {
+    top: 18%;
+    left: 43%;
+    animation: float 10s infinite ease-in-out;
+  }
+
+  .cloud4 {
+    top: 24%;
+    right: 47%;
+    animation: float 7s infinite ease-in-out;
+  }
 }

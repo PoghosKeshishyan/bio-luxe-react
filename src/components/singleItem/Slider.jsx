@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import { BACKEND_API_URL } from '../../config';
 
-export function Slider({ item }) {
+export function Slider({ item, productChange }) {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return item && (
@@ -16,28 +15,36 @@ export function Slider({ item }) {
                 }}
                 spaceBetween={1}
                 navigation={true}
-                loop={true}
+                loop={false}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="mySwiper2"
             >
-                {item.images?.map((item, index) => (
-                    <SwiperSlide className='SwiperSlide' key={index}><img src={BACKEND_API_URL + item.image} alt="" /></SwiperSlide>
+                {productChange.images?.map((item, index) => (
+                    <SwiperSlide className='SwiperSlide' key={index}>
+                        <div className='big_images_div'>
+                            <img src={BACKEND_API_URL + item?.image} alt="" />
+                        </div>
+                    </SwiperSlide>
                 ))}
             </Swiper>
 
             <Swiper
-                slidesPerView={item?.images?.length + 1 - 1}
+                slidesPerView={productChange?.images?.length + 1 - 1}
                 onSwiper={setThumbsSwiper}
                 spaceBetween={10}
                 freeMode={true}
-                // loop={true}
+                loop={false}
                 watchSlidesProgress={true}
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="mySwiper"
             >
-                {item.images?.map((item, index) => (
-                    <SwiperSlide className='SwiperSlide' key={index}><img src={BACKEND_API_URL + item.image} alt="product" /></SwiperSlide>
+                {productChange.images?.map((item, index) => (
+                    <SwiperSlide className='SwiperSlide' key={index}>
+                        <div className='images_div'>
+                            <img src={BACKEND_API_URL + item?.image} alt="product" />
+                        </div>
+                    </SwiperSlide>
                 ))}
             </Swiper>
         </div>

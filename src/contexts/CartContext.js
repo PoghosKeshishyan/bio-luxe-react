@@ -80,7 +80,7 @@ export function CartProvider({ children }) {
             const newCart = {
                 ...product,
                 quantity: 1,
-                selectedSize: selectedSize ? selectedSize : product.sizes[0].size,
+                selectedSize: selectedSize ? selectedSize : product.size,
             };
 
             setOrders([...orders, newCart]);

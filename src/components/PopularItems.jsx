@@ -16,6 +16,7 @@ export function Popular_items({ popular_items, popular_items_heading }) {
                 <h2 className="heading">
                     <span>{popular_items_heading}</span>
                     <div className="line"></div>
+                    
                 </h2>
                 <div className="box_container">
                     {popular_items && popular_items.map((item) => (

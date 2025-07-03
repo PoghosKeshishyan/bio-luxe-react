@@ -44,8 +44,8 @@ export function SearchSidebar() {
         e.preventDefault();
 
         const items = await axios.get('items');
-        const res = items.data.filter(item => item.category_name.toLowerCase().includes(input.toLowerCase()));
-        setOrders(res);
+        const res = items.data.filter(item => item.title[currentLang].toLowerCase().includes(input.toLowerCase()) );
+        setOrders(res);  
     }
 
     useEffect(() => {

@@ -20,6 +20,7 @@
     line-height: 100%;
     color: #1e4051;
 }
+
 .Info_page .cribe span {
     font-family: var(--font-family);
     font-weight: 400;
@@ -34,31 +35,6 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-}
-
-.Info_page .info .for_kids {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 88px;
-}
-
-.Info_page .info .for_kids .size_1 {
-    font-family: var(--font-family);
-}
-
-.Info_page .info .for_kids .size a .size_2 {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #1e4051;
-}
-
-.Info_page .info .for_kids .size_2 i {
-    margin-left: 6px;
 }
 
 .Info_page .info .description_details {
@@ -141,6 +117,16 @@
     cursor: pointer;
 }
 
+.Info_page .info .description_details .btn_div .add_to_bag:active {
+    transition: none;
+    background-color: #51A5AD;
+}
+
+.Info_page .info .description_details .btn_div .add_to_bag:active a {
+    color: #fff;
+    transition: none;
+}
+
 .Info_page .info .description_details .btn_div .add_to_bag a {
     font-family: var(--second-family);
     font-weight: 400;
@@ -160,7 +146,6 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-
 }
 
 .Info_page .info .description_details .btn_div .heart i {
@@ -236,4 +221,135 @@
     height: 24px;
     background-color: #f6f7f9;
     cursor: pointer;
+}
+
+
+
+
+
+/* //////////////////////////// */
+.Info_page .info .for_kids {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #8C8B8B;
+}
+
+.Info_page .info .for_kids .size_1 {
+    font-family: var(--font-family);
+}
+
+.Info_page .info .for_kids .size a .size_2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #1e4051;
+}
+
+.Info_page .info .for_kids .size_2 i {
+    margin-left: 6px;
+}
+
+.dropdown2 {
+    position: absolute;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+}
+
+.dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-item.disabled {
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.dropdown-item.active {
+  display: none;
+  /* pointer-events: none; */
+}
+
+/* ////////////////////////color////////////////////////// */
+
+.color_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #8C8B8B;
+    margin-bottom: 88px;
+}
+
+.color_section .heading_title span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #131313;
+
+}
+
+.color_section .colors {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: end;
+    width: 132px;
+    gap: 6px;
+    /* justify-content: space-between; */
+}
+
+
+.color_section .colors .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+/* .color.active {
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.904) 0px 0px 1px 1px;
+} */
+
+/* .colors {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, transform 0.2s ease;
+} */
+
+/* When selected */
+
+.color_section .color.active {
+  border: 1px solid #000; /* կամ ուրիշ գույն, օրինակ՝ #4CAF50 կանաչ */
+  transform: scale(1.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }

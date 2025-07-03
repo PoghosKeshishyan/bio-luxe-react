@@ -1,3 +1,7 @@
+.ItemPage{
+  background-color: #F6F7F9;
+  padding-bottom: 197px;
+}
 .item_page {
   width: 100%;
 }
@@ -7,8 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  margin: 64px auto 40px;
-  /* verchnakani jamanak 88-y sarql 16px kam 20px */
+  padding-top: 120px ;
+  margin: 0 auto 40px;
   gap: 8px;
 }
 
@@ -84,22 +88,35 @@
   .Info_page .info .description_details .btn_div {
     gap: 8px;
   }
-}
-
-@media (max-width: 768px) {
-  .Info_page .info {
-    width: 100%;
+    .item_container .popular_slider_section {
+    margin: 0;
   }
-
+}
+@media (max-width: 904px){
+  
   .item_page .item {
     flex-direction: column;
     gap: 64px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+    .Info_page .info {
     width: 100%;
   }
+
     .Info_page {
     width: 100%;
     height: 100%;
   }
+      .Info_page .info .description_details .btn_div .add_to_bag {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 768px) {
 
   .mySwiper2,
   .mySwiper {
@@ -110,9 +127,7 @@
   .SwiperSlide {
     max-height: 500px;
   }
-    .Info_page .info .description_details .btn_div .add_to_bag {
-    width: 100%;
-  }
+
 
 
 }

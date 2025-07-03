@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { BACKEND_API_URL } from "../config";
 
 export function Category({ category }) {
+
     return (
         <Link className="box" to={`${category.category_name}`}>
             <img src={BACKEND_API_URL + category.image} alt={category.title} />

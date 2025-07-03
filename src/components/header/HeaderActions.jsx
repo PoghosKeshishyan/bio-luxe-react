@@ -1,4 +1,4 @@
-import { useContext, useRef } from "react";
+import { useContext } from "react";
 import { SelectLanguage } from "../SelectLanguage";
 import { CartContext } from "../../contexts/CartContext";
 import { HeartContext } from "../../contexts/HeartContext";
@@ -27,7 +27,7 @@ export function HeaderActions({ header_icons, languages }) {
             alt="heart"
             onClick={heartMenu}
           />}
-          <p className="basketAmount">{favoritesList.length}</p>
+       { !!favoritesList.length && <p className="basketAmount">{favoritesList.length}</p>}
         </div>
 
         <div className="basket-div">
@@ -37,7 +37,7 @@ export function HeaderActions({ header_icons, languages }) {
             alt="cart"
             onClick={basketMenu}
           />
-          <p className="basketAmount">{amountOrders}</p>
+          { !!amountOrders && <p className="basketAmount">{amountOrders}</p>}
         </div>
       </div>
 

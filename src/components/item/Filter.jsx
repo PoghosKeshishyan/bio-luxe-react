@@ -1,13 +1,12 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 import { Range } from 'react-range';
 import { useNavigate } from 'react-router-dom';
 
-
 export function Filter({ categoriesLink, categories, category_name, materials, sort, onFilter, minPrice, maxPrice, items, allItems, currentLanguage }) {
     const STEP = 10;
     const MIN = 0;
-    const MAX = 10000;
+    const MAX = maxPrice;
     const navigate = useNavigate();
 
     const [checkedCategories, setCheckedCategories] = useState([]);
@@ -16,8 +15,29 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
     const [sortBy, setSortBy] = useState('recommendations');
     const [openDropdown, setOpenDropdown] = useState(null);
 
+    const categoryRef = useRef(null);
+    const materialRef = useRef(null);
+    const priceRef = useRef(null);
+    const sortRef = useRef(null);
 
-    const filterTesxts = {
+    useEffect(() => {
+        function handleClickOutside(event) {
+            const refs = [
+                { key: 'category', ref: categoryRef },
+                { key: 'material', ref: materialRef },
+                { key: 'price', ref: priceRef },
+                { key: 'sort', ref: sortRef },
+            ];
+
+            const clickedInsideAny = refs.some(({ ref }) => ref.current && ref.current.contains(event.target));
+            if (!clickedInsideAny) setOpenDropdown(null);
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, []);
+
+    const filterTexts = {
         en: [
             { label: "recommendations", value: "recommendations" },
             { label: "price: high to low", value: "price_high_to_low" },
@@ -35,25 +55,19 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
         ],
     };
 
-
     const toggleDropdown = (dropdown) => {
         setOpenDropdown((prev) => (prev === dropdown ? null : dropdown));
     };
 
     const toggleCategory = (category) => {
-        if ('/category/' + category_name ===  category) {
-            return;
-        }
-        
+        if ('/category/' + category_name === category) return;
         setCheckedCategories(category);
         navigate(category);
     };
 
     const toggleMaterial = (material) => {
         setSelectedMaterials((prev) =>
-            prev.includes(material)
-                ? prev.filter((m) => m !== material)
-                : [...prev, material]
+            prev.includes(material) ? prev.filter((m) => m !== material) : [...prev, material]
         );
     };
 
@@ -73,7 +87,6 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
         }, {});
     }, [allItems, materials, currentLanguage]);
 
-
     useEffect(() => {
         onFilter({
             categories: checkedCategories,
@@ -87,14 +100,19 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
         setPriceRange([minPrice, maxPrice]);
     }, [minPrice, maxPrice]);
 
+    
+    console.log(categories);
+    // console.log(category_name);
+
+
     return (
-        <div className="filter_box">
+        <div className="filter_box1">
             <div className="filter_wrapper">
                 <p className="filter_title">{categoriesLink.filter_by}</p>
 
                 {/* Category */}
                 <div className="filter_group">
-                    <div className="dropdown">
+                    <div className="dropdown" ref={categoryRef}>
                         <div className="dropdown_header" onClick={() => toggleDropdown("category")}>
                             <span>{checkedCategories.length > 0 ? ` ${checkedCategories.length}` : ''} {categoriesLink?.category}</span>
                             {openDropdown === "category" ? <FiChevronUp /> : <FiChevronDown />}
@@ -118,7 +136,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
 
                 {/* Material */}
                 <div className="filter_group">
-                    <div className="dropdown">
+                    <div className="dropdown" ref={materialRef}>
                         <div className="dropdown_header" onClick={() => toggleDropdown("material")}>
                             <span>{selectedMaterials.length > 0 ? ` ${selectedMaterials.length}` : ''} {categoriesLink?.materials}</span>
                             {openDropdown === "material" ? <FiChevronUp /> : <FiChevronDown />}
@@ -143,7 +161,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
 
                 {/* Price */}
                 <div className="filter_group">
-                    <div className="dropdown">
+                    <div className="dropdown" ref={priceRef}>
                         <div className="dropdown_header" onClick={() => toggleDropdown("price")}>
                             <span>{categoriesLink?.price}</span>
                             {openDropdown === "price" ? <FiChevronUp /> : <FiChevronDown />}
@@ -163,8 +181,8 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
                                                 style={{
                                                     left: `${(priceRange[0] / MAX) * 100}%`,
                                                     width: `${((priceRange[1] - priceRange[0]) / MAX) * 100}%`,
-                                                }}>
-                                            </div>
+                                                }}
+                                            />
                                             {children}
                                         </div>
                                     )}
@@ -190,17 +208,18 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
             <div className="filter_wrapper">
                 <p className="filter_title">{categoriesLink?.sort_by}</p>
                 <div className="filter_group">
-                    <div className="dropdown">
+                    <div className="dropdown" ref={sortRef}>
                         <div className="dropdown_header" onClick={() => toggleDropdown("sort")}>
-                            <span>{filterTesxts[currentLanguage][0].label}</span>
+                            <span>{filterTexts[currentLanguage][0].label}</span>
                             {openDropdown === "sort" ? <FiChevronUp /> : <FiChevronDown />}
                         </div>
                         {openDropdown === "sort" && (
                             <div className="dropdown_list3">
-                                {filterTesxts[currentLanguage].map(({ label, value }) => (
-                                    <div className="dropdown_item"
+                                {filterTexts[currentLanguage].map(({ label, value }) => (
+                                    <div
                                         key={value}
                                         onClick={() => changeSort(value)}
+                                        className="dropdown_item"
                                         style={{
                                             cursor: "pointer",
                                             backgroundColor: sortBy === value ? "#fff" : "transparent",

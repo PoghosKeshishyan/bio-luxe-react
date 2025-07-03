@@ -1,12 +1,12 @@
 import axios from "../axios";
 import { useState, useEffect, useCallback, useMemo, useContext } from "react";
 import { Item } from "../components/item/Item";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { Filter } from "../components/item/Filter";
 import { Pagination } from "../components/item/Pagination";
 import { CartContext } from "../contexts/CartContext";
 import { HeartContext } from "../contexts/HeartContext";
-import {BACKEND_API_URL} from '../config';
+import { BACKEND_API_URL } from '../config';
 
 export function ListCategory() {
     const [items, setItems] = useState([]);
@@ -36,12 +36,12 @@ export function ListCategory() {
                 setCategoriesLink(resCategoriesLink.data[0]);
 
                 const resHeader = await axios.get(`items_header?lang=${currentLanguage}&category_name=${category_name}`);
-                
+
                 setHeader(resHeader.data?.[0] || null);
 
 
                 const resItems = await axios.get(`items?category=${category_name}`);
-                
+
                 const fetchedItems = resItems.data || [];
 
                 const resCategories = await axios.get(`categories?lang=${currentLanguage}`);
@@ -65,8 +65,8 @@ export function ListCategory() {
 
                 setItems(processedItems);
                 setFilteredItems(processedItems);
-                
-                
+
+
             } catch (error) {
                 console.error(error);
             } finally {
@@ -112,6 +112,11 @@ export function ListCategory() {
     const currentItems = sortedItems.slice(indexOfFirstItem, indexOfLastItem);
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
+
+    console.log(category_name);
+    
+
+
     return (
         <>
             {header && header.image && (
@@ -123,13 +128,13 @@ export function ListCategory() {
                     </div>
                 </div>
             )}
-
+            {/* dropdown_list1  */}
             <div id="items">
                 <div className="container">
                     <div className="items_heading">
-                        <ul className="items_heading1">{categoriesLink?.main}</ul>/
-                        <ul className="items_heading1">{categoriesLink?.catalog}</ul>/
-                        <ul className="items_heading2">{header?.title}</ul>
+                        <Link to='/' className="items_heading1">{categoriesLink?.main}</Link>/
+                        {/* <Link to='/' className="items_heading1">{categoriesLink?.catalog}</Link>/ */}
+                        <Link className="items_heading2">{header?.title}</Link>
                     </div>
                     {loading && <div>Loading...</div>}
 

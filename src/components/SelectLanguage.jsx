@@ -21,29 +21,32 @@ export function SelectLanguage({ languages }) {
       setIsOpen(false);
     }
   }
-  
+
   const currLang = languages.find((lang) => lang.lang === selectedLang);
 
   return (
     <div className="container" ref={appRef}>
       <div className="dropdown-container">
-        <div onClick={() => setIsOpen(!isOpen)}>
-          {selectedLang && <img
-            src={BACKEND_API_URL + currLang?.image}
-            alt="Flag"
-            className="flag-icon"
-          />}
+        <div className="lang_div" onClick={() => setIsOpen(!isOpen)}>
+          <div className="flag_div">
+            {selectedLang && <img
+              src={BACKEND_API_URL + currLang?.image}
+              alt="Flag"
+              className="flag-icon"
+            />}
+          </div>
+
           <button className="dropdown-button">
             {languages.find((lang) => lang.lang === selectedLang)?.label || "Select"}
           </button>
         </div>
         {isOpen && (
           <ul className="dropdown-menu">
-            {languages.map((item) => (
+            {languages.map(item => (
               <li key={item.id} onClick={() => changeLanguage(item.lang)}>
-                <img src={BACKEND_API_URL + item.image} alt={item.label} className="flag-icon" />
-                {item.label}
-              </li>
+                <img src={BACKEND_API_URL + item.image} alt={item.label} className="flag-icon"/>
+                <p>{item.label}</p>
+                </li>
             ))}
           </ul>
         )}

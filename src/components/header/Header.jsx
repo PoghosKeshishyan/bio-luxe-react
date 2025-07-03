@@ -21,7 +21,7 @@ export function Header({ logo, navbar, header_icons, languages }) {
           <HeaderMenuBars
             toggleMenu={toggleMenu}
             isMenuOpen={isMenuOpen}
-            menuButtonRef={menuButtonRef} 
+            menuButtonRef={menuButtonRef}
           />
         </div>
 
@@ -35,4 +35,4 @@ export function Header({ logo, navbar, header_icons, languages }) {
       </div>
     </header>
   );
-}
+}  

@@ -5,10 +5,10 @@ import { CartContext } from "../contexts/CartContext";
 import { HeartContext } from "../contexts/HeartContext";
 
 export function NewArrivals({ newArriavals, newArrivalsHeading }) {
+    
     const [currentLanguage] = useState(localStorage.getItem("lang") || "en");
     const { addToBasket } = useContext(CartContext);
     const {handleHeartIcon} = useContext(HeartContext);
-
 
     return (
         <div id="new_arrivals">

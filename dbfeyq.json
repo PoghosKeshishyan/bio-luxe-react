@@ -1,0 +1,5602 @@
+[
+  {
+    "id": "46514a2b-ed2e-4d91-8e6c-a7004044decb",
+    "category_name": "Mattresses",
+    "product_number": "000000095",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 95",
+      "en": "Classic  Crib 95",
+      "ru": "Классическая кроватка 95"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Պոլիեստերային խառնուրդ",
+      "en": "Polyester Blend",
+      "ru": "Смесь полиэстера"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "803e084b-13f3-4ae9-93ed-fa2c368eaf8e",
+        "image": "/images/items/Mattress_6.png",
+        "productId": "46514a2b-ed2e-4d91-8e6c-a7004044decb"
+      },
+      {
+        "id": "8da11ddf-786e-4f07-a942-8c226be5952d",
+        "image": "/images/items/Mattress_5.png",
+        "productId": "46514a2b-ed2e-4d91-8e6c-a7004044decb"
+      },
+      {
+        "id": "68804f3c-8cec-4234-b921-c4e68bf00bbd",
+        "image": "/images/items/Mattress_7.png",
+        "productId": "46514a2b-ed2e-4d91-8e6c-a7004044decb"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "a2e6c214-c599-4b54-b133-a4c85731d0bf",
+        "size": "42",
+        "status": "available",
+        "productId": "46514a2b-ed2e-4d91-8e6c-a7004044decb"
+      },
+      {
+        "id": "23bb9e04-5a2d-4ce7-b6af-9fd4258aab4d",
+        "size": "44",
+        "status": "available",
+        "productId": "46514a2b-ed2e-4d91-8e6c-a7004044decb"
+      },
+      {
+        "id": "2835987c-4e4b-42f0-b4e4-8aa813794db5",
+        "size": "46",
+        "status": "available",
+        "productId": "46514a2b-ed2e-4d91-8e6c-a7004044decb"
+      },
+      {
+        "id": "d8a2fa3f-39f2-4c89-87c4-00fd6a440712",
+        "size": "40",
+        "status": "available",
+        "productId": "46514a2b-ed2e-4d91-8e6c-a7004044decb"
+      }
+    ]
+  },
+  {
+    "id": "86ba4559-18bf-4c9f-ad10-334551c26fb1",
+    "category_name": "Clothes",
+    "product_number": "000000064",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 64",
+      "en": "Classic Clothes 64",
+      "ru": "Классическая одежда 64"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Վիսկոզա",
+      "en": "Viscose",
+      "ru": "Вискоза"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "03e4b1f7-1149-48cc-9851-26a5138cee2a",
+        "image": "/images/items/Clothes_9.png",
+        "productId": "86ba4559-18bf-4c9f-ad10-334551c26fb1"
+      },
+      {
+        "id": "b40ef8f3-199d-4664-bb7f-6663383e9cc4",
+        "image": "/images/items/Clothes_6.png",
+        "productId": "86ba4559-18bf-4c9f-ad10-334551c26fb1"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "29fde672-15d7-4ed6-8cf5-22e55330f2d5",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "86ba4559-18bf-4c9f-ad10-334551c26fb1"
+      },
+      {
+        "id": "42b3a5ad-82a4-41b9-91c6-7a806de32900",
+        "size": "S",
+        "status": "available",
+        "productId": "86ba4559-18bf-4c9f-ad10-334551c26fb1"
+      },
+      {
+        "id": "ef3b6ebb-be64-43f7-bac3-c0ebb68895df",
+        "size": "M",
+        "status": "available",
+        "productId": "86ba4559-18bf-4c9f-ad10-334551c26fb1"
+      }
+    ]
+  },
+  {
+    "id": "ea76d445-8a8d-4abb-8ddd-091b5168ef98",
+    "category_name": "Cribs",
+    "product_number": "000000009",
+    "price": 2000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 9",
+      "en": "Classic White Crib 9",
+      "ru": "Классическая белая кроватка 9"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Կտոր",
+      "en": "Fabric",
+      "ru": "Ткань"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "6f8b5703-1fce-4834-a159-a8b94a7ccaf2",
+        "image": "/images/items/Cribe_10.png",
+        "productId": "ea76d445-8a8d-4abb-8ddd-091b5168ef98"
+      },
+      {
+        "id": "25700b4c-88cc-429a-a14b-e804bb6fdddf",
+        "image": "/images/items/Cribe_2.png",
+        "productId": "ea76d445-8a8d-4abb-8ddd-091b5168ef98"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "94ea32a9-c763-4d24-bdd6-196bd39c36ec",
+        "size": "40",
+        "status": "available",
+        "productId": "ea76d445-8a8d-4abb-8ddd-091b5168ef98"
+      },
+      {
+        "id": "5f50df10-6603-4e6f-8e35-eaacb6f74d19",
+        "size": "42",
+        "status": "available",
+        "productId": "ea76d445-8a8d-4abb-8ddd-091b5168ef98"
+      },
+      {
+        "id": "d70c71ef-411e-471d-b28a-2bce5c704e34",
+        "size": "44",
+        "status": "available",
+        "productId": "ea76d445-8a8d-4abb-8ddd-091b5168ef98"
+      },
+      {
+        "id": "63f836b6-fb8e-4e9d-b570-ad65af823020",
+        "size": "46",
+        "status": "available",
+        "productId": "ea76d445-8a8d-4abb-8ddd-091b5168ef98"
+      }
+    ]
+  },
+  {
+    "id": "f7234ace-8a6f-4514-a1de-606a1157e415",
+    "category_name": "Cribs",
+    "product_number": "000000007",
+    "price": 4000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 7",
+      "en": "Classic White Crib 7",
+      "ru": "Классическая белая кроватка 7"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Բամբակ",
+      "en": "Cotton",
+      "ru": "Хлопок"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "6d5bd599-cfb4-49e8-ac32-a5642b353a09",
+        "image": "/images/items/Cribe_9.png",
+        "productId": "f7234ace-8a6f-4514-a1de-606a1157e415"
+      },
+      {
+        "id": "4a2f467b-735b-4345-b3ca-18afeb6f47b0",
+        "image": "/images/items/Cribe_8.png",
+        "productId": "f7234ace-8a6f-4514-a1de-606a1157e415"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "5b7a59c6-13d1-4f53-8ee5-9938d89bb1ad",
+        "size": "44",
+        "status": "available",
+        "productId": "f7234ace-8a6f-4514-a1de-606a1157e415"
+      },
+      {
+        "id": "09cdeae4-b773-4081-84b1-00fd6fa5ef2b",
+        "size": "40",
+        "status": "available",
+        "productId": "f7234ace-8a6f-4514-a1de-606a1157e415"
+      },
+      {
+        "id": "79193adc-ed0a-4c63-be88-41eb04506733",
+        "size": "46",
+        "status": "available",
+        "productId": "f7234ace-8a6f-4514-a1de-606a1157e415"
+      },
+      {
+        "id": "c0157959-fd83-4016-97a8-83ceeb0d4633",
+        "size": "42",
+        "status": "available",
+        "productId": "f7234ace-8a6f-4514-a1de-606a1157e415"
+      }
+    ]
+  },
+  {
+    "id": "592064fb-e49b-4e51-8861-273bb06b0d3e",
+    "category_name": "Cribs",
+    "product_number": "0000000011",
+    "price": 500,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 11",
+      "en": "Classic White Crib 11",
+      "ru": "Классическая белая кроватка 11"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Փայտ",
+      "en": "Wood",
+      "ru": "Дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "4b95c182-3c1a-47b1-a00d-450ca341c513",
+        "image": "/images/items/Cribe_4.png",
+        "productId": "592064fb-e49b-4e51-8861-273bb06b0d3e"
+      },
+      {
+        "id": "9e93d0fc-b767-455e-a24b-22170d82a911",
+        "image": "/images/items/Cribe_3.png",
+        "productId": "592064fb-e49b-4e51-8861-273bb06b0d3e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "ef4a50ea-c3c5-4b2c-8058-bb7e48dd7991",
+        "size": "44",
+        "status": "available",
+        "productId": "592064fb-e49b-4e51-8861-273bb06b0d3e"
+      },
+      {
+        "id": "ac6c33be-027a-4ab6-95dd-0d03838ebdad",
+        "size": "46",
+        "status": "available",
+        "productId": "592064fb-e49b-4e51-8861-273bb06b0d3e"
+      },
+      {
+        "id": "24aa4dda-0b59-42de-b031-669f1de4de96",
+        "size": "40",
+        "status": "available",
+        "productId": "592064fb-e49b-4e51-8861-273bb06b0d3e"
+      },
+      {
+        "id": "a07fdb10-c457-41fa-8b16-ee54a240f24a",
+        "size": "42",
+        "status": "available",
+        "productId": "592064fb-e49b-4e51-8861-273bb06b0d3e"
+      }
+    ]
+  },
+  {
+    "id": "b5b16f36-0c88-4f06-9c03-3c83a643c7d8",
+    "category_name": "Cribs",
+    "product_number": "0000000016",
+    "price": 5000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 16",
+      "en": "Classic White Crib 16",
+      "ru": "Классическая белая кроватка 16"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Պլաստիկ",
+      "en": "Plastic",
+      "ru": "Пластик"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "fad252f8-91d0-4051-a694-232bcf449ad2",
+        "image": "/images/items/Cribe_8.png",
+        "productId": "b5b16f36-0c88-4f06-9c03-3c83a643c7d8"
+      },
+      {
+        "id": "d24c9970-821c-4c31-8676-49025a8d0add",
+        "image": "/images/items/Cribe_7.png",
+        "productId": "b5b16f36-0c88-4f06-9c03-3c83a643c7d8"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "19842943-ee49-4742-9c0c-a481d2e1aa4f",
+        "size": "40",
+        "status": "available",
+        "productId": "b5b16f36-0c88-4f06-9c03-3c83a643c7d8"
+      },
+      {
+        "id": "fb3b8248-1727-47ec-8e22-12192f7babc5",
+        "size": "44",
+        "status": "available",
+        "productId": "b5b16f36-0c88-4f06-9c03-3c83a643c7d8"
+      },
+      {
+        "id": "3fd3e5b8-6a59-46a6-aa1f-236fba01143d",
+        "size": "42",
+        "status": "available",
+        "productId": "b5b16f36-0c88-4f06-9c03-3c83a643c7d8"
+      },
+      {
+        "id": "c2344861-d480-4fea-909e-a13a91539fb9",
+        "size": "46",
+        "status": "available",
+        "productId": "b5b16f36-0c88-4f06-9c03-3c83a643c7d8"
+      }
+    ]
+  },
+  {
+    "id": "37293aef-0372-4cd5-a53c-29058c812e99",
+    "category_name": "Furniture",
+    "product_number": "000000049",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Ժամանակակից կահույքի հավաքածու 49",
+      "en": "Contemporary Furniture Set 49",
+      "ru": "Современный мебельный комплект 49"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Ժամանակակից կահույքի հավաքածու, որը նախագծված է ոճի և հարմարավետության համար ժամանակակից տներում։",
+      "en": "A contemporary furniture set designed for style and comfort in modern homes.",
+      "ru": "Современный мебельный комплект, созданный для стиля и комфорта в современных домах."
+    },
+    "product_material": {
+      "am": "Ինժեներական փայտ",
+      "en": "Engineered wood",
+      "ru": "Инженерная древесина"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "9d1ee6aa-7944-49b9-acfa-36328aa00a91",
+        "image": "/images/items/Furniture_10.png",
+        "productId": "37293aef-0372-4cd5-a53c-29058c812e99"
+      },
+      {
+        "id": "38084416-a0b2-41b7-a76d-e730d27ac700",
+        "image": "/images/items/Furniture_9.png",
+        "productId": "37293aef-0372-4cd5-a53c-29058c812e99"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "3d441bd5-98ce-451b-a786-1c8755fa9436",
+        "size": "40",
+        "status": "available",
+        "productId": "37293aef-0372-4cd5-a53c-29058c812e99"
+      },
+      {
+        "id": "58098be8-7c27-4e42-b7ef-090a9f10326f",
+        "size": "46",
+        "status": "available",
+        "productId": "37293aef-0372-4cd5-a53c-29058c812e99"
+      },
+      {
+        "id": "ef6ffb8b-5f66-43bd-b6f1-45f67fc772e9",
+        "size": "42",
+        "status": "available",
+        "productId": "37293aef-0372-4cd5-a53c-29058c812e99"
+      },
+      {
+        "id": "46a9fd18-6e55-4501-93b1-340cb71dc89f",
+        "size": "44",
+        "status": "available",
+        "productId": "37293aef-0372-4cd5-a53c-29058c812e99"
+      }
+    ]
+  },
+  {
+    "id": "70c2de4c-7707-4725-8e4b-bfdc005a9b7e",
+    "category_name": "Cribs",
+    "product_number": "0000000012",
+    "price": 400,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 12",
+      "en": "Classic White Crib 12",
+      "ru": "Классическая белая кроватка 12"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Մետաղ",
+      "en": "Metal",
+      "ru": "Металл"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "0148f3d8-958e-402d-8d9a-9bc9c510431e",
+        "image": "/images/items/Cribe_4.png",
+        "productId": "70c2de4c-7707-4725-8e4b-bfdc005a9b7e"
+      },
+      {
+        "id": "a5f6f91d-ac20-4ef7-834d-e3f28b4b68c1",
+        "image": "/images/items/Cribe_5.png",
+        "productId": "70c2de4c-7707-4725-8e4b-bfdc005a9b7e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "ba84061f-9783-47e2-a22d-9db3910139ad",
+        "size": "44",
+        "status": "available",
+        "productId": "70c2de4c-7707-4725-8e4b-bfdc005a9b7e"
+      },
+      {
+        "id": "dbdb547e-a14e-49b0-b14c-edd1ff04bd44",
+        "size": "42",
+        "status": "available",
+        "productId": "70c2de4c-7707-4725-8e4b-bfdc005a9b7e"
+      },
+      {
+        "id": "f4d9e582-d36a-4880-9327-93288799e8c2",
+        "size": "46",
+        "status": "available",
+        "productId": "70c2de4c-7707-4725-8e4b-bfdc005a9b7e"
+      },
+      {
+        "id": "84c01372-a8f7-42d4-9613-fc543725ba44",
+        "size": "40",
+        "status": "available",
+        "productId": "70c2de4c-7707-4725-8e4b-bfdc005a9b7e"
+      }
+    ]
+  },
+  {
+    "id": "30c9bb55-6bda-4257-938c-7c8560fc7be5",
+    "category_name": "Cribs",
+    "product_number": "0000000013",
+    "price": 300,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 13",
+      "en": "Classic White Crib 13",
+      "ru": "Классическая белая кроватка 13"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Կաշի",
+      "en": "Leather",
+      "ru": "Кожа"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "0570aa3e-a3ff-481a-aae4-b5bef705f825",
+        "image": "/images/items/Cribe_5.png",
+        "productId": "30c9bb55-6bda-4257-938c-7c8560fc7be5"
+      },
+      {
+        "id": "a997ea7a-7eed-4cdf-a67c-135958797e40",
+        "image": "/images/items/Cribe_6.png",
+        "productId": "30c9bb55-6bda-4257-938c-7c8560fc7be5"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "37c559a0-572d-433b-97dc-0b70258e9f01",
+        "size": "44",
+        "status": "available",
+        "productId": "30c9bb55-6bda-4257-938c-7c8560fc7be5"
+      },
+      {
+        "id": "d82572df-a2e0-4a98-ad40-133af32702e3",
+        "size": "42",
+        "status": "available",
+        "productId": "30c9bb55-6bda-4257-938c-7c8560fc7be5"
+      },
+      {
+        "id": "56d06d46-636c-416c-8d5f-f9da7580eb98",
+        "size": "46",
+        "status": "available",
+        "productId": "30c9bb55-6bda-4257-938c-7c8560fc7be5"
+      },
+      {
+        "id": "56bf3aff-a5aa-4609-acd5-8ee57b27f947",
+        "size": "40",
+        "status": "available",
+        "productId": "30c9bb55-6bda-4257-938c-7c8560fc7be5"
+      }
+    ]
+  },
+  {
+    "id": "0b6f5ac5-8f71-4bd9-b8e4-cededf764062",
+    "category_name": "Furniture",
+    "product_number": "000000079",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Ժամանակակից կահույքի հավաքածու 79",
+      "en": "Contemporary Furniture Set 79",
+      "ru": "Современный мебельный комплект 79"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Ժամանակակից կահույքի հավաքածու, որը նախագծված է ոճի և հարմարավետության համար ժամանակակից տներում։",
+      "en": "A contemporary furniture set designed for style and comfort in modern homes.",
+      "ru": "Современный мебельный комплект, созданный для стиля и комфорта в современных домах."
+    },
+    "product_material": {
+      "am": "Ինժեներական փայտ",
+      "en": "Engineered wood",
+      "ru": "Инженерная древесина"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "ba3b9b1d-102f-4391-96e4-3adca23c1cd8",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "0b6f5ac5-8f71-4bd9-b8e4-cededf764062"
+      },
+      {
+        "id": "14c5b7a4-49b5-4058-bd89-18695e9861d1",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "0b6f5ac5-8f71-4bd9-b8e4-cededf764062"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "b38bbcc5-d832-44b2-82e4-5f015146b8ae",
+        "size": "46",
+        "status": "available",
+        "productId": "0b6f5ac5-8f71-4bd9-b8e4-cededf764062"
+      },
+      {
+        "id": "bcab010a-860e-4197-bfcb-bac2946e0803",
+        "size": "40",
+        "status": "available",
+        "productId": "0b6f5ac5-8f71-4bd9-b8e4-cededf764062"
+      },
+      {
+        "id": "a00fbc20-1847-4097-afa1-acf904cd9e30",
+        "size": "42",
+        "status": "available",
+        "productId": "0b6f5ac5-8f71-4bd9-b8e4-cededf764062"
+      },
+      {
+        "id": "4e38e6e2-3a03-4c89-9722-1b7f7a9362f0",
+        "size": "44",
+        "status": "available",
+        "productId": "0b6f5ac5-8f71-4bd9-b8e4-cededf764062"
+      }
+    ]
+  },
+  {
+    "id": "f24fe200-d2fe-4fdb-9922-c63c10e7b5c7",
+    "category_name": "Mattresses",
+    "product_number": "000000088",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 88",
+      "en": "Classic  Crib 88",
+      "ru": "Классическая кроватка 88"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Ձիու մազեր",
+      "en": "Horsehair",
+      "ru": "Конский волос"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "e0e80d61-eda2-485f-9f9f-5ef6118c48e9",
+        "image": "/images/items/Mattress_5.png",
+        "productId": "f24fe200-d2fe-4fdb-9922-c63c10e7b5c7"
+      },
+      {
+        "id": "bec2d35a-09db-45b2-b1bf-e09ff5ac5c1b",
+        "image": "/images/items/Mattress_4.png",
+        "productId": "f24fe200-d2fe-4fdb-9922-c63c10e7b5c7"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "912bcfb2-01b9-4afb-bffb-fa5a319cebca",
+        "size": "42",
+        "status": "available",
+        "productId": "f24fe200-d2fe-4fdb-9922-c63c10e7b5c7"
+      },
+      {
+        "id": "3b9acac3-bd0f-4312-a1fd-ae200b99a387",
+        "size": "46",
+        "status": "available",
+        "productId": "f24fe200-d2fe-4fdb-9922-c63c10e7b5c7"
+      },
+      {
+        "id": "d4fa2b21-e623-4f18-abf8-f21b23d27097",
+        "size": "44",
+        "status": "available",
+        "productId": "f24fe200-d2fe-4fdb-9922-c63c10e7b5c7"
+      },
+      {
+        "id": "9d296b97-b1d3-4a93-97b6-f3a2a84b2d5b",
+        "size": "40",
+        "status": "available",
+        "productId": "f24fe200-d2fe-4fdb-9922-c63c10e7b5c7"
+      }
+    ]
+  },
+  {
+    "id": "a6ba91df-70c0-4f5b-a243-e7049f2840d8",
+    "category_name": "Mattresses",
+    "product_number": "000000084",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 84",
+      "en": "Classic  Crib 84",
+      "ru": "Классическая кроватка 84"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Լատեքս",
+      "en": "Latex",
+      "ru": "Латекс"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "dce7d6c8-59b0-4548-b73e-cc9a06035b6b",
+        "image": "/images/items/Mattress_7.png",
+        "productId": "a6ba91df-70c0-4f5b-a243-e7049f2840d8"
+      },
+      {
+        "id": "627c1ebf-1a90-4efe-9757-0b81cfe11f25",
+        "image": "/images/items/Mattress_6.png",
+        "productId": "a6ba91df-70c0-4f5b-a243-e7049f2840d8"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "2661a1f0-c6d5-4c9b-80f7-79dfe64d3ce0",
+        "size": "46",
+        "status": "available",
+        "productId": "a6ba91df-70c0-4f5b-a243-e7049f2840d8"
+      },
+      {
+        "id": "ce2353ab-bd56-4a96-b95e-c80c1015386a",
+        "size": "40",
+        "status": "available",
+        "productId": "a6ba91df-70c0-4f5b-a243-e7049f2840d8"
+      },
+      {
+        "id": "d0f620e4-5a73-4e53-a65c-5cabd74126a5",
+        "size": "44",
+        "status": "available",
+        "productId": "a6ba91df-70c0-4f5b-a243-e7049f2840d8"
+      },
+      {
+        "id": "ead3085a-d07e-4816-8fd7-681264a1d047",
+        "size": "42",
+        "status": "available",
+        "productId": "a6ba91df-70c0-4f5b-a243-e7049f2840d8"
+      }
+    ]
+  },
+  {
+    "id": "cacfa50d-6223-44d8-99f8-e7166b53c605",
+    "category_name": "Cribs",
+    "product_number": "000000004",
+    "price": 7000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 4",
+      "en": "Classic White Crib 4",
+      "ru": "Классическая белая кроватка 4"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Ապակի",
+      "en": "Glass",
+      "ru": "Стекло"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "d1ee066d-983f-45fc-b481-bcb941f93e8b",
+        "image": "/images/items/Cribe_5.png",
+        "productId": "cacfa50d-6223-44d8-99f8-e7166b53c605"
+      },
+      {
+        "id": "9d5a8654-17f9-45bb-9608-1d337b89937a",
+        "image": "/images/items/Cribe_6.png",
+        "productId": "cacfa50d-6223-44d8-99f8-e7166b53c605"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "4bc95083-c561-45a4-a4df-9dd56ee56170",
+        "size": "42",
+        "status": "available",
+        "productId": "cacfa50d-6223-44d8-99f8-e7166b53c605"
+      },
+      {
+        "id": "5523d395-2fe3-499a-ab20-d8c28bc9c83f",
+        "size": "44",
+        "status": "available",
+        "productId": "cacfa50d-6223-44d8-99f8-e7166b53c605"
+      },
+      {
+        "id": "618ecab1-8626-4e7a-ae9b-fd1e73699dca",
+        "size": "40",
+        "status": "available",
+        "productId": "cacfa50d-6223-44d8-99f8-e7166b53c605"
+      },
+      {
+        "id": "1d0fe42b-fd7c-4f17-b5e5-7e38e57bffe5",
+        "size": "46",
+        "status": "available",
+        "productId": "cacfa50d-6223-44d8-99f8-e7166b53c605"
+      }
+    ]
+  },
+  {
+    "id": "e9770049-c664-4fa4-afad-e8b99b6184fe",
+    "category_name": "Clothes",
+    "product_number": "000000057",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 57",
+      "en": "Classic Clothes 57",
+      "ru": "Классическая одежда 57"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Բամբակ",
+      "en": "Cotton",
+      "ru": "Хлопок"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "e9a75e84-c5e8-46eb-9886-e9bc2c896f49",
+        "image": "/images/items/Clothes_3.png",
+        "productId": "e9770049-c664-4fa4-afad-e8b99b6184fe"
+      },
+      {
+        "id": "33d35640-11c7-4343-9cb5-e1adf8faac9c",
+        "image": "/images/items/Clothes_2.png",
+        "productId": "e9770049-c664-4fa4-afad-e8b99b6184fe"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "0d0446c5-f5df-42f8-9597-40519dac18a7",
+        "size": "S",
+        "status": "available",
+        "productId": "e9770049-c664-4fa4-afad-e8b99b6184fe"
+      },
+      {
+        "id": "0fceaee7-5d64-4118-a256-e1f00aa60bdb",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "e9770049-c664-4fa4-afad-e8b99b6184fe"
+      },
+      {
+        "id": "48571d03-954c-4d55-8e82-f200b823f2cc",
+        "size": "M",
+        "status": "available",
+        "productId": "e9770049-c664-4fa4-afad-e8b99b6184fe"
+      }
+    ]
+  },
+  {
+    "id": "dd70e452-8ad6-4190-ae4a-f49bc4432eff",
+    "category_name": "Furniture",
+    "product_number": "000000050",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Հանրաճանաչ կաշվե կահույքի հավաքածու 50",
+      "en": "Luxury Leather Furniture Set 50",
+      "ru": "Роскошный мебельный комплект из кожи 50"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Հանրաճանաչ կահույքի հավաքածու՝ պրեմիում կաշվե ծածկույթով և էլեգանտ դիզայնով։",
+      "en": "A luxury furniture set featuring premium leather upholstery and elegant design.",
+      "ru": "Роскошный мебельный комплект с высококачественной кожаной обивкой и элегантным дизайном."
+    },
+    "product_material": {
+      "am": "Ասլի կաշի",
+      "en": "Genuine leather",
+      "ru": "Настоящая кожа"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "e78a0f54-a874-4b03-8357-764b6281b80e",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "dd70e452-8ad6-4190-ae4a-f49bc4432eff"
+      },
+      {
+        "id": "1c5da664-9471-4b48-a508-d7891cfd25fb",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "dd70e452-8ad6-4190-ae4a-f49bc4432eff"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "c8bc65c3-f446-4699-9dab-4ac27e6e1574",
+        "size": "42",
+        "status": "available",
+        "productId": "dd70e452-8ad6-4190-ae4a-f49bc4432eff"
+      },
+      {
+        "id": "0f9754e1-9823-4c97-8fec-78011fadaee1",
+        "size": "44",
+        "status": "available",
+        "productId": "dd70e452-8ad6-4190-ae4a-f49bc4432eff"
+      },
+      {
+        "id": "9e895ddd-6a35-4826-b29b-1ea922c10065",
+        "size": "46",
+        "status": "available",
+        "productId": "dd70e452-8ad6-4190-ae4a-f49bc4432eff"
+      },
+      {
+        "id": "ab2280e6-21ca-4a97-af82-e6fe6d1ac3af",
+        "size": "40",
+        "status": "available",
+        "productId": "dd70e452-8ad6-4190-ae4a-f49bc4432eff"
+      }
+    ]
+  },
+  {
+    "id": "4350e7db-df67-4269-afbd-60adcd3c98b0",
+    "category_name": "Mattresses",
+    "product_number": "000000093",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 93",
+      "en": "Classic  Crib 93",
+      "ru": "Классическая кроватка 93"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Մետաքս",
+      "en": "Silk",
+      "ru": "Шёлк"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "04766f18-7afe-4b73-af1b-e21cf188310b",
+        "image": "/images/items/Mattress_6.png",
+        "productId": "4350e7db-df67-4269-afbd-60adcd3c98b0"
+      },
+      {
+        "id": "c5abc530-d2bb-4614-8326-e6ee72dc47bf",
+        "image": "/images/items/Mattress_5.png",
+        "productId": "4350e7db-df67-4269-afbd-60adcd3c98b0"
+      },
+      {
+        "id": "95164d3a-400a-4fcd-a49f-dccf9dfdde90",
+        "image": "/images/items/Mattress_7.png",
+        "productId": "4350e7db-df67-4269-afbd-60adcd3c98b0"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "f52eddea-f506-45b1-88c8-3f1d05a80d4d",
+        "size": "46",
+        "status": "available",
+        "productId": "4350e7db-df67-4269-afbd-60adcd3c98b0"
+      },
+      {
+        "id": "cc247c6a-9dcf-442e-868e-03d200ff3911",
+        "size": "40",
+        "status": "available",
+        "productId": "4350e7db-df67-4269-afbd-60adcd3c98b0"
+      },
+      {
+        "id": "d4b48bcd-e708-41d2-8f00-ade3fc32de04",
+        "size": "42",
+        "status": "available",
+        "productId": "4350e7db-df67-4269-afbd-60adcd3c98b0"
+      },
+      {
+        "id": "e87a9618-d22e-4cd4-bc63-84c7b6925a66",
+        "size": "44",
+        "status": "available",
+        "productId": "4350e7db-df67-4269-afbd-60adcd3c98b0"
+      }
+    ]
+  },
+  {
+    "id": "2510c15e-74a9-48f5-8e02-b224b1fc322a",
+    "category_name": "Mattresses",
+    "product_number": "000000089",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 89",
+      "en": "Classic  Crib 89",
+      "ru": "Классическая кроватка 89"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Ձիու մազեր",
+      "en": "Horsehair",
+      "ru": "Конский волос"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "1691eeaa-42f5-4853-988f-448ca2ade8ad",
+        "image": "/images/items/Mattress_6.png",
+        "productId": "2510c15e-74a9-48f5-8e02-b224b1fc322a"
+      },
+      {
+        "id": "7cff73a0-4bfd-4389-a6f3-2bc9d2d307d5",
+        "image": "/images/items/Mattress_7.png",
+        "productId": "2510c15e-74a9-48f5-8e02-b224b1fc322a"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "2f43faa3-4563-451a-9d91-c3195fc3671d",
+        "size": "42",
+        "status": "available",
+        "productId": "2510c15e-74a9-48f5-8e02-b224b1fc322a"
+      },
+      {
+        "id": "6867d8ff-10c1-436a-98a2-684a59d7b3aa",
+        "size": "46",
+        "status": "available",
+        "productId": "2510c15e-74a9-48f5-8e02-b224b1fc322a"
+      },
+      {
+        "id": "8c2e31a0-310e-415d-9ccb-4075993a22b4",
+        "size": "40",
+        "status": "available",
+        "productId": "2510c15e-74a9-48f5-8e02-b224b1fc322a"
+      },
+      {
+        "id": "0082025f-c2ba-4a52-8348-823a12545258",
+        "size": "44",
+        "status": "available",
+        "productId": "2510c15e-74a9-48f5-8e02-b224b1fc322a"
+      }
+    ]
+  },
+  {
+    "id": "5f5a9504-767a-4948-b877-a94fd72ef346",
+    "category_name": "Mattresses",
+    "product_number": "000000091",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 91",
+      "en": "Classic  Crib 91",
+      "ru": "Классическая кроватка 91"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Օրգանիկ լատեքս",
+      "en": "Organic Latex",
+      "ru": "Органический латекс"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "fd60e603-237c-4ad2-93e0-bb6535024bd5",
+        "image": "/images/items/Mattress_10.png",
+        "productId": "5f5a9504-767a-4948-b877-a94fd72ef346"
+      },
+      {
+        "id": "c6f926d1-14af-495a-8286-d84c1153d359",
+        "image": "/images/items/Mattress_4.png",
+        "productId": "5f5a9504-767a-4948-b877-a94fd72ef346"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "4ddc9d5d-8c44-436d-a876-f5abbdcdd827",
+        "size": "46",
+        "status": "available",
+        "productId": "5f5a9504-767a-4948-b877-a94fd72ef346"
+      },
+      {
+        "id": "77a53d20-dba5-4c73-a365-ed7d7512deab",
+        "size": "42",
+        "status": "available",
+        "productId": "5f5a9504-767a-4948-b877-a94fd72ef346"
+      },
+      {
+        "id": "16673c95-cd90-4b72-8f63-33436d6c555f",
+        "size": "44",
+        "status": "available",
+        "productId": "5f5a9504-767a-4948-b877-a94fd72ef346"
+      },
+      {
+        "id": "38d466a2-d659-4110-a85d-7ca6d7d541c5",
+        "size": "40",
+        "status": "available",
+        "productId": "5f5a9504-767a-4948-b877-a94fd72ef346"
+      }
+    ]
+  },
+  {
+    "id": "86ace66a-6809-4fe9-8df0-94892b07f4c1",
+    "category_name": "Furniture",
+    "product_number": "000000048",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Կահույքի հավաքածու ռուստիկ ոճով 48",
+      "en": "Rustic Charm Furniture Set 48",
+      "ru": "Мебельный комплект в стиле рустик 48"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Կահույքի հավաքածու ռուստիկ ոճով՝ բնական կշիռներով և ձեռքով պատրաստված մանրամասներով։",
+      "en": "A rustic furniture set featuring natural textures and handcrafted details.",
+      "ru": "Мебельный комплект в стиле рустик с натуральными текстурами и ручной отделкой."
+    },
+    "product_material": {
+      "am": "Վերամշակված սոճու փայտ",
+      "en": "Reclaimed pine wood",
+      "ru": "Восстановленная сосна"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "fb9474a8-596c-4774-b693-e80a1cf6e1f1",
+        "image": "/images/items/Furniture_9.png",
+        "productId": "86ace66a-6809-4fe9-8df0-94892b07f4c1"
+      },
+      {
+        "id": "ccbacc2e-d08f-49a3-886b-808512bda603",
+        "image": "/images/items/Furniture_8.png",
+        "productId": "86ace66a-6809-4fe9-8df0-94892b07f4c1"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "f07a3d8e-0613-48a8-8810-7f0c2601759e",
+        "size": "46",
+        "status": "available",
+        "productId": "86ace66a-6809-4fe9-8df0-94892b07f4c1"
+      },
+      {
+        "id": "df464578-9ca7-4890-a275-6e60c889e17e",
+        "size": "40",
+        "status": "available",
+        "productId": "86ace66a-6809-4fe9-8df0-94892b07f4c1"
+      },
+      {
+        "id": "234c0916-700a-47e5-b50c-7b3a9341201c",
+        "size": "42",
+        "status": "available",
+        "productId": "86ace66a-6809-4fe9-8df0-94892b07f4c1"
+      },
+      {
+        "id": "7ae36ece-a4c3-415c-a7ee-04e96386d59b",
+        "size": "44",
+        "status": "available",
+        "productId": "86ace66a-6809-4fe9-8df0-94892b07f4c1"
+      }
+    ]
+  },
+  {
+    "id": "3114cd0f-0096-4d01-93ea-ecdd130f709c",
+    "category_name": "Furniture",
+    "product_number": "000000076",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական կահույքի հավաքածու կաղնու փայտից",
+      "en": "Classic Oak Furniture Set",
+      "ru": "Классический мебельный комплект из дуба"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Մարտկոց կահույքի հավաքածու՝ պատրաստված բարձրորակ կաղնու փայտից՝ իդեալական դասական ինտերիերի համար։",
+      "en": "A durable furniture set made from high-quality oak, perfect for classic interiors.",
+      "ru": "Прочный мебельный комплект из высококачественного дуба, идеально подходит для классического интерьера."
+    },
+    "product_material": {
+      "am": "Կաղնու փայտ",
+      "en": "Oak wood",
+      "ru": "Дубовое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "adee24a6-e958-4c72-a86d-75bc920af968",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "3114cd0f-0096-4d01-93ea-ecdd130f709c"
+      },
+      {
+        "id": "1d956299-177d-422c-9524-9c9533953a42",
+        "image": "/images/items/Furniture_7.png",
+        "productId": "3114cd0f-0096-4d01-93ea-ecdd130f709c"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1e4eca07-3684-4762-89df-9305d31faaec",
+        "size": "46",
+        "status": "available",
+        "productId": "3114cd0f-0096-4d01-93ea-ecdd130f709c"
+      },
+      {
+        "id": "d9769bf8-8020-435c-8c0a-8bb3c1e261de",
+        "size": "42",
+        "status": "available",
+        "productId": "3114cd0f-0096-4d01-93ea-ecdd130f709c"
+      },
+      {
+        "id": "536a022a-b566-4d57-a3ac-aca621304a77",
+        "size": "40",
+        "status": "available",
+        "productId": "3114cd0f-0096-4d01-93ea-ecdd130f709c"
+      },
+      {
+        "id": "f8411f33-bfa3-48d2-8217-82a850b2244f",
+        "size": "44",
+        "status": "available",
+        "productId": "3114cd0f-0096-4d01-93ea-ecdd130f709c"
+      }
+    ]
+  },
+  {
+    "id": "7116128d-cf67-450d-8674-84f8798b688d",
+    "category_name": "Cribs",
+    "product_number": "0000000018",
+    "price": 3000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 18",
+      "en": "Classic White Crib 18",
+      "ru": "Классическая белая кроватка 18"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Պողպատ",
+      "en": "Steel",
+      "ru": "Сталь"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "173166ec-c933-4f9b-8b6d-1dabb9866adc",
+        "image": "/images/items/Cribe_9.png",
+        "productId": "7116128d-cf67-450d-8674-84f8798b688d"
+      },
+      {
+        "id": "e4ac8e5c-6dc4-43d9-a8fc-cde9d85f8ef5",
+        "image": "/images/items/Cribe_10.png",
+        "productId": "7116128d-cf67-450d-8674-84f8798b688d"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "2b31638f-b087-4f59-b7fc-eb35b1708237",
+        "size": "46",
+        "status": "available",
+        "productId": "7116128d-cf67-450d-8674-84f8798b688d"
+      },
+      {
+        "id": "00f596b8-1f0c-4b61-9b0a-51a46ce7551e",
+        "size": "42",
+        "status": "available",
+        "productId": "7116128d-cf67-450d-8674-84f8798b688d"
+      },
+      {
+        "id": "d0435505-12a7-4466-bfb7-dd674d86439c",
+        "size": "44",
+        "status": "available",
+        "productId": "7116128d-cf67-450d-8674-84f8798b688d"
+      },
+      {
+        "id": "501ac77a-e9fc-4382-8d6a-dc1d4c97535a",
+        "size": "40",
+        "status": "available",
+        "productId": "7116128d-cf67-450d-8674-84f8798b688d"
+      }
+    ]
+  },
+  {
+    "id": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef",
+    "category_name": "Mattresses",
+    "product_number": "000000096",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 96",
+      "en": "Classic  Crib 96",
+      "ru": "Классическая кроватка 96"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Օրգանական բամբակ",
+      "en": "Organic Cotton",
+      "ru": "Органический хлопок"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "f8701ae4-8706-463c-8b15-f283031a6fc6",
+        "image": "/images/items/Mattress_8.png",
+        "productId": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef"
+      },
+      {
+        "id": "b0c04eb2-a0a6-4d31-a285-d1bb213d3132",
+        "image": "/images/items/Mattress_10.png",
+        "productId": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef"
+      },
+      {
+        "id": "bbe8e812-0c13-4784-abc6-e492e3668de0",
+        "image": "/images/items/Mattress_9.png",
+        "productId": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "6468148b-ef9e-4092-896c-0da74bcd854c",
+        "size": "40",
+        "status": "available",
+        "productId": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef"
+      },
+      {
+        "id": "daac8d79-9f13-4e19-a5dc-3a6460ce8ead",
+        "size": "46",
+        "status": "available",
+        "productId": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef"
+      },
+      {
+        "id": "5df5a4c9-5da6-49db-a079-2af7f97f7b26",
+        "size": "44",
+        "status": "available",
+        "productId": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef"
+      },
+      {
+        "id": "cdcf04ab-7535-44d8-b88a-42d73977d4d8",
+        "size": "42",
+        "status": "available",
+        "productId": "7f6c1ae0-0662-4bbe-b6dd-87d81f82fcef"
+      }
+    ]
+  },
+  {
+    "id": "a50d457f-42fa-4824-80d6-ce4352346d0e",
+    "category_name": "Furniture",
+    "product_number": "000000077",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Մինիմալիստական կահույքի հավաքածու 77",
+      "en": "Minimalist Furniture Set 77",
+      "ru": "Минималистичный мебельный комплект 77"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Մինիմալիստական կահույքի հավաքածու՝ համատեղում է ձևն ու ֆունկցիան ժամանակակից բնակավայրերի համար։",
+      "en": "A minimalist furniture set combining form and function for modern living spaces.",
+      "ru": "Минималистичный мебельный комплект, сочетающий форму и функцию для современных жилых пространств."
+    },
+    "product_material": {
+      "am": "Մետաղ և ապակին",
+      "en": "Metal and glass",
+      "ru": "Металл и стекло"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "8b92e773-496a-4816-86e1-3c0a2e79eb60",
+        "image": "/images/items/Furniture_4.png",
+        "productId": "a50d457f-42fa-4824-80d6-ce4352346d0e"
+      },
+      {
+        "id": "70cc33b8-29cd-4ca0-8a2c-8933367adebe",
+        "image": "/images/items/Furniture_9.png",
+        "productId": "a50d457f-42fa-4824-80d6-ce4352346d0e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "33e887f5-6064-4a14-b58d-666d1cdcb5a5",
+        "size": "42",
+        "status": "available",
+        "productId": "a50d457f-42fa-4824-80d6-ce4352346d0e"
+      },
+      {
+        "id": "1e4ea3c5-42c9-403b-bd4f-87705007cfa5",
+        "size": "44",
+        "status": "available",
+        "productId": "a50d457f-42fa-4824-80d6-ce4352346d0e"
+      },
+      {
+        "id": "72d6af7b-72b8-49b8-88ba-6cfa4da94148",
+        "size": "46",
+        "status": "available",
+        "productId": "a50d457f-42fa-4824-80d6-ce4352346d0e"
+      },
+      {
+        "id": "46bcbbbb-5046-477a-bda2-08aa2a150513",
+        "size": "40",
+        "status": "available",
+        "productId": "a50d457f-42fa-4824-80d6-ce4352346d0e"
+      }
+    ]
+  },
+  {
+    "id": "cbc6a468-45e1-445c-94b0-df6c646fa2db",
+    "category_name": "Mattresses",
+    "product_number": "000000098",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 98",
+      "en": "Classic  Crib 98",
+      "ru": "Классическая кроватка 98"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Օրգանական բամբակ",
+      "en": "Organic Cotton",
+      "ru": "Органический хлопок"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "d755121e-9863-4813-bb2d-d77a42af4836",
+        "image": "/images/items/Mattress_1.png",
+        "productId": "cbc6a468-45e1-445c-94b0-df6c646fa2db"
+      },
+      {
+        "id": "27f3c200-2e2b-4552-93f0-c814b1ed430c",
+        "image": "/images/items/Mattress_2.png",
+        "productId": "cbc6a468-45e1-445c-94b0-df6c646fa2db"
+      },
+      {
+        "id": "3876b2ec-6320-497d-ad4a-035a0263cb6b",
+        "image": "/images/items/Mattress_3.png",
+        "productId": "cbc6a468-45e1-445c-94b0-df6c646fa2db"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "159e79ff-3fa8-420f-b1a0-cc11eb0473b9",
+        "size": "46",
+        "status": "available",
+        "productId": "cbc6a468-45e1-445c-94b0-df6c646fa2db"
+      },
+      {
+        "id": "cb82ab6f-8ca5-4466-bc09-ac924215d8a6",
+        "size": "44",
+        "status": "available",
+        "productId": "cbc6a468-45e1-445c-94b0-df6c646fa2db"
+      },
+      {
+        "id": "a98ab6b4-d8b2-4c77-8834-a71db3129792",
+        "size": "42",
+        "status": "available",
+        "productId": "cbc6a468-45e1-445c-94b0-df6c646fa2db"
+      },
+      {
+        "id": "3419bc35-2b60-40bd-a3a3-6461e37ed560",
+        "size": "40",
+        "status": "available",
+        "productId": "cbc6a468-45e1-445c-94b0-df6c646fa2db"
+      }
+    ]
+  },
+  {
+    "id": "e14d07cc-aa46-4156-856f-8b8af5e2dfea",
+    "category_name": "Cribs",
+    "product_number": "000000005",
+    "price": 6000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 5",
+      "en": "Classic White Crib 5",
+      "ru": "Классическая белая кроватка 5"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Մարմար",
+      "en": "Marble",
+      "ru": "Мрамор"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "14781b88-3f3b-4f0b-9491-ff3b84e93c15",
+        "image": "/images/items/Cribe_6.png",
+        "productId": "e14d07cc-aa46-4156-856f-8b8af5e2dfea"
+      },
+      {
+        "id": "94151358-1243-4818-b549-c04156d87f09",
+        "image": "/images/items/Cribe_7.png",
+        "productId": "e14d07cc-aa46-4156-856f-8b8af5e2dfea"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "2b77af7e-476c-4312-b0d8-5e0fd0860668",
+        "size": "42",
+        "status": "available",
+        "productId": "e14d07cc-aa46-4156-856f-8b8af5e2dfea"
+      },
+      {
+        "id": "dc34659e-34a9-48a2-b683-679b89e5d7a0",
+        "size": "40",
+        "status": "available",
+        "productId": "e14d07cc-aa46-4156-856f-8b8af5e2dfea"
+      },
+      {
+        "id": "37108248-4c3f-4bf5-895f-af4b4d5df729",
+        "size": "44",
+        "status": "available",
+        "productId": "e14d07cc-aa46-4156-856f-8b8af5e2dfea"
+      },
+      {
+        "id": "1624dbf9-b4ec-41e0-a536-484f9b461f2d",
+        "size": "46",
+        "status": "available",
+        "productId": "e14d07cc-aa46-4156-856f-8b8af5e2dfea"
+      }
+    ]
+  },
+  {
+    "id": "d841ae97-3d9f-419d-aa52-9efbf0343b4b",
+    "category_name": "Mattresses",
+    "product_number": "000000099",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 99",
+      "en": "Classic  Crib 99",
+      "ru": "Классическая кроватка 99"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Քաշմիր",
+      "en": "Cashmere",
+      "ru": "Кашемир"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "41112663-cfdc-4fe6-8478-12efc7245805",
+        "image": "/images/items/Mattress_5.png",
+        "productId": "d841ae97-3d9f-419d-aa52-9efbf0343b4b"
+      },
+      {
+        "id": "33cbca3a-0c1f-43b7-a511-a568b18f4fe5",
+        "image": "/images/items/Mattress_4.png",
+        "productId": "d841ae97-3d9f-419d-aa52-9efbf0343b4b"
+      },
+      {
+        "id": "f3150f72-6af2-4e83-9116-60a40c911df4",
+        "image": "/images/items/Mattress_6.png",
+        "productId": "d841ae97-3d9f-419d-aa52-9efbf0343b4b"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "04961dbf-3146-4605-9077-92589420afbb",
+        "size": "42",
+        "status": "available",
+        "productId": "d841ae97-3d9f-419d-aa52-9efbf0343b4b"
+      },
+      {
+        "id": "af5106b2-7b2b-4ef5-986b-5403d0d0894d",
+        "size": "40",
+        "status": "available",
+        "productId": "d841ae97-3d9f-419d-aa52-9efbf0343b4b"
+      },
+      {
+        "id": "3ef422cc-3cb6-490a-ba56-538c2040acfa",
+        "size": "46",
+        "status": "available",
+        "productId": "d841ae97-3d9f-419d-aa52-9efbf0343b4b"
+      },
+      {
+        "id": "6006fd85-9b7f-47ab-b3e7-8b967b038672",
+        "size": "44",
+        "status": "available",
+        "productId": "d841ae97-3d9f-419d-aa52-9efbf0343b4b"
+      }
+    ]
+  },
+  {
+    "id": "01f703da-01d9-461e-a225-6892c2c97e59",
+    "category_name": "Clothes",
+    "product_number": "000000053",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 53",
+      "en": "Classic Clothes 53",
+      "ru": "Классическая одежда 53"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Վուշ",
+      "en": "Linen",
+      "ru": "Лён"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "6ec7dde9-62c1-48a5-9c79-b03eaea8afb8",
+        "image": "/images/items/Clothes_7.png",
+        "productId": "01f703da-01d9-461e-a225-6892c2c97e59"
+      },
+      {
+        "id": "a44084dc-4228-4208-82c6-091e094fd9c9",
+        "image": "/images/items/Clothes_6.png",
+        "productId": "01f703da-01d9-461e-a225-6892c2c97e59"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "7219088b-4485-41ff-a7a5-675f13296a03",
+        "size": "M",
+        "status": "available",
+        "productId": "01f703da-01d9-461e-a225-6892c2c97e59"
+      },
+      {
+        "id": "535c4d4c-d13b-4393-9e68-0044e6773cbc",
+        "size": "S",
+        "status": "available",
+        "productId": "01f703da-01d9-461e-a225-6892c2c97e59"
+      },
+      {
+        "id": "9b63af07-e16b-4eea-b089-88f047d54c83",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "01f703da-01d9-461e-a225-6892c2c97e59"
+      }
+    ]
+  },
+  {
+    "id": "d1392b3b-0491-4c49-8020-3f454cf7d58e",
+    "category_name": "Furniture",
+    "product_number": "000000046",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական կահույքի հավաքածու կաղնու փայտից 46",
+      "en": "Classic Oak Furniture Set 46",
+      "ru": "Классический мебельный комплект из дуба 46"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Մարտկոց կահույքի հավաքածու՝ պատրաստված բարձրորակ կաղնու փայտից՝ իդեալական դասական ինտերիերի համար։",
+      "en": "A durable furniture set made from high-quality oak, perfect for classic interiors.",
+      "ru": "Прочный мебельный комплект из высококачественного дуба, идеально подходит для классического интерьера."
+    },
+    "product_material": {
+      "am": "Կաղնու փայտ",
+      "en": "Oak wood",
+      "ru": "Дубовое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "e376dbf1-b343-4aa5-9ad5-20f434a6ced4",
+        "image": "/images/items/Furniture_4.png",
+        "productId": "d1392b3b-0491-4c49-8020-3f454cf7d58e"
+      },
+      {
+        "id": "655706ac-7c45-4774-9881-f74f66ab8b92",
+        "image": "/images/items/Furniture_5.png",
+        "productId": "d1392b3b-0491-4c49-8020-3f454cf7d58e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "95246d7a-1d02-4db8-8a7e-e378c508734b",
+        "size": "46",
+        "status": "available",
+        "productId": "d1392b3b-0491-4c49-8020-3f454cf7d58e"
+      },
+      {
+        "id": "e8c9c0c3-36fb-4f51-b63a-838131a6a3c1",
+        "size": "40",
+        "status": "available",
+        "productId": "d1392b3b-0491-4c49-8020-3f454cf7d58e"
+      },
+      {
+        "id": "c4195957-0772-4df3-9c55-fd72284af172",
+        "size": "44",
+        "status": "available",
+        "productId": "d1392b3b-0491-4c49-8020-3f454cf7d58e"
+      },
+      {
+        "id": "73be57d6-bae0-4377-b080-d7b14f9687e3",
+        "size": "42",
+        "status": "available",
+        "productId": "d1392b3b-0491-4c49-8020-3f454cf7d58e"
+      }
+    ]
+  },
+  {
+    "id": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98",
+    "category_name": "Mattresses",
+    "product_number": "000000092",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 92",
+      "en": "Classic  Crib 92",
+      "ru": "Классическая кроватка 92"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Մետաքս",
+      "en": "Silk",
+      "ru": "Шёлк"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "049e37c1-526e-4071-b0a0-33e2c166de04",
+        "image": "/images/items/Mattress_2.png",
+        "productId": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98"
+      },
+      {
+        "id": "9e19c5fe-699e-4a62-97ff-837e2ee15ae1",
+        "image": "/images/items/Mattress_3.png",
+        "productId": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98"
+      },
+      {
+        "id": "81c6babf-fe54-4133-bd28-17fb8eaed6d3",
+        "image": "/images/items/Mattress_4.png",
+        "productId": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "3912a962-e91e-4d38-b545-f7d3a622834f",
+        "size": "42",
+        "status": "available",
+        "productId": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98"
+      },
+      {
+        "id": "366dd270-2c91-4865-8206-4a2cb0bb4efa",
+        "size": "40",
+        "status": "available",
+        "productId": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98"
+      },
+      {
+        "id": "4524afe7-24b9-4bf3-b662-b08ea104719c",
+        "size": "46",
+        "status": "available",
+        "productId": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98"
+      },
+      {
+        "id": "e1a58cd3-ec72-461d-8768-0232e1c18a95",
+        "size": "44",
+        "status": "available",
+        "productId": "4ab7e0d9-a5a6-4d09-abb7-bc6bec06da98"
+      }
+    ]
+  },
+  {
+    "id": "36e8d6a6-5e67-4102-be33-5773ad9b7dde",
+    "category_name": "Furniture",
+    "product_number": "000000078",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Կահույքի հավաքածու ռուստիկ ոճով 78",
+      "en": "Rustic Charm Furniture Set 78",
+      "ru": "Мебельный комплект в стиле рустик 78"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Կահույքի հավաքածու ռուստիկ ոճով՝ բնական կշիռներով և ձեռքով պատրաստված մանրամասներով։",
+      "en": "A rustic furniture set featuring natural textures and handcrafted details.",
+      "ru": "Мебельный комплект в стиле рустик с натуральными текстурами и ручной отделкой."
+    },
+    "product_material": {
+      "am": "Վերամշակված սոճու փայտ",
+      "en": "Reclaimed pine wood",
+      "ru": "Восстановленная сосна"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "693a02ac-150c-4c2c-b980-494f622dc59b",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "36e8d6a6-5e67-4102-be33-5773ad9b7dde"
+      },
+      {
+        "id": "c6445a4e-f5ba-407c-972a-0209969628c6",
+        "image": "/images/items/Furniture_5.png",
+        "productId": "36e8d6a6-5e67-4102-be33-5773ad9b7dde"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "45ece59c-4c53-4e81-b187-a0c3549a1612",
+        "size": "42",
+        "status": "available",
+        "productId": "36e8d6a6-5e67-4102-be33-5773ad9b7dde"
+      },
+      {
+        "id": "a9380923-dcf6-4eb0-a311-fbf8cdb95edd",
+        "size": "46",
+        "status": "available",
+        "productId": "36e8d6a6-5e67-4102-be33-5773ad9b7dde"
+      },
+      {
+        "id": "70047428-3aac-4dde-a4c0-9ebb61621979",
+        "size": "44",
+        "status": "available",
+        "productId": "36e8d6a6-5e67-4102-be33-5773ad9b7dde"
+      },
+      {
+        "id": "b9d1ab47-962b-4fa1-8825-02fb73b65b7b",
+        "size": "40",
+        "status": "available",
+        "productId": "36e8d6a6-5e67-4102-be33-5773ad9b7dde"
+      }
+    ]
+  },
+  {
+    "id": "243bfe92-05a1-4340-bba9-2d326a8d2d56",
+    "category_name": "Mattresses",
+    "product_number": "000000082",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 82",
+      "en": "Classic  Crib 82",
+      "ru": "Классическая кроватка 82"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Բուրդ",
+      "en": "Wool",
+      "ru": "Шерсть"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "2f97d40a-0c84-4486-a0a8-37efd33740f2",
+        "image": "/images/items/Mattress_2.png",
+        "productId": "243bfe92-05a1-4340-bba9-2d326a8d2d56"
+      },
+      {
+        "id": "159c86fe-9ddd-4e9a-be87-8528c3b40d0d",
+        "image": "/images/items/Mattress_3.png",
+        "productId": "243bfe92-05a1-4340-bba9-2d326a8d2d56"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "5e8c8b21-08c9-4fc6-a4ef-d9ffa964c995",
+        "size": "44",
+        "status": "available",
+        "productId": "243bfe92-05a1-4340-bba9-2d326a8d2d56"
+      },
+      {
+        "id": "8e83ec89-891b-4fd6-9aa4-91223b226d5e",
+        "size": "40",
+        "status": "available",
+        "productId": "243bfe92-05a1-4340-bba9-2d326a8d2d56"
+      },
+      {
+        "id": "ffc3d2d4-934c-4456-8704-26b164cf0c56",
+        "size": "42",
+        "status": "available",
+        "productId": "243bfe92-05a1-4340-bba9-2d326a8d2d56"
+      },
+      {
+        "id": "eb2f367a-4fd0-4992-a67d-fcefc0cdb271",
+        "size": "46",
+        "status": "available",
+        "productId": "243bfe92-05a1-4340-bba9-2d326a8d2d56"
+      }
+    ]
+  },
+  {
+    "id": "76cd8504-75a3-4ee5-83d5-e5af2867c02e",
+    "category_name": "Furniture",
+    "product_number": "000000044",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ  կահույքի հավաքածու 44",
+      "en": "Elegant  Furniture Set 44",
+      "ru": "Элегантный  мебельный комплект 44"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional  furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Պողպատ և սոճու փայտ",
+      "en": "Steel and pine wood",
+      "ru": "Сталь и сосновое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "c7504af1-4233-47af-932d-7df11526db51",
+        "image": "/images/items/Furniture_8.png",
+        "productId": "76cd8504-75a3-4ee5-83d5-e5af2867c02e"
+      },
+      {
+        "id": "a3c126c3-7224-49c1-bee5-c323f68ea82a",
+        "image": "/images/items/Furniture_9.png",
+        "productId": "76cd8504-75a3-4ee5-83d5-e5af2867c02e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "9b7fc063-4ae7-46aa-b13d-250a814acced",
+        "size": "44",
+        "status": "available",
+        "productId": "76cd8504-75a3-4ee5-83d5-e5af2867c02e"
+      },
+      {
+        "id": "f05e68d2-d454-4233-9cc0-031a2f27e868",
+        "size": "40",
+        "status": "available",
+        "productId": "76cd8504-75a3-4ee5-83d5-e5af2867c02e"
+      },
+      {
+        "id": "141861fb-4034-4e84-b35c-741645b36050",
+        "size": "46",
+        "status": "available",
+        "productId": "76cd8504-75a3-4ee5-83d5-e5af2867c02e"
+      },
+      {
+        "id": "46353c6e-c1f0-4034-a12e-d0f0635f7d3f",
+        "size": "42",
+        "status": "available",
+        "productId": "76cd8504-75a3-4ee5-83d5-e5af2867c02e"
+      }
+    ]
+  },
+  {
+    "id": "f3942e57-a17d-4c39-9e43-c39f957344b7",
+    "category_name": "Clothes",
+    "product_number": "000000056",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 56",
+      "en": "Classic Clothes 56",
+      "ru": "Классическая одежда 56"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Մետաքս",
+      "en": "Silk",
+      "ru": "Шёлк"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "c88a4df4-5476-4195-bd4c-f1ea12d3e643",
+        "image": "/images/items/Clothes_3.png",
+        "productId": "f3942e57-a17d-4c39-9e43-c39f957344b7"
+      },
+      {
+        "id": "9b389c3c-bf91-4ee3-8515-7b20c74862c0",
+        "image": "/images/items/Clothes_7.png",
+        "productId": "f3942e57-a17d-4c39-9e43-c39f957344b7"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "4a2973ec-74b7-4acb-ac20-78da2f1be3a1",
+        "size": "S",
+        "status": "available",
+        "productId": "f3942e57-a17d-4c39-9e43-c39f957344b7"
+      },
+      {
+        "id": "7db8b4d6-9248-4d3b-ae5e-9a0a509ec281",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "f3942e57-a17d-4c39-9e43-c39f957344b7"
+      },
+      {
+        "id": "9eba1fb8-a0ed-4d6e-adde-58d3333c3a91",
+        "size": "M",
+        "status": "available",
+        "productId": "f3942e57-a17d-4c39-9e43-c39f957344b7"
+      }
+    ]
+  },
+  {
+    "id": "b270206f-f532-4f00-90d1-41de225b143c",
+    "category_name": "Cribs",
+    "product_number": "000000006",
+    "price": 5000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 6",
+      "en": "Classic White Crib 6",
+      "ru": "Классическая белая кроватка 6"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Պլաստիկ",
+      "en": "Plastic",
+      "ru": "Пластик"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "f0533450-54f3-4882-8950-31122fb76dd1",
+        "image": "/images/items/Cribe_8.png",
+        "productId": "b270206f-f532-4f00-90d1-41de225b143c"
+      },
+      {
+        "id": "86145bdc-48f6-4f74-b121-774f6576fcd4",
+        "image": "/images/items/Cribe_7.png",
+        "productId": "b270206f-f532-4f00-90d1-41de225b143c"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1402743d-fb28-4b06-9833-2311c6821e3d",
+        "size": "44",
+        "status": "available",
+        "productId": "b270206f-f532-4f00-90d1-41de225b143c"
+      },
+      {
+        "id": "0c56c59f-1c70-4716-97a4-5b38bb69ea7e",
+        "size": "42",
+        "status": "available",
+        "productId": "b270206f-f532-4f00-90d1-41de225b143c"
+      },
+      {
+        "id": "06070656-dc87-4c73-bc8f-176db43c55c7",
+        "size": "46",
+        "status": "available",
+        "productId": "b270206f-f532-4f00-90d1-41de225b143c"
+      },
+      {
+        "id": "d92bb4ce-2da0-4a11-b7ca-bebafe6d30df",
+        "size": "40",
+        "status": "available",
+        "productId": "b270206f-f532-4f00-90d1-41de225b143c"
+      }
+    ]
+  },
+  {
+    "id": "b2d3f624-c2dc-4997-be46-4eaa934fd240",
+    "category_name": "Cribs",
+    "product_number": "000000002",
+    "price": 9000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 2",
+      "en": "Classic White Crib 2",
+      "ru": "Классическая белая кроватка 2"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Մետաղ",
+      "en": "Metal",
+      "ru": "Металл"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "5e2a1b70-965d-4785-884e-1ac47716d85a",
+        "image": "/images/items/Cribe_3.png",
+        "productId": "b2d3f624-c2dc-4997-be46-4eaa934fd240"
+      },
+      {
+        "id": "67e390b4-e6c7-4803-83b0-0c208dd03cc1",
+        "image": "/images/items/Cribe_4.png",
+        "productId": "b2d3f624-c2dc-4997-be46-4eaa934fd240"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "6b27450f-70de-403b-924c-c73a04db7394",
+        "size": "42",
+        "status": "available",
+        "productId": "b2d3f624-c2dc-4997-be46-4eaa934fd240"
+      },
+      {
+        "id": "c862ec59-fdc8-4618-a11c-b48342dbe103",
+        "size": "46",
+        "status": "available",
+        "productId": "b2d3f624-c2dc-4997-be46-4eaa934fd240"
+      },
+      {
+        "id": "6739c44c-1d7c-4107-a708-557d459a4249",
+        "size": "44",
+        "status": "available",
+        "productId": "b2d3f624-c2dc-4997-be46-4eaa934fd240"
+      },
+      {
+        "id": "20128a95-61dc-4f46-a52c-e46fdb15de66",
+        "size": "40",
+        "status": "available",
+        "productId": "b2d3f624-c2dc-4997-be46-4eaa934fd240"
+      }
+    ]
+  },
+  {
+    "id": "fbccec1d-1619-4409-914b-2ccf7edfd207",
+    "category_name": "Clothes",
+    "product_number": "000000069",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 69",
+      "en": "Classic Clothes 69",
+      "ru": "Классическая одежда 69"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Նեյլոն",
+      "en": "Nylon",
+      "ru": "Нейлон"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "a44d31eb-d97b-4f86-9989-0dade56517c8",
+        "image": "/images/items/Clothes_2.png",
+        "productId": "fbccec1d-1619-4409-914b-2ccf7edfd207"
+      },
+      {
+        "id": "b258b883-92d0-4d67-a432-fafad64b910e",
+        "image": "/images/items/Clothes_8.png",
+        "productId": "fbccec1d-1619-4409-914b-2ccf7edfd207"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1bdb520e-153f-4a9d-a6aa-d93899209ed0",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "fbccec1d-1619-4409-914b-2ccf7edfd207"
+      },
+      {
+        "id": "c2d2d643-ab3c-4de5-bc76-6b655da10710",
+        "size": "M",
+        "status": "available",
+        "productId": "fbccec1d-1619-4409-914b-2ccf7edfd207"
+      },
+      {
+        "id": "321e7c6d-c19a-4432-beec-dc9130487eeb",
+        "size": "S",
+        "status": "available",
+        "productId": "fbccec1d-1619-4409-914b-2ccf7edfd207"
+      }
+    ]
+  },
+  {
+    "id": "a0138dc8-6ecc-46f5-af88-805aca2b2c64",
+    "category_name": "Cribs",
+    "product_number": "0000000019",
+    "price": 2000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 19",
+      "en": "Classic White Crib 19",
+      "ru": "Классическая белая кроватка 19"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Կտոր",
+      "en": "Fabric",
+      "ru": "Ткань"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "58d47761-94de-44de-8d8d-ead86776ac9f",
+        "image": "/images/items/Cribe_2.png",
+        "productId": "a0138dc8-6ecc-46f5-af88-805aca2b2c64"
+      },
+      {
+        "id": "7714e1d2-7924-45a4-9896-46e63a64cfdc",
+        "image": "/images/items/Cribe_10.png",
+        "productId": "a0138dc8-6ecc-46f5-af88-805aca2b2c64"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1821bc51-c644-429d-b858-850b93cb1988",
+        "size": "44",
+        "status": "available",
+        "productId": "a0138dc8-6ecc-46f5-af88-805aca2b2c64"
+      },
+      {
+        "id": "f5f866c3-364e-4550-bb84-02390e392d0e",
+        "size": "46",
+        "status": "available",
+        "productId": "a0138dc8-6ecc-46f5-af88-805aca2b2c64"
+      },
+      {
+        "id": "5090c321-c06f-4a43-9be1-20eed14a9f0e",
+        "size": "40",
+        "status": "available",
+        "productId": "a0138dc8-6ecc-46f5-af88-805aca2b2c64"
+      },
+      {
+        "id": "507db679-f105-403c-a70b-51e5bc3cb308",
+        "size": "42",
+        "status": "available",
+        "productId": "a0138dc8-6ecc-46f5-af88-805aca2b2c64"
+      }
+    ]
+  },
+  {
+    "id": "6ea8dfe2-c30e-4375-8a89-1ac65256618f",
+    "category_name": "Mattresses",
+    "product_number": "000000083",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 83",
+      "en": "Classic  Crib 83",
+      "ru": "Классическая кроватка 83"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Բուրդ",
+      "en": "Wool",
+      "ru": "Шерсть"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "138fca68-e820-4641-ab7d-304649ed24c0",
+        "image": "/images/items/Mattress_5.png",
+        "productId": "6ea8dfe2-c30e-4375-8a89-1ac65256618f"
+      },
+      {
+        "id": "ecff5a2f-e775-4f00-8643-24f172af3649",
+        "image": "/images/items/Mattress_4.png",
+        "productId": "6ea8dfe2-c30e-4375-8a89-1ac65256618f"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "4ec2dccc-a2b5-41d8-a56a-9c18604ce735",
+        "size": "46",
+        "status": "available",
+        "productId": "6ea8dfe2-c30e-4375-8a89-1ac65256618f"
+      },
+      {
+        "id": "84a4a8b1-d6a1-4e6f-8807-fd30bce8a656",
+        "size": "42",
+        "status": "available",
+        "productId": "6ea8dfe2-c30e-4375-8a89-1ac65256618f"
+      },
+      {
+        "id": "cf342f41-7b31-494b-9322-f31614b671ba",
+        "size": "44",
+        "status": "available",
+        "productId": "6ea8dfe2-c30e-4375-8a89-1ac65256618f"
+      },
+      {
+        "id": "291d57f9-6fd3-4bbd-adcf-09c88404f40c",
+        "size": "40",
+        "status": "available",
+        "productId": "6ea8dfe2-c30e-4375-8a89-1ac65256618f"
+      }
+    ]
+  },
+  {
+    "id": "06e67265-4b66-479f-8e01-71f3d91d228e",
+    "category_name": "Mattresses",
+    "product_number": "000000094",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 94",
+      "en": "Classic  Crib 94",
+      "ru": "Классическая кроватка 94"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Պոլիեստերային խառնուրդ",
+      "en": "Polyester Blend",
+      "ru": "Смесь полиэстера"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "4ca34af2-750f-4702-9919-6cae266b580d",
+        "image": "/images/items/Mattress_9.png",
+        "productId": "06e67265-4b66-479f-8e01-71f3d91d228e"
+      },
+      {
+        "id": "315a5c96-4593-4b24-8475-0283dc3061a1",
+        "image": "/images/items/Mattress_10.png",
+        "productId": "06e67265-4b66-479f-8e01-71f3d91d228e"
+      },
+      {
+        "id": "cae400d7-c4a4-4a67-bb46-f48547b2a267",
+        "image": "/images/items/Mattress_8.png",
+        "productId": "06e67265-4b66-479f-8e01-71f3d91d228e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "eee34994-ef92-406c-9152-2493c9584335",
+        "size": "44",
+        "status": "available",
+        "productId": "06e67265-4b66-479f-8e01-71f3d91d228e"
+      },
+      {
+        "id": "c9f12f28-2394-4230-85b8-ed570fad2c5b",
+        "size": "40",
+        "status": "available",
+        "productId": "06e67265-4b66-479f-8e01-71f3d91d228e"
+      },
+      {
+        "id": "3816962b-ec45-4054-aada-fa809913395e",
+        "size": "42",
+        "status": "available",
+        "productId": "06e67265-4b66-479f-8e01-71f3d91d228e"
+      },
+      {
+        "id": "535cf965-d848-4d80-bbcd-79a3caead89c",
+        "size": "46",
+        "status": "available",
+        "productId": "06e67265-4b66-479f-8e01-71f3d91d228e"
+      }
+    ]
+  },
+  {
+    "id": "88e9b7a8-98dc-47e0-82a7-052b5bde5e80",
+    "category_name": "Furniture",
+    "product_number": "000000072",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ  կահույքի հավաքածու 72",
+      "en": "Elegant  Furniture Set 72",
+      "ru": "Элегантный  мебельный комплект 72"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional  furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Թեղի փայտ",
+      "en": "Beech wood",
+      "ru": "Буковое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "b7c918a8-4729-4da8-8fb3-1cba5813ec98",
+        "image": "/images/items/Furniture_8.png",
+        "productId": "88e9b7a8-98dc-47e0-82a7-052b5bde5e80"
+      },
+      {
+        "id": "ce6c9fd5-b5dd-4a75-a706-d657660e4b1e",
+        "image": "/images/items/Furniture_9.png",
+        "productId": "88e9b7a8-98dc-47e0-82a7-052b5bde5e80"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "408f8686-9854-4ad0-b65c-40e781a0ac0b",
+        "size": "44",
+        "status": "available",
+        "productId": "88e9b7a8-98dc-47e0-82a7-052b5bde5e80"
+      },
+      {
+        "id": "df6b764f-7d50-427b-ab49-f626c39c99d7",
+        "size": "42",
+        "status": "available",
+        "productId": "88e9b7a8-98dc-47e0-82a7-052b5bde5e80"
+      },
+      {
+        "id": "0a4ec411-a5bf-43c2-b7d2-b1dd9a159a69",
+        "size": "40",
+        "status": "available",
+        "productId": "88e9b7a8-98dc-47e0-82a7-052b5bde5e80"
+      },
+      {
+        "id": "30bab5d8-b059-4880-80b5-38a1861b1965",
+        "size": "46",
+        "status": "available",
+        "productId": "88e9b7a8-98dc-47e0-82a7-052b5bde5e80"
+      }
+    ]
+  },
+  {
+    "id": "187d652b-e712-44f2-a484-bee58e60cb92",
+    "category_name": "Furniture",
+    "product_number": "000000073",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ կահույքի հավաքածու 73",
+      "en": "Elegant Furniture Set 73",
+      "ru": "Элегантный мебельный комплект 73"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Վերամշակված փայտ",
+      "en": "Reclaimed wood",
+      "ru": "Восстановленное дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "528fb185-21f6-46a7-a5c0-452bebb835b7",
+        "image": "/images/items/Furniture_8.png",
+        "productId": "187d652b-e712-44f2-a484-bee58e60cb92"
+      },
+      {
+        "id": "a04ce3c6-1e85-4871-bdbe-b10e525a0a7b",
+        "image": "/images/items/Furniture_4.png",
+        "productId": "187d652b-e712-44f2-a484-bee58e60cb92"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "e1007d7b-f0a2-4a16-b8d4-19608b96354d",
+        "size": "44",
+        "status": "available",
+        "productId": "187d652b-e712-44f2-a484-bee58e60cb92"
+      },
+      {
+        "id": "7922e87e-3496-4b2e-b427-c722fa4c9960",
+        "size": "40",
+        "status": "available",
+        "productId": "187d652b-e712-44f2-a484-bee58e60cb92"
+      },
+      {
+        "id": "86840925-a3c4-431e-9709-efb2b7d963b8",
+        "size": "42",
+        "status": "available",
+        "productId": "187d652b-e712-44f2-a484-bee58e60cb92"
+      },
+      {
+        "id": "e1b453b9-a612-480f-bd2f-c5c02d80d124",
+        "size": "46",
+        "status": "available",
+        "productId": "187d652b-e712-44f2-a484-bee58e60cb92"
+      }
+    ]
+  },
+  {
+    "id": "45a89578-0aa4-470d-97f7-cadb5d23dc54",
+    "category_name": "Clothes",
+    "product_number": "000000066",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 66",
+      "en": "Classic Clothes 66",
+      "ru": "Классическая одежда 66"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Կաշի",
+      "en": "Leather",
+      "ru": "Кожа"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "b6eac605-30ca-4987-ae0d-06d33bbb6ea4",
+        "image": "/images/items/Clothes_3.png",
+        "productId": "45a89578-0aa4-470d-97f7-cadb5d23dc54"
+      },
+      {
+        "id": "77466c53-8ad4-4dcb-a5ae-3148c841ca3d",
+        "image": "/images/items/Clothes_10.png",
+        "productId": "45a89578-0aa4-470d-97f7-cadb5d23dc54"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1878a6dc-fdef-4eba-ae86-12d19e76e428",
+        "size": "M",
+        "status": "available",
+        "productId": "45a89578-0aa4-470d-97f7-cadb5d23dc54"
+      },
+      {
+        "id": "d672d00f-8130-422c-84a4-f336fc2da0c3",
+        "size": "S",
+        "status": "available",
+        "productId": "45a89578-0aa4-470d-97f7-cadb5d23dc54"
+      },
+      {
+        "id": "3b9b5c5d-2476-4ede-be40-9eb696615264",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "45a89578-0aa4-470d-97f7-cadb5d23dc54"
+      }
+    ]
+  },
+  {
+    "id": "99eb1b75-b662-417f-87ef-afd890145cfc",
+    "category_name": "Furniture",
+    "product_number": "000000045",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ ժամանակակից կահույքի հավաքածու 45",
+      "en": "Elegant Modern Furniture Set 45",
+      "ru": "Элегантный современный мебельный комплект 45"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Բամբուկի փայտ",
+      "en": "Bamboo wood",
+      "ru": "Бамбуковое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "4a2f3503-bcdd-49fd-afc7-fa2d8d5600f1",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "99eb1b75-b662-417f-87ef-afd890145cfc"
+      },
+      {
+        "id": "682e1778-ae3c-4e98-bb78-7b4a0bd44d1c",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "99eb1b75-b662-417f-87ef-afd890145cfc"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "dbb74f7e-38a0-4662-ad2c-d187a902c2eb",
+        "size": "40",
+        "status": "available",
+        "productId": "99eb1b75-b662-417f-87ef-afd890145cfc"
+      },
+      {
+        "id": "8d0b8c93-2d27-4808-a5ca-32f2b19d473e",
+        "size": "44",
+        "status": "available",
+        "productId": "99eb1b75-b662-417f-87ef-afd890145cfc"
+      },
+      {
+        "id": "a3ef9729-833f-4360-a232-652323a3cfb0",
+        "size": "46",
+        "status": "available",
+        "productId": "99eb1b75-b662-417f-87ef-afd890145cfc"
+      },
+      {
+        "id": "c3d52468-01ac-43c7-a50e-7b60bacac791",
+        "size": "42",
+        "status": "available",
+        "productId": "99eb1b75-b662-417f-87ef-afd890145cfc"
+      }
+    ]
+  },
+  {
+    "id": "37fbeea5-fca5-417a-bd17-ae6fca846630",
+    "category_name": "Clothes",
+    "product_number": "000000063",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 63",
+      "en": "Classic Clothes 63",
+      "ru": "Классическая одежда 63"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Վիսկոզա",
+      "en": "Viscose",
+      "ru": "Вискоза"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "689758af-4f07-4c8f-a7d5-f0430dadd4ac",
+        "image": "/images/items/Clothes_2.png",
+        "productId": "37fbeea5-fca5-417a-bd17-ae6fca846630"
+      },
+      {
+        "id": "38767a4e-abf2-4ae3-a6d3-679fc78e37d0",
+        "image": "/images/items/Clothes_3.png",
+        "productId": "37fbeea5-fca5-417a-bd17-ae6fca846630"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "2ab6e450-ce07-41e1-9aa3-a8ebd4df092f",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "37fbeea5-fca5-417a-bd17-ae6fca846630"
+      },
+      {
+        "id": "f68d9519-5770-484b-96a9-df82e5949d96",
+        "size": "S",
+        "status": "available",
+        "productId": "37fbeea5-fca5-417a-bd17-ae6fca846630"
+      },
+      {
+        "id": "6f5521ef-6314-4a6d-9097-2e4d283462b1",
+        "size": "M",
+        "status": "available",
+        "productId": "37fbeea5-fca5-417a-bd17-ae6fca846630"
+      }
+    ]
+  },
+  {
+    "id": "1a3bd753-2da0-4298-8729-1ee233b81de5",
+    "category_name": "Cribs",
+    "product_number": "000000003",
+    "price": 8000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 3",
+      "en": "Classic White Crib 3",
+      "ru": "Классическая белая кроватка 3"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Կաշի",
+      "en": "Leather",
+      "ru": "Кожа"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "64cd5015-0df4-46e3-8542-ae71533acb97",
+        "image": "/images/items/Cribe_4.png",
+        "productId": "1a3bd753-2da0-4298-8729-1ee233b81de5"
+      },
+      {
+        "id": "69d653f6-f6dc-4484-9e9f-a302407cfe3d",
+        "image": "/images/items/Cribe_5.png",
+        "productId": "1a3bd753-2da0-4298-8729-1ee233b81de5"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "7d919a57-670e-4b7d-b396-c412c5e2359c",
+        "size": "42",
+        "status": "available",
+        "productId": "1a3bd753-2da0-4298-8729-1ee233b81de5"
+      },
+      {
+        "id": "912dcaa8-3f4b-4ee4-94c2-6f74b5cda055",
+        "size": "40",
+        "status": "available",
+        "productId": "1a3bd753-2da0-4298-8729-1ee233b81de5"
+      },
+      {
+        "id": "b385a93d-8e16-4770-882b-41f68e7de863",
+        "size": "46",
+        "status": "available",
+        "productId": "1a3bd753-2da0-4298-8729-1ee233b81de5"
+      },
+      {
+        "id": "1f3265ec-cddc-4d7e-adb1-1bbf058be0a2",
+        "size": "44",
+        "status": "available",
+        "productId": "1a3bd753-2da0-4298-8729-1ee233b81de5"
+      }
+    ]
+  },
+  {
+    "id": "8be7f6e6-9e57-4eb1-8232-c8a48aa78dd1",
+    "category_name": "Clothes",
+    "product_number": "000000058",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 58",
+      "en": "Classic Clothes 58",
+      "ru": "Классическая одежда 58"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Բամբակ",
+      "en": "Cotton",
+      "ru": "Хлопок"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "fda57530-4f01-4773-a583-20f741fb1daa",
+        "image": "/images/items/Clothes_5.png",
+        "productId": "8be7f6e6-9e57-4eb1-8232-c8a48aa78dd1"
+      },
+      {
+        "id": "208ff0d5-88ee-4c31-958c-fe5597bda1f7",
+        "image": "/images/items/Clothes_4.png",
+        "productId": "8be7f6e6-9e57-4eb1-8232-c8a48aa78dd1"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "2cac93b3-8094-4e9b-8f24-52f1296e030e",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "8be7f6e6-9e57-4eb1-8232-c8a48aa78dd1"
+      },
+      {
+        "id": "c98e3fde-0c6f-4803-a0ef-0b170e7e1406",
+        "size": "S",
+        "status": "available",
+        "productId": "8be7f6e6-9e57-4eb1-8232-c8a48aa78dd1"
+      },
+      {
+        "id": "f523efd8-d2ce-4e42-ad5e-478850eda825",
+        "size": "M",
+        "status": "available",
+        "productId": "8be7f6e6-9e57-4eb1-8232-c8a48aa78dd1"
+      }
+    ]
+  },
+  {
+    "id": "f52ba188-1a9f-4f87-8327-bfae4963b6d4",
+    "category_name": "Clothes",
+    "product_number": "000000065",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 65",
+      "en": "Classic Clothes 65",
+      "ru": "Классическая одежда 65"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Կաշի",
+      "en": "Leather",
+      "ru": "Кожа"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "797fa85d-bad9-46eb-a2cf-7cf90cdcfa83",
+        "image": "/images/items/Clothes_7.png",
+        "productId": "f52ba188-1a9f-4f87-8327-bfae4963b6d4"
+      },
+      {
+        "id": "4d005606-522c-42a2-ae75-687eaef5027f",
+        "image": "/images/items/Clothes_5.png",
+        "productId": "f52ba188-1a9f-4f87-8327-bfae4963b6d4"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "373aee37-7948-4408-8d0b-9813a3c2d33a",
+        "size": "M",
+        "status": "available",
+        "productId": "f52ba188-1a9f-4f87-8327-bfae4963b6d4"
+      },
+      {
+        "id": "b94caeef-2b15-42d9-8eb7-cec0880e13e3",
+        "size": "S",
+        "status": "available",
+        "productId": "f52ba188-1a9f-4f87-8327-bfae4963b6d4"
+      },
+      {
+        "id": "dff913aa-e278-440a-affb-1c033f2b271d",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "f52ba188-1a9f-4f87-8327-bfae4963b6d4"
+      }
+    ]
+  },
+  {
+    "id": "58bb51db-17dd-4172-88de-60a5548f2543",
+    "category_name": "Furniture",
+    "product_number": "000000041",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ  կահույքի հավաքածու",
+      "en": "Elegant  Furniture Set",
+      "ru": "Элегантный  мебельный комплект"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional  furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Մաքուր կաղնու փայտ",
+      "en": "Solid oak wood",
+      "ru": "Массив дуба"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "6ecb5412-5bb5-43d5-a218-a3a3c831f435",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "58bb51db-17dd-4172-88de-60a5548f2543"
+      },
+      {
+        "id": "57968225-79ee-4fd4-9c84-acc90a03bf12",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "58bb51db-17dd-4172-88de-60a5548f2543"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "b891a0e2-3d1e-470b-9eeb-2a5bae3260af",
+        "size": "46",
+        "status": "available",
+        "productId": "58bb51db-17dd-4172-88de-60a5548f2543"
+      },
+      {
+        "id": "b86a4dab-0cec-479d-9e58-e05d0563f0a8",
+        "size": "40",
+        "status": "available",
+        "productId": "58bb51db-17dd-4172-88de-60a5548f2543"
+      },
+      {
+        "id": "7e98d6a2-a67d-4a5d-ab59-3d97095fcb4f",
+        "size": "42",
+        "status": "available",
+        "productId": "58bb51db-17dd-4172-88de-60a5548f2543"
+      },
+      {
+        "id": "4688d063-efe5-4d6b-b35f-6c3a4e906dfa",
+        "size": "44",
+        "status": "available",
+        "productId": "58bb51db-17dd-4172-88de-60a5548f2543"
+      }
+    ]
+  },
+  {
+    "id": "fcf95ad7-cce0-4f58-9bbb-917cdaf88ed1",
+    "category_name": "Clothes",
+    "product_number": "000000051",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  հագուստ 51",
+      "en": "Classic  Clothes 51",
+      "ru": "Классическая  одежда 51"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական  հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Որոշակի խառնուրդով բուրդ",
+      "en": "Wool blend",
+      "ru": "Шерстяная смесь"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "2c3ae040-2325-400d-9497-7de0f334e60a",
+        "image": "/images/items/Clothes_2.png",
+        "productId": "fcf95ad7-cce0-4f58-9bbb-917cdaf88ed1"
+      },
+      {
+        "id": "c862ea71-e03b-403e-aeb5-70ec67fab209",
+        "image": "/images/items/Clothes_3.png",
+        "productId": "fcf95ad7-cce0-4f58-9bbb-917cdaf88ed1"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "a42c3978-3439-462e-94df-6a3596d002b1",
+        "size": "S",
+        "status": "available",
+        "productId": "fcf95ad7-cce0-4f58-9bbb-917cdaf88ed1"
+      },
+      {
+        "id": "bda74b29-ba79-432e-a9aa-afd1ba142d1d",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "fcf95ad7-cce0-4f58-9bbb-917cdaf88ed1"
+      },
+      {
+        "id": "5f85b66f-c469-43fa-90f8-ef1b07de09b9",
+        "size": "M",
+        "status": "available",
+        "productId": "fcf95ad7-cce0-4f58-9bbb-917cdaf88ed1"
+      }
+    ]
+  },
+  {
+    "id": "d0245f76-c87d-48a0-a108-88e796c5e67e",
+    "category_name": "Mattresses",
+    "product_number": "000000080",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 80",
+      "en": "Classic  Crib 80",
+      "ru": "Классическая кроватка 80"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Բամբուկ",
+      "en": "Bamboo",
+      "ru": "Бамбук"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "b755df70-5039-41c5-8d27-a638d4c7f7fb",
+        "image": "/images/items/Mattress_6.png",
+        "productId": "d0245f76-c87d-48a0-a108-88e796c5e67e"
+      },
+      {
+        "id": "3217e0cc-0c71-4a0e-a80d-9243f9a6b517",
+        "image": "/images/items/Mattress_7.png",
+        "productId": "d0245f76-c87d-48a0-a108-88e796c5e67e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "09175a7e-0281-45a2-8c13-8a69a044a8bf",
+        "size": "46",
+        "status": "available",
+        "productId": "d0245f76-c87d-48a0-a108-88e796c5e67e"
+      },
+      {
+        "id": "5bf5cbf4-a6ce-49c9-92ba-a86b90d4d3c3",
+        "size": "40",
+        "status": "available",
+        "productId": "d0245f76-c87d-48a0-a108-88e796c5e67e"
+      },
+      {
+        "id": "b089ef80-c0b1-41a3-b717-94faeda4ce3b",
+        "size": "42",
+        "status": "available",
+        "productId": "d0245f76-c87d-48a0-a108-88e796c5e67e"
+      },
+      {
+        "id": "ed28a19a-341a-491d-a597-d78f30aacc91",
+        "size": "44",
+        "status": "available",
+        "productId": "d0245f76-c87d-48a0-a108-88e796c5e67e"
+      }
+    ]
+  },
+  {
+    "id": "396a6d19-ec0e-4116-9b95-f7267c5d1a8e",
+    "category_name": "Clothes",
+    "product_number": "000000062",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 62",
+      "en": "Classic Clothes 62",
+      "ru": "Классическая одежда 62"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Պոլիեսթեր",
+      "en": "Polyester",
+      "ru": "Полиэстер"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "1b8d7c31-bcce-4662-a049-f53a94ed4a07",
+        "image": "/images/items/Clothes_2.png",
+        "productId": "396a6d19-ec0e-4116-9b95-f7267c5d1a8e"
+      },
+      {
+        "id": "63a05651-5562-4512-8b86-2a3bb98c2011",
+        "image": "/images/items/Clothes_10.png",
+        "productId": "396a6d19-ec0e-4116-9b95-f7267c5d1a8e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "be18d511-9183-4ada-ab85-d61efc5f7cc5",
+        "size": "M",
+        "status": "available",
+        "productId": "396a6d19-ec0e-4116-9b95-f7267c5d1a8e"
+      },
+      {
+        "id": "7e91b4eb-c32d-4ca7-a4f7-eb206575a9f6",
+        "size": "S",
+        "status": "available",
+        "productId": "396a6d19-ec0e-4116-9b95-f7267c5d1a8e"
+      },
+      {
+        "id": "eea69c6e-a72c-4039-a7c8-2cab41bddab1",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "396a6d19-ec0e-4116-9b95-f7267c5d1a8e"
+      }
+    ]
+  },
+  {
+    "id": "0ab18e5b-4f57-4540-b323-5cc96138f87f",
+    "category_name": "Cribs",
+    "product_number": "0000000015",
+    "price": 6000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 15",
+      "en": "Classic White Crib 15",
+      "ru": "Классическая белая кроватка 15"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Մարմար",
+      "en": "Marble",
+      "ru": "Мрамор"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "bb18ae67-9d15-4aee-9109-b789e5afa490",
+        "image": "/images/items/Cribe_7.png",
+        "productId": "0ab18e5b-4f57-4540-b323-5cc96138f87f"
+      },
+      {
+        "id": "530a6827-064e-492c-9ae8-01ef4b42fd09",
+        "image": "/images/items/Cribe_6.png",
+        "productId": "0ab18e5b-4f57-4540-b323-5cc96138f87f"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "b2296589-481a-4ab0-bb73-6fe66303650f",
+        "size": "40",
+        "status": "available",
+        "productId": "0ab18e5b-4f57-4540-b323-5cc96138f87f"
+      },
+      {
+        "id": "ccebddbb-f9dd-465e-a47c-7762960f067e",
+        "size": "46",
+        "status": "available",
+        "productId": "0ab18e5b-4f57-4540-b323-5cc96138f87f"
+      },
+      {
+        "id": "892d0ef7-9a57-43b8-90f9-ed2d5f120281",
+        "size": "44",
+        "status": "available",
+        "productId": "0ab18e5b-4f57-4540-b323-5cc96138f87f"
+      },
+      {
+        "id": "2c863eca-94fb-44b2-8a1d-5bfd524caf1d",
+        "size": "42",
+        "status": "available",
+        "productId": "0ab18e5b-4f57-4540-b323-5cc96138f87f"
+      }
+    ]
+  },
+  {
+    "id": "4297d8b0-0dc0-4bcc-b721-5e0635f40139",
+    "category_name": "Mattresses",
+    "product_number": "000000085",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 85",
+      "en": "Classic  Crib 85",
+      "ru": "Классическая кроватка 85"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Լատեքս",
+      "en": "Latex",
+      "ru": "Латекс"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "7d4ea669-5587-4031-9f51-6202a7df901f",
+        "image": "/images/items/Mattress_8.png",
+        "productId": "4297d8b0-0dc0-4bcc-b721-5e0635f40139"
+      },
+      {
+        "id": "4c12432d-e4e8-4c4d-99a9-d819af565df0",
+        "image": "/images/items/Mattress_9.png",
+        "productId": "4297d8b0-0dc0-4bcc-b721-5e0635f40139"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "734498b4-568a-43df-a181-2ac57dc4eadd",
+        "size": "40",
+        "status": "available",
+        "productId": "4297d8b0-0dc0-4bcc-b721-5e0635f40139"
+      },
+      {
+        "id": "07697903-c85c-49de-8a0e-e4b8a55fe781",
+        "size": "44",
+        "status": "available",
+        "productId": "4297d8b0-0dc0-4bcc-b721-5e0635f40139"
+      },
+      {
+        "id": "4009c542-39a8-4dc7-bc02-1461ae42f9fb",
+        "size": "46",
+        "status": "available",
+        "productId": "4297d8b0-0dc0-4bcc-b721-5e0635f40139"
+      },
+      {
+        "id": "b3664f04-397e-4502-82c9-094302dff71a",
+        "size": "42",
+        "status": "available",
+        "productId": "4297d8b0-0dc0-4bcc-b721-5e0635f40139"
+      }
+    ]
+  },
+  {
+    "id": "e268dae1-d4e6-44b3-a413-242928f80968",
+    "category_name": "Clothes",
+    "product_number": "000000070",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 70",
+      "en": "Classic Clothes 70",
+      "ru": "Классическая одежда 70"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Նեյլոն",
+      "en": "Nylon",
+      "ru": "Нейлон"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "3c7cab6c-48f8-49c0-9685-36a62dfa098c",
+        "image": "/images/items/Clothes_7.png",
+        "productId": "e268dae1-d4e6-44b3-a413-242928f80968"
+      },
+      {
+        "id": "23881069-0281-469e-ac62-53d430b4f0c3",
+        "image": "/images/items/Clothes_3.png",
+        "productId": "e268dae1-d4e6-44b3-a413-242928f80968"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "67784fef-b7be-4fa9-b5b3-828c6038f0ec",
+        "size": "S",
+        "status": "available",
+        "productId": "e268dae1-d4e6-44b3-a413-242928f80968"
+      },
+      {
+        "id": "3b07cf68-c028-41ab-89b5-d100312e329c",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "e268dae1-d4e6-44b3-a413-242928f80968"
+      },
+      {
+        "id": "81bdac6b-3343-4f82-8352-920322c0704c",
+        "size": "M",
+        "status": "available",
+        "productId": "e268dae1-d4e6-44b3-a413-242928f80968"
+      }
+    ]
+  },
+  {
+    "id": "91ff9033-04e7-418d-94b0-dadaee50520d",
+    "category_name": "Cribs",
+    "product_number": "000000010",
+    "price": 1000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 10",
+      "en": "Classic White Crib 10",
+      "ru": "Классическая белая кроватка 10"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Երկաթ",
+      "en": "Iron",
+      "ru": "Железо"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "516c1937-2e5a-4fd8-a866-445da659eaa0",
+        "image": "/images/items/Cribe_2.png",
+        "productId": "91ff9033-04e7-418d-94b0-dadaee50520d"
+      },
+      {
+        "id": "23f2ce54-fa00-43aa-844a-ae59031297d3",
+        "image": "/images/items/Cribe_3.png",
+        "productId": "91ff9033-04e7-418d-94b0-dadaee50520d"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "314af266-b746-4f4a-9462-8c5aa76ec87b",
+        "size": "40",
+        "status": "available",
+        "productId": "91ff9033-04e7-418d-94b0-dadaee50520d"
+      },
+      {
+        "id": "a6d23204-7482-46a3-84b6-9aca759f952e",
+        "size": "42",
+        "status": "available",
+        "productId": "91ff9033-04e7-418d-94b0-dadaee50520d"
+      },
+      {
+        "id": "6121ca75-a7a7-49b8-89ed-a126c879cdc7",
+        "size": "46",
+        "status": "available",
+        "productId": "91ff9033-04e7-418d-94b0-dadaee50520d"
+      },
+      {
+        "id": "292fe057-ccb5-4e12-9b8d-1135fa8fbc33",
+        "size": "44",
+        "status": "available",
+        "productId": "91ff9033-04e7-418d-94b0-dadaee50520d"
+      }
+    ]
+  },
+  {
+    "id": "f00a94f3-d810-4247-9198-b3b0159c158c",
+    "category_name": "Furniture",
+    "product_number": "000000075",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ ժամանակակից կահույքի հավաքածու 75",
+      "en": "Elegant Modern Furniture Set 75",
+      "ru": "Элегантный современный мебельный комплект 75"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Բամբուկի փայտ",
+      "en": "Bamboo wood",
+      "ru": "Бамбуковое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "cfcd8113-7279-49a5-b25a-827d3d2e66f3",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "f00a94f3-d810-4247-9198-b3b0159c158c"
+      },
+      {
+        "id": "2b4150d0-111a-4da2-95a9-6665b4dd05ef",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "f00a94f3-d810-4247-9198-b3b0159c158c"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "6a71e153-1bed-4312-ab88-036ccf5e31c0",
+        "size": "42",
+        "status": "available",
+        "productId": "f00a94f3-d810-4247-9198-b3b0159c158c"
+      },
+      {
+        "id": "04d70463-503b-4c57-b36c-93e5ef48b964",
+        "size": "46",
+        "status": "available",
+        "productId": "f00a94f3-d810-4247-9198-b3b0159c158c"
+      },
+      {
+        "id": "ce7abc54-e61e-467a-a1eb-1af56d0f340b",
+        "size": "44",
+        "status": "available",
+        "productId": "f00a94f3-d810-4247-9198-b3b0159c158c"
+      },
+      {
+        "id": "35f146e8-57b6-484b-a0a3-678bca7974b2",
+        "size": "40",
+        "status": "available",
+        "productId": "f00a94f3-d810-4247-9198-b3b0159c158c"
+      }
+    ]
+  },
+  {
+    "id": "e188710d-ef31-4171-91b4-b7e16b82d044",
+    "category_name": "Mattresses",
+    "product_number": "0000000100",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 100",
+      "en": "Classic  Crib 100",
+      "ru": "Классическая кроватка 100"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Քաշմիր",
+      "en": "Cashmere",
+      "ru": "Кашемир"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "0d070ea3-ea34-4820-869e-0e47d4485dea",
+        "image": "/images/items/Mattress_7.png",
+        "productId": "e188710d-ef31-4171-91b4-b7e16b82d044"
+      },
+      {
+        "id": "f5d3951d-cf92-4640-9cb8-5b3a66cda357",
+        "image": "/images/items/Mattress_9.png",
+        "productId": "e188710d-ef31-4171-91b4-b7e16b82d044"
+      },
+      {
+        "id": "72a5cd35-b7dc-4369-9451-7be5fbbbc17c",
+        "image": "/images/items/Mattress_8.png",
+        "productId": "e188710d-ef31-4171-91b4-b7e16b82d044"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "e711f556-0fd2-406a-8a2a-3d7a54ac5e79",
+        "size": "44",
+        "status": "available",
+        "productId": "e188710d-ef31-4171-91b4-b7e16b82d044"
+      },
+      {
+        "id": "5d4e7739-fece-4434-9b78-4519050e8751",
+        "size": "42",
+        "status": "available",
+        "productId": "e188710d-ef31-4171-91b4-b7e16b82d044"
+      },
+      {
+        "id": "649ad2a2-e898-4391-ad3e-d681323b7415",
+        "size": "46",
+        "status": "available",
+        "productId": "e188710d-ef31-4171-91b4-b7e16b82d044"
+      },
+      {
+        "id": "f4ab4bbe-27e0-4fad-80be-f9665c7dffa3",
+        "size": "40",
+        "status": "available",
+        "productId": "e188710d-ef31-4171-91b4-b7e16b82d044"
+      }
+    ]
+  },
+  {
+    "id": "2270d31d-091b-41b4-a949-8a1fe12d2dad",
+    "category_name": "Clothes",
+    "product_number": "000000060",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 60",
+      "en": "Classic Clothes 60",
+      "ru": "Классическая одежда 60"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Ջինսե կտոր",
+      "en": "Denim",
+      "ru": "Джинсовая ткань"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "637a4bac-09a9-41e4-be3e-083ce44fd584",
+        "image": "/images/items/Clothes_8.png",
+        "productId": "2270d31d-091b-41b4-a949-8a1fe12d2dad"
+      },
+      {
+        "id": "c3ff4d82-e24d-4080-a41e-71addbd593c9",
+        "image": "/images/items/Clothes_9.png",
+        "productId": "2270d31d-091b-41b4-a949-8a1fe12d2dad"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "ad1f5345-370d-412b-8ab3-976845d832b2",
+        "size": "S",
+        "status": "available",
+        "productId": "2270d31d-091b-41b4-a949-8a1fe12d2dad"
+      },
+      {
+        "id": "d7e30cc2-25fb-4dc7-a590-00b728acbf18",
+        "size": "M",
+        "status": "available",
+        "productId": "2270d31d-091b-41b4-a949-8a1fe12d2dad"
+      },
+      {
+        "id": "3c18f242-d18e-4c34-beda-f340245ba327",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "2270d31d-091b-41b4-a949-8a1fe12d2dad"
+      }
+    ]
+  },
+  {
+    "id": "c143642f-d94a-4759-a048-4e0064973c98",
+    "category_name": "Clothes",
+    "product_number": "000000052",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  հագուստ 52",
+      "en": "Classic  Clothes 52",
+      "ru": "Классическая  одежда 52"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական  հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Որոշակի խառնուրդով բուրդ",
+      "en": "Wool blend",
+      "ru": "Шерстяная смесь"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "4da03e57-1e94-4782-bf93-786438a26fc6",
+        "image": "/images/items/Clothes_4.png",
+        "productId": "c143642f-d94a-4759-a048-4e0064973c98"
+      },
+      {
+        "id": "bdda3ffa-f022-4d21-9dc5-0efdd69fdb98",
+        "image": "/images/items/Clothes_5.png",
+        "productId": "c143642f-d94a-4759-a048-4e0064973c98"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "bd229b5a-1d92-4f09-a319-288f390871d0",
+        "size": "S",
+        "status": "available",
+        "productId": "c143642f-d94a-4759-a048-4e0064973c98"
+      },
+      {
+        "id": "228c2c00-9674-4417-964a-e3dd7fe8cb10",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "c143642f-d94a-4759-a048-4e0064973c98"
+      },
+      {
+        "id": "4ebb33d9-00aa-440c-82d2-d9a532eeac4d",
+        "size": "M",
+        "status": "available",
+        "productId": "c143642f-d94a-4759-a048-4e0064973c98"
+      }
+    ]
+  },
+  {
+    "id": "cbcc9fba-6380-47e1-887a-a4ca0cd22cbe",
+    "category_name": "Clothes",
+    "product_number": "000000054",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 54",
+      "en": "Classic Clothes 54",
+      "ru": "Классическая одежда 54"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Վուշ",
+      "en": "Linen",
+      "ru": "Лён"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "db0d21f3-e6a9-41a0-8039-521b5079c7d9",
+        "image": "/images/items/Clothes_8.png",
+        "productId": "cbcc9fba-6380-47e1-887a-a4ca0cd22cbe"
+      },
+      {
+        "id": "6d13d4b4-a770-48bc-8c0b-2f57307d5752",
+        "image": "/images/items/Clothes_9.png",
+        "productId": "cbcc9fba-6380-47e1-887a-a4ca0cd22cbe"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "089c424f-1d57-4166-9fd2-de7bbbe0cb76",
+        "size": "M",
+        "status": "available",
+        "productId": "cbcc9fba-6380-47e1-887a-a4ca0cd22cbe"
+      },
+      {
+        "id": "79016834-7d6c-4bb1-86b1-3dee10966bed",
+        "size": "S",
+        "status": "available",
+        "productId": "cbcc9fba-6380-47e1-887a-a4ca0cd22cbe"
+      },
+      {
+        "id": "a04aa946-7cbe-417a-94c3-2b382c6e67b0",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "cbcc9fba-6380-47e1-887a-a4ca0cd22cbe"
+      }
+    ]
+  },
+  {
+    "id": "80ad3ce8-c142-4844-9d66-5005f4272d68",
+    "category_name": "Furniture",
+    "product_number": "000000047",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Մինիմալիստական կահույքի հավաքածու 47",
+      "en": "Minimalist Furniture Set 47",
+      "ru": "Минималистичный мебельный комплект 47"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Մինիմալիստական կահույքի հավաքածու՝ համատեղում է ձևն ու ֆունկցիան ժամանակակից բնակավայրերի համար։",
+      "en": "A minimalist furniture set combining form and function for modern living spaces.",
+      "ru": "Минималистичный мебельный комплект, сочетающий форму и функцию для современных жилых пространств."
+    },
+    "product_material": {
+      "am": "Մետաղ և ապակին",
+      "en": "Metal and glass",
+      "ru": "Металл и стекло"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "c877d67d-95fb-4103-8d72-e08dc553a00a",
+        "image": "/images/items/Furniture_7.png",
+        "productId": "80ad3ce8-c142-4844-9d66-5005f4272d68"
+      },
+      {
+        "id": "2bbbf57b-e2fd-4c60-a424-a9f2dfcadd25",
+        "image": "/images/items/Furniture_6.png",
+        "productId": "80ad3ce8-c142-4844-9d66-5005f4272d68"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "83f4060f-2cec-4c53-892d-9553af35d9a7",
+        "size": "40",
+        "status": "available",
+        "productId": "80ad3ce8-c142-4844-9d66-5005f4272d68"
+      },
+      {
+        "id": "f1598e7b-69d1-42fa-a5b0-d5fdfcdd1cbc",
+        "size": "46",
+        "status": "available",
+        "productId": "80ad3ce8-c142-4844-9d66-5005f4272d68"
+      },
+      {
+        "id": "1a601c7b-0270-4d8d-86c6-e9ac41d81c25",
+        "size": "44",
+        "status": "available",
+        "productId": "80ad3ce8-c142-4844-9d66-5005f4272d68"
+      },
+      {
+        "id": "3202e13a-b967-49b9-91ac-55b57566b311",
+        "size": "42",
+        "status": "available",
+        "productId": "80ad3ce8-c142-4844-9d66-5005f4272d68"
+      }
+    ]
+  },
+  {
+    "id": "cb594015-27f6-4744-b108-8c5b47827f9c",
+    "category_name": "Furniture",
+    "product_number": "000000040",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ սպիտակ կահույքի հավաքածու",
+      "en": "Elegant White Furniture Set",
+      "ru": "Элегантный белый мебельный комплект"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ սպիտակ կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional white furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный белый мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Բնական փայտ",
+      "en": "Natural wood",
+      "ru": "Натуральное дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "4618b386-438a-47a1-b3c4-3f5f8a9003d8",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "cb594015-27f6-4744-b108-8c5b47827f9c"
+      },
+      {
+        "id": "1bda9fc1-e515-4d0f-85d0-439490fc6eec",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "cb594015-27f6-4744-b108-8c5b47827f9c"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "4112e70b-bd12-4dd7-846a-0e8378691763",
+        "size": "44",
+        "status": "available",
+        "productId": "cb594015-27f6-4744-b108-8c5b47827f9c"
+      },
+      {
+        "id": "bd7ee5b3-3af7-4956-a11b-49b4549d26bd",
+        "size": "40",
+        "status": "available",
+        "productId": "cb594015-27f6-4744-b108-8c5b47827f9c"
+      },
+      {
+        "id": "102be6a3-a94d-4bad-8a0d-827c950c9946",
+        "size": "46",
+        "status": "available",
+        "productId": "cb594015-27f6-4744-b108-8c5b47827f9c"
+      },
+      {
+        "id": "4cc49a95-9b3d-4b59-93d6-4489bdc2228f",
+        "size": "42",
+        "status": "available",
+        "productId": "cb594015-27f6-4744-b108-8c5b47827f9c"
+      }
+    ]
+  },
+  {
+    "id": "b15af75b-f2ef-42bd-b21d-10b8d412c44d",
+    "category_name": "Furniture",
+    "product_number": "000000042",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ  կահույքի հավաքածու 42",
+      "en": "Elegant  Furniture Set 42",
+      "ru": "Элегантный мебельный комплект 42"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional  furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Թեղի փայտ",
+      "en": "Beech wood",
+      "ru": "Буковое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "65cbfed4-cf69-4c02-bf6d-92b5441ce247",
+        "image": "/images/items/Furniture_5.png",
+        "productId": "b15af75b-f2ef-42bd-b21d-10b8d412c44d"
+      },
+      {
+        "id": "936afa90-295b-4940-ae39-ad62ad91bf54",
+        "image": "/images/items/Furniture_4.png",
+        "productId": "b15af75b-f2ef-42bd-b21d-10b8d412c44d"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "eaccfcfe-5d8e-4f55-a8fc-452698067ea9",
+        "size": "46",
+        "status": "available",
+        "productId": "b15af75b-f2ef-42bd-b21d-10b8d412c44d"
+      },
+      {
+        "id": "7bf385e5-dd43-4552-b7f8-6a6dee38f8df",
+        "size": "40",
+        "status": "available",
+        "productId": "b15af75b-f2ef-42bd-b21d-10b8d412c44d"
+      },
+      {
+        "id": "9ec931bc-4837-4e02-8c30-580cdca445cf",
+        "size": "44",
+        "status": "available",
+        "productId": "b15af75b-f2ef-42bd-b21d-10b8d412c44d"
+      },
+      {
+        "id": "03d414c9-ea8e-430b-907d-08e9e067f953",
+        "size": "42",
+        "status": "available",
+        "productId": "b15af75b-f2ef-42bd-b21d-10b8d412c44d"
+      }
+    ]
+  },
+  {
+    "id": "bf6e8e55-ef05-4c2f-8b6e-5806f5296148",
+    "category_name": "Mattresses",
+    "product_number": "000000087",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 87",
+      "en": "Classic  Crib 87",
+      "ru": "Классическая кроватка 87"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Կոկոսի մանրաթել",
+      "en": "Coconut Fiber",
+      "ru": "Кокосовое волокно"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "7fc8a26d-0747-4985-bd69-d7568386553b",
+        "image": "/images/items/Mattress_2.png",
+        "productId": "bf6e8e55-ef05-4c2f-8b6e-5806f5296148"
+      },
+      {
+        "id": "8e1f554b-8a58-436e-a941-40050c9b5c0f",
+        "image": "/images/items/Mattress_3.png",
+        "productId": "bf6e8e55-ef05-4c2f-8b6e-5806f5296148"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "f745a8f9-0885-4190-9d58-1bea1721989a",
+        "size": "40",
+        "status": "available",
+        "productId": "bf6e8e55-ef05-4c2f-8b6e-5806f5296148"
+      },
+      {
+        "id": "0d048ebb-2008-467d-ae1d-7001611cd862",
+        "size": "42",
+        "status": "available",
+        "productId": "bf6e8e55-ef05-4c2f-8b6e-5806f5296148"
+      },
+      {
+        "id": "f60828cd-8dab-41b0-9ca1-f99724040435",
+        "size": "46",
+        "status": "available",
+        "productId": "bf6e8e55-ef05-4c2f-8b6e-5806f5296148"
+      },
+      {
+        "id": "83aa1d28-af0b-40a2-8e4b-7b6c4f23d6ed",
+        "size": "44",
+        "status": "available",
+        "productId": "bf6e8e55-ef05-4c2f-8b6e-5806f5296148"
+      }
+    ]
+  },
+  {
+    "id": "239e6c6c-8267-42a6-b879-96d672cc8b05",
+    "category_name": "Cribs",
+    "product_number": "000000008",
+    "price": 3000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 8",
+      "en": "Classic White Crib 8",
+      "ru": "Классическая белая кроватка 8"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Պողպատ",
+      "en": "Steel",
+      "ru": "Сталь"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "4a889a11-7b17-49d5-a393-a479e6ef86ee",
+        "image": "/images/items/Cribe_10.png",
+        "productId": "239e6c6c-8267-42a6-b879-96d672cc8b05"
+      },
+      {
+        "id": "7f8d0680-49fc-477e-a5bc-804ceaa82e20",
+        "image": "/images/items/Cribe_9.png",
+        "productId": "239e6c6c-8267-42a6-b879-96d672cc8b05"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "ba1d8412-2b97-4378-b783-13131769a5e5",
+        "size": "42",
+        "status": "available",
+        "productId": "239e6c6c-8267-42a6-b879-96d672cc8b05"
+      },
+      {
+        "id": "c0c96ecb-8e98-48b1-a883-59c2b3757695",
+        "size": "40",
+        "status": "available",
+        "productId": "239e6c6c-8267-42a6-b879-96d672cc8b05"
+      },
+      {
+        "id": "20349fe3-4b44-40b1-87f3-ab253450c118",
+        "size": "46",
+        "status": "available",
+        "productId": "239e6c6c-8267-42a6-b879-96d672cc8b05"
+      },
+      {
+        "id": "a2d91380-6524-42cd-82a2-f96efdf09a58",
+        "size": "44",
+        "status": "available",
+        "productId": "239e6c6c-8267-42a6-b879-96d672cc8b05"
+      }
+    ]
+  },
+  {
+    "id": "d3ebb783-a71c-4600-ad62-a0f85cea8e93",
+    "category_name": "Furniture",
+    "product_number": "000000071",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ կահույքի հավաքածու 71",
+      "en": "Elegant Furniture Set 71",
+      "ru": "Элегантный мебельный комплект 71"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional  furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Մաքուր կաղնու փայտ",
+      "en": "Solid oak wood",
+      "ru": "Массив дуба"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "7bab4e2e-e06c-4529-8e32-2e1750633505",
+        "image": "/images/items/Furniture_3.png",
+        "productId": "d3ebb783-a71c-4600-ad62-a0f85cea8e93"
+      },
+      {
+        "id": "7053ed11-2488-4c27-87e4-98292b2fa625",
+        "image": "/images/items/Furniture_2.png",
+        "productId": "d3ebb783-a71c-4600-ad62-a0f85cea8e93"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "0ed0d7dc-184c-44c6-9111-501a7f7d40f6",
+        "size": "46",
+        "status": "available",
+        "productId": "d3ebb783-a71c-4600-ad62-a0f85cea8e93"
+      },
+      {
+        "id": "cb19870c-8ede-45f6-8f5b-4586b7015ffd",
+        "size": "40",
+        "status": "available",
+        "productId": "d3ebb783-a71c-4600-ad62-a0f85cea8e93"
+      },
+      {
+        "id": "8896454c-c415-44b7-bbf5-4f357cb979d7",
+        "size": "44",
+        "status": "available",
+        "productId": "d3ebb783-a71c-4600-ad62-a0f85cea8e93"
+      },
+      {
+        "id": "d5a65545-b78f-47d6-979b-7f5d3b0295d4",
+        "size": "42",
+        "status": "available",
+        "productId": "d3ebb783-a71c-4600-ad62-a0f85cea8e93"
+      }
+    ]
+  },
+  {
+    "id": "1de9c3e4-cb21-43c4-9bb6-25e7018c9dcc",
+    "category_name": "Clothes",
+    "product_number": "000000055",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 55",
+      "en": "Classic Clothes 55",
+      "ru": "Классическая одежда 55"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Մետաքս",
+      "en": "Silk",
+      "ru": "Шёлк"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "2714e5e2-a6d7-43d9-8302-4768bebe07ee",
+        "image": "/images/items/Clothes_10.png",
+        "productId": "1de9c3e4-cb21-43c4-9bb6-25e7018c9dcc"
+      },
+      {
+        "id": "5370e6c2-5984-4414-aadc-62fdf1e85577",
+        "image": "/images/items/Clothes_2.png",
+        "productId": "1de9c3e4-cb21-43c4-9bb6-25e7018c9dcc"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "31a73a41-ff66-4f52-a9e6-ea6ea6431bad",
+        "size": "S",
+        "status": "available",
+        "productId": "1de9c3e4-cb21-43c4-9bb6-25e7018c9dcc"
+      },
+      {
+        "id": "607fd134-6b7c-4771-8f4e-9ae7a4d1c852",
+        "size": "M",
+        "status": "available",
+        "productId": "1de9c3e4-cb21-43c4-9bb6-25e7018c9dcc"
+      },
+      {
+        "id": "adf4af84-72dc-4358-98ea-f143f9b6787d",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "1de9c3e4-cb21-43c4-9bb6-25e7018c9dcc"
+      }
+    ]
+  },
+  {
+    "id": "abbacc77-8644-4162-a4f7-c2b694c18cbb",
+    "category_name": "Cribs",
+    "product_number": "0000000017",
+    "price": 4000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 17",
+      "en": "Classic White Crib 17",
+      "ru": "Классическая белая кроватка 17"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Բամբակ",
+      "en": "Cotton",
+      "ru": "Хлопок"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "e63f9f7c-c386-4761-a11d-3037362da044",
+        "image": "/images/items/Cribe_9.png",
+        "productId": "abbacc77-8644-4162-a4f7-c2b694c18cbb"
+      },
+      {
+        "id": "aa163cc0-ae59-46b3-8bce-9cf5e40c69f7",
+        "image": "/images/items/Cribe_8.png",
+        "productId": "abbacc77-8644-4162-a4f7-c2b694c18cbb"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "643a5820-7b23-4a54-aad7-040a91e5884f",
+        "size": "40",
+        "status": "available",
+        "productId": "abbacc77-8644-4162-a4f7-c2b694c18cbb"
+      },
+      {
+        "id": "085c7267-aadc-4969-83a6-cfb7da4fb4a2",
+        "size": "44",
+        "status": "available",
+        "productId": "abbacc77-8644-4162-a4f7-c2b694c18cbb"
+      },
+      {
+        "id": "0c4cebf1-8f61-4a2f-9556-ed88462a93dc",
+        "size": "42",
+        "status": "available",
+        "productId": "abbacc77-8644-4162-a4f7-c2b694c18cbb"
+      },
+      {
+        "id": "713135fa-07ec-4fa8-9209-d26642127057",
+        "size": "46",
+        "status": "available",
+        "productId": "abbacc77-8644-4162-a4f7-c2b694c18cbb"
+      }
+    ]
+  },
+  {
+    "id": "27d1007e-e9e3-46b2-b3c1-f957a0fa4559",
+    "category_name": "Cribs",
+    "product_number": "000000020",
+    "price": 1000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 20",
+      "en": "Classic White Crib 20",
+      "ru": "Классическая белая кроватка 20"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Երկաթ",
+      "en": "Iron",
+      "ru": "Железо"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "00fbcf94-f7b4-4dbd-8d9b-1ce57ebe0029",
+        "image": "/images/items/Cribe_3.png",
+        "productId": "27d1007e-e9e3-46b2-b3c1-f957a0fa4559"
+      },
+      {
+        "id": "357e0146-6762-49e3-ac8f-1ba58a036ebf",
+        "image": "/images/items/Cribe_2.png",
+        "productId": "27d1007e-e9e3-46b2-b3c1-f957a0fa4559"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "e81f0771-a500-4a01-8d21-4af22cf01388",
+        "size": "44",
+        "status": "available",
+        "productId": "27d1007e-e9e3-46b2-b3c1-f957a0fa4559"
+      },
+      {
+        "id": "ae09f640-80cb-4c17-8b7e-17992a9d273f",
+        "size": "42",
+        "status": "available",
+        "productId": "27d1007e-e9e3-46b2-b3c1-f957a0fa4559"
+      },
+      {
+        "id": "c81c0cb8-75ee-4332-8bdc-a6a37be936c4",
+        "size": "46",
+        "status": "available",
+        "productId": "27d1007e-e9e3-46b2-b3c1-f957a0fa4559"
+      },
+      {
+        "id": "31a2f57a-a329-4c0b-aa26-7b77f7bd197e",
+        "size": "40",
+        "status": "available",
+        "productId": "27d1007e-e9e3-46b2-b3c1-f957a0fa4559"
+      }
+    ]
+  },
+  {
+    "id": "487adbff-27ee-4674-a8f7-912cb964a772",
+    "category_name": "Mattresses",
+    "product_number": "000000081",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 81",
+      "en": "Classic  Crib 81",
+      "ru": "Классическая кроватка 81"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Բամբուկ",
+      "en": "Bamboo",
+      "ru": "Бамбук"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "3e060554-614a-4993-a3f7-046da6500311",
+        "image": "/images/items/Mattress_8.png",
+        "productId": "487adbff-27ee-4674-a8f7-912cb964a772"
+      },
+      {
+        "id": "92264500-858a-48aa-85b4-5cf729ba8a89",
+        "image": "/images/items/Mattress_9.png",
+        "productId": "487adbff-27ee-4674-a8f7-912cb964a772"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "109ab9f1-ae95-40a4-9b84-580c3d714d69",
+        "size": "42",
+        "status": "available",
+        "productId": "487adbff-27ee-4674-a8f7-912cb964a772"
+      },
+      {
+        "id": "8eda5d0a-e90e-4663-a0a2-82d8fbed46a7",
+        "size": "40",
+        "status": "available",
+        "productId": "487adbff-27ee-4674-a8f7-912cb964a772"
+      },
+      {
+        "id": "9ca3edac-13ae-49ef-9aa4-20d86dc40ca5",
+        "size": "46",
+        "status": "available",
+        "productId": "487adbff-27ee-4674-a8f7-912cb964a772"
+      },
+      {
+        "id": "1c9d08d2-8ea8-4e56-ab0e-2d9f26194e77",
+        "size": "44",
+        "status": "available",
+        "productId": "487adbff-27ee-4674-a8f7-912cb964a772"
+      }
+    ]
+  },
+  {
+    "id": "59061cc7-78bd-4058-a783-546545d1f121",
+    "category_name": "Clothes",
+    "product_number": "000000068",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 68",
+      "en": "Classic Clothes 68",
+      "ru": "Классическая одежда 68"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Բուրդ",
+      "en": "Fleece",
+      "ru": "Шерсть"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "fdea3309-12e0-4b9a-8a86-1fc00f0ecda5",
+        "image": "/images/items/Clothes_6.png",
+        "productId": "59061cc7-78bd-4058-a783-546545d1f121"
+      },
+      {
+        "id": "5d37ab7c-be9f-481b-8ea7-4075580e7dcb",
+        "image": "/images/items/Clothes_4.png",
+        "productId": "59061cc7-78bd-4058-a783-546545d1f121"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "9b2b9c9a-7f35-43e3-8dcb-f60ac4677049",
+        "size": "S",
+        "status": "available",
+        "productId": "59061cc7-78bd-4058-a783-546545d1f121"
+      },
+      {
+        "id": "deb1aeed-3208-43b9-8baf-0a737103c841",
+        "size": "M",
+        "status": "available",
+        "productId": "59061cc7-78bd-4058-a783-546545d1f121"
+      },
+      {
+        "id": "8fd4c790-1da6-4cab-9592-d88aece17028",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "59061cc7-78bd-4058-a783-546545d1f121"
+      }
+    ]
+  },
+  {
+    "id": "37d58700-b9f6-41c4-b11c-e56afb5af752",
+    "category_name": "Mattresses",
+    "product_number": "000000086",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 86",
+      "en": "Classic  Crib 86",
+      "ru": "Классическая кроватка 86"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Կոկոսի մանրաթել",
+      "en": "Coconut Fiber",
+      "ru": "Кокосовое волокно"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "7d423e9d-4522-4c44-b308-c1277b998997",
+        "image": "/images/items/Mattress_7.png",
+        "productId": "37d58700-b9f6-41c4-b11c-e56afb5af752"
+      },
+      {
+        "id": "5ac3a631-06b4-4616-bdcf-06e783782a25",
+        "image": "/images/items/Mattress_10.png",
+        "productId": "37d58700-b9f6-41c4-b11c-e56afb5af752"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "4b089b0a-5d7b-4f52-b009-a8ea65dacc31",
+        "size": "46",
+        "status": "available",
+        "productId": "37d58700-b9f6-41c4-b11c-e56afb5af752"
+      },
+      {
+        "id": "c9062153-a1f5-42d6-b9a8-197a1da6b510",
+        "size": "42",
+        "status": "available",
+        "productId": "37d58700-b9f6-41c4-b11c-e56afb5af752"
+      },
+      {
+        "id": "a24dcc60-d8dd-4be4-a723-84e791591062",
+        "size": "40",
+        "status": "available",
+        "productId": "37d58700-b9f6-41c4-b11c-e56afb5af752"
+      },
+      {
+        "id": "37ca8861-3f94-46ed-9f5a-b74403474421",
+        "size": "44",
+        "status": "available",
+        "productId": "37d58700-b9f6-41c4-b11c-e56afb5af752"
+      }
+    ]
+  },
+  {
+    "id": "fa282f9c-980e-461b-80e0-100259f7ee1a",
+    "category_name": "Clothes",
+    "product_number": "000000059",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 59",
+      "en": "Classic Clothes 59",
+      "ru": "Классическая одежда 59"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Ջինսե կտոր",
+      "en": "Denim",
+      "ru": "Джинсовая ткань"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "10880d96-c820-4a7f-a52b-07a882f60853",
+        "image": "/images/items/Clothes_6.png",
+        "productId": "fa282f9c-980e-461b-80e0-100259f7ee1a"
+      },
+      {
+        "id": "d9759a5f-d705-47e9-93ba-d032de1d1e0d",
+        "image": "/images/items/Clothes_7.png",
+        "productId": "fa282f9c-980e-461b-80e0-100259f7ee1a"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "1acda67e-e2e3-47d6-942e-4eb7a33680a4",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "fa282f9c-980e-461b-80e0-100259f7ee1a"
+      },
+      {
+        "id": "e54924d1-33b2-498b-814e-c049f6f58336",
+        "size": "M",
+        "status": "available",
+        "productId": "fa282f9c-980e-461b-80e0-100259f7ee1a"
+      },
+      {
+        "id": "867e3f98-f766-4ea0-8974-e8aff07d884b",
+        "size": "S",
+        "status": "available",
+        "productId": "fa282f9c-980e-461b-80e0-100259f7ee1a"
+      }
+    ]
+  },
+  {
+    "id": "4ccd6e58-d741-4f09-a6ea-f661e5bc15a0",
+    "category_name": "Cribs",
+    "product_number": "0000000014",
+    "price": 200,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 14",
+      "en": "Classic White Crib 14",
+      "ru": "Классическая белая кроватка 14"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Ապակի",
+      "en": "Glass",
+      "ru": "Стекло"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "b67df6a2-7721-4216-b6be-a767b8c69950",
+        "image": "/images/items/Cribe_7.png",
+        "productId": "4ccd6e58-d741-4f09-a6ea-f661e5bc15a0"
+      },
+      {
+        "id": "2e5c43ae-b4ec-4cb6-a8cc-b270bcd477bc",
+        "image": "/images/items/Cribe_6.png",
+        "productId": "4ccd6e58-d741-4f09-a6ea-f661e5bc15a0"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "5ac5642b-dc5e-4026-afc8-d4c2f3a0ea43",
+        "size": "40",
+        "status": "available",
+        "productId": "4ccd6e58-d741-4f09-a6ea-f661e5bc15a0"
+      },
+      {
+        "id": "e0912d09-84ae-4073-82d8-ec3437a95a62",
+        "size": "42",
+        "status": "available",
+        "productId": "4ccd6e58-d741-4f09-a6ea-f661e5bc15a0"
+      },
+      {
+        "id": "b8fdfbb7-9824-450a-9895-4368fe02f779",
+        "size": "44",
+        "status": "available",
+        "productId": "4ccd6e58-d741-4f09-a6ea-f661e5bc15a0"
+      },
+      {
+        "id": "361dce59-e2af-42d6-9abc-9ebbf29a38c6",
+        "size": "46",
+        "status": "available",
+        "productId": "4ccd6e58-d741-4f09-a6ea-f661e5bc15a0"
+      }
+    ]
+  },
+  {
+    "id": "3fc55fb4-3abe-43b4-b351-167360f8848e",
+    "category_name": "Clothes",
+    "product_number": "000000061",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 61",
+      "en": "Classic Clothes 61",
+      "ru": "Классическая одежда 61"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Պոլիեսթեր",
+      "en": "Polyester",
+      "ru": "Полиэстер"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "0905c577-8c39-4615-b947-ff6fd1a7772c",
+        "image": "/images/items/Clothes_8.png",
+        "productId": "3fc55fb4-3abe-43b4-b351-167360f8848e"
+      },
+      {
+        "id": "3f0936c2-1536-4c05-a5ce-69afcb49d040",
+        "image": "/images/items/Clothes_9.png",
+        "productId": "3fc55fb4-3abe-43b4-b351-167360f8848e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "21a2c01b-1813-471f-9155-2607d580d586",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "3fc55fb4-3abe-43b4-b351-167360f8848e"
+      },
+      {
+        "id": "5f038a6b-4b1b-4f0a-ac58-9f67a66f2bdb",
+        "size": "S",
+        "status": "available",
+        "productId": "3fc55fb4-3abe-43b4-b351-167360f8848e"
+      },
+      {
+        "id": "f61dada6-7cbc-4fe9-93b0-9d9f2671f36c",
+        "size": "M",
+        "status": "available",
+        "productId": "3fc55fb4-3abe-43b4-b351-167360f8848e"
+      }
+    ]
+  },
+  {
+    "id": "fc157b6e-09d6-4d48-b638-ebd328d1901e",
+    "category_name": "Cribs",
+    "product_number": "000000001",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական սպիտակ մահճակալ 1",
+      "en": "Classic White Crib 1",
+      "ru": "Классическая белая кроватка 1"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Փայտ",
+      "en": "Wood",
+      "ru": "Дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "c1144e5e-8f1b-4720-9b29-5a3edee0f3e2",
+        "image": "/images/items/Cribe_2.png",
+        "productId": "fc157b6e-09d6-4d48-b638-ebd328d1901e"
+      },
+      {
+        "id": "e121bec1-b273-4006-8d38-eb37468cae81",
+        "image": "/images/items/Cribe_3.png",
+        "productId": "fc157b6e-09d6-4d48-b638-ebd328d1901e"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "820e073f-231f-4009-aa4a-300210dc46f1",
+        "size": "40",
+        "status": "available",
+        "productId": "fc157b6e-09d6-4d48-b638-ebd328d1901e"
+      },
+      {
+        "id": "465d0425-ac90-428a-8b37-536319455cfc",
+        "size": "42",
+        "status": "available",
+        "productId": "fc157b6e-09d6-4d48-b638-ebd328d1901e"
+      },
+      {
+        "id": "b3a97c8e-0433-4c19-8577-31409c316ca9",
+        "size": "44",
+        "status": "available",
+        "productId": "fc157b6e-09d6-4d48-b638-ebd328d1901e"
+      },
+      {
+        "id": "391e7858-9e5b-4f85-b1cf-ca8bacfc0d89",
+        "size": "46",
+        "status": "available",
+        "productId": "fc157b6e-09d6-4d48-b638-ebd328d1901e"
+      }
+    ]
+  },
+  {
+    "id": "7298f8b4-6826-4bc0-8919-23e47148bd0a",
+    "category_name": "Clothes",
+    "product_number": "000000067",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական հագուստ 67",
+      "en": "Classic Clothes 67",
+      "ru": "Классическая одежда 67"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Դասական հագուստ՝ պատրաստված բարձրորակ նյութերից, հարմար առօրյա օգտագործման համար։",
+      "en": "Classic clothing made from high-quality materials, perfect for everyday wear.",
+      "ru": "Классическая одежда из высококачественных материалов, идеально подходит для повседневной носки."
+    },
+    "product_material": {
+      "am": "Բուրդ",
+      "en": "Fleece",
+      "ru": "Шерсть"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "0e5e0990-3850-402a-a267-2914a919a45c",
+        "image": "/images/items/Clothes_2.png",
+        "productId": "7298f8b4-6826-4bc0-8919-23e47148bd0a"
+      },
+      {
+        "id": "03b2ae2e-5d4d-46a8-9a38-46871c31920a",
+        "image": "/images/items/Clothes_3.png",
+        "productId": "7298f8b4-6826-4bc0-8919-23e47148bd0a"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "c1293d35-fcf3-4e82-b905-dafb5d507048",
+        "size": "M",
+        "status": "available",
+        "productId": "7298f8b4-6826-4bc0-8919-23e47148bd0a"
+      },
+      {
+        "id": "733435e2-de6e-470b-89ff-1b8bd1c4aa36",
+        "size": "S",
+        "status": "available",
+        "productId": "7298f8b4-6826-4bc0-8919-23e47148bd0a"
+      },
+      {
+        "id": "1499dfb4-b6ba-4436-9343-4e50cb23956d",
+        "size": "L",
+        "status": "unavailable",
+        "productId": "7298f8b4-6826-4bc0-8919-23e47148bd0a"
+      }
+    ]
+  },
+  {
+    "id": "6f83fa83-3a0f-4b02-bfd5-f3fe92c45b46",
+    "category_name": "Furniture",
+    "product_number": "000000074",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ սպիտակ կահույքի հավաքածու 74",
+      "en": "Elegant  Furniture Set 74",
+      "ru": "Элегантный белый мебельный комплект 74"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional  furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Պողպատ և սոճու փայտ",
+      "en": "Steel and pine wood",
+      "ru": "Сталь и сосновое дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "30e0fba7-2e2b-43ae-9c64-b083210fb648",
+        "image": "/images/items/Furniture_9.png",
+        "productId": "6f83fa83-3a0f-4b02-bfd5-f3fe92c45b46"
+      },
+      {
+        "id": "b0b61c00-bbdd-4247-865f-4105bb105384",
+        "image": "/images/items/Furniture_10.png",
+        "productId": "6f83fa83-3a0f-4b02-bfd5-f3fe92c45b46"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "3f729ca2-7726-49c2-9951-e205b425f115",
+        "size": "44",
+        "status": "available",
+        "productId": "6f83fa83-3a0f-4b02-bfd5-f3fe92c45b46"
+      },
+      {
+        "id": "03140be2-6c73-4a5a-a81a-6afb24aea901",
+        "size": "40",
+        "status": "available",
+        "productId": "6f83fa83-3a0f-4b02-bfd5-f3fe92c45b46"
+      },
+      {
+        "id": "2d82bac1-183f-476e-9581-eb9164c92a5c",
+        "size": "42",
+        "status": "available",
+        "productId": "6f83fa83-3a0f-4b02-bfd5-f3fe92c45b46"
+      },
+      {
+        "id": "f03f929a-c639-4ea0-a5e0-110dd295d5b5",
+        "size": "46",
+        "status": "available",
+        "productId": "6f83fa83-3a0f-4b02-bfd5-f3fe92c45b46"
+      }
+    ]
+  },
+  {
+    "id": "a043ef03-e549-4b8d-9625-a5ddbce90078",
+    "category_name": "Furniture",
+    "product_number": "000000043",
+    "price": 10000,
+    "heart_icon": false,
+    "title": {
+      "am": "Էլեգանտ  կահույքի հավաքածու 43",
+      "en": "Elegant Furniture Set 43",
+      "ru": "Элегантный белый мебельный комплект 43"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Նորաձեւ և ֆունկցիոնալ  կահույքի հավաքածու՝ պատրաստված բարձրորակ նյութերից՝ իդեալական ժամանակակից ինտերիերի համար։",
+      "en": "A stylish and functional  furniture set crafted from quality materials, ideal for modern interiors.",
+      "ru": "Стильный и функциональный  мебельный комплект из качественных материалов, идеально подходит для современного интерьера."
+    },
+    "product_material": {
+      "am": "Վերամշակված փայտ",
+      "en": "Reclaimed wood",
+      "ru": "Восстановленное дерево"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "7faa8c2f-84d1-48b7-b41c-9f10f5d7af73",
+        "image": "/images/items/Furniture_7.png",
+        "productId": "a043ef03-e549-4b8d-9625-a5ddbce90078"
+      },
+      {
+        "id": "3267f3ff-09e8-4454-ad3a-7267a8533114",
+        "image": "/images/items/Furniture_6.png",
+        "productId": "a043ef03-e549-4b8d-9625-a5ddbce90078"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "f4a3271b-40e9-44e0-87f2-77292fa186e1",
+        "size": "44",
+        "status": "available",
+        "productId": "a043ef03-e549-4b8d-9625-a5ddbce90078"
+      },
+      {
+        "id": "02b83a06-c1cd-4c6e-afc2-be111df6d51f",
+        "size": "40",
+        "status": "available",
+        "productId": "a043ef03-e549-4b8d-9625-a5ddbce90078"
+      },
+      {
+        "id": "fbe4e519-effc-4cf2-940e-b8cbd0d643ce",
+        "size": "42",
+        "status": "available",
+        "productId": "a043ef03-e549-4b8d-9625-a5ddbce90078"
+      },
+      {
+        "id": "57d4f543-fb4c-4fa3-b198-254d8f8e60bf",
+        "size": "46",
+        "status": "available",
+        "productId": "a043ef03-e549-4b8d-9625-a5ddbce90078"
+      }
+    ]
+  },
+  {
+    "id": "75821ff1-1c0c-43ca-a74e-7bf1801dcdca",
+    "category_name": "Mattresses",
+    "product_number": "000000090",
+    "price": 100,
+    "heart_icon": false,
+    "title": {
+      "am": "Դասական  մահճակալ 90",
+      "en": "Classic  Crib 90",
+      "ru": "Классическая кроватка 90"
+    },
+    "btn_text": {
+      "am": "ԱՎԵԼԱՑՆԵԼ ԶԱՄԲՅՈՒՂԻՆ",
+      "en": "ADD TO BAG",
+      "ru": "ДОБАВИТЬ В КОРЗИНУ"
+    },
+    "descr": {
+      "am": "Սպիտակ փայտե մահճակալ ժամանակակից ձևավորմամբ։",
+      "en": "White wooden crib with modern design.",
+      "ru": "Белая деревянная кроватка с современным дизайном."
+    },
+    "product_material": {
+      "am": "Օրգանիկ լատեքս",
+      "en": "Organic Latex",
+      "ru": "Органический латекс"
+    },
+    "about_delivery": {
+      "am": "Առաքումը՝ 3-5 օրվա ընթացքում",
+      "en": "Delivery in 3-5 days",
+      "ru": "Доставка в течение 3-5 дней"
+    },
+    "createdAt": "2025-05-31T00:31:09.373Z",
+    "images": [
+      {
+        "id": "040ef4ce-2c61-4faf-8948-af64057f0d17",
+        "image": "/images/items/Mattress_8.png",
+        "productId": "75821ff1-1c0c-43ca-a74e-7bf1801dcdca"
+      },
+      {
+        "id": "79bcd6e5-ba68-4721-ac8b-a3775ecea09b",
+        "image": "/images/items/Mattress_9.png",
+        "productId": "75821ff1-1c0c-43ca-a74e-7bf1801dcdca"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "ef02f3c3-910c-446b-a398-af82ed523296",
+        "size": "46",
+        "status": "available",
+        "productId": "75821ff1-1c0c-43ca-a74e-7bf1801dcdca"
+      },
+      {
+        "id": "900c5921-9939-4182-866d-684540c8b9f0",
+        "size": "42",
+        "status": "available",
+        "productId": "75821ff1-1c0c-43ca-a74e-7bf1801dcdca"
+      },
+      {
+        "id": "91d266e7-fb99-4503-85a0-e73fda9375b6",
+        "size": "44",
+        "status": "available",
+        "productId": "75821ff1-1c0c-43ca-a74e-7bf1801dcdca"
+      },
+      {
+        "id": "b269dfe9-7093-406d-ba1a-d21cdffd384a",
+        "size": "40",
+        "status": "available",
+        "productId": "75821ff1-1c0c-43ca-a74e-7bf1801dcdca"
+      }
+    ]
+  }
+]
