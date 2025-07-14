@@ -49,10 +49,40 @@ export function ListCategory() {
                 // const fetchedCategories = resCategories.data || [];
                 // setCategories(fetchedCategories.map(category => category.title));
 
-                const processedItems = fetchedItems.map(item => ({
-                    ...item,
-                    priceNumber: item.price, // parseInt(item.price.replace('$', '')),
-                }));
+
+
+
+
+
+
+
+
+
+                // _-----------------_----_-----Paylaki hamar_____________--_---__--_____
+
+                const correctionMap = {
+                    "Cribe": "Cribs",
+                    "Сlothes": "Clothes", // ռուսերեն С → անգլերեն C
+                };
+
+                const fixCategory = (str) => correctionMap[str] || str;
+
+                const processedItems = fetchedItems
+                    .filter(item => fixCategory(item.category_name) === category_name)
+                    .map(item => ({
+                        ...item,
+                        priceNumber: item.price,
+                    }));
+                // _-----------------_----_-----Paylaki hamar_____________--_---__--_____
+
+
+
+
+
+
+
+
+
 
                 const uniqueMaterials = [...new Set(processedItems.map(item =>
                     item.product_material[currentLanguage]
@@ -111,11 +141,7 @@ export function ListCategory() {
     const indexOfFirstItem = indexOfLastItem - postsPerPage;
     const currentItems = sortedItems.slice(indexOfFirstItem, indexOfLastItem);
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
-
-    console.log(category_name);
     
-
 
     return (
         <>

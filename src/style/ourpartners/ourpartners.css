@@ -73,16 +73,9 @@
   }
 }
 
-
-@media (max-width: 1330px) {
-  .OurPartners_container .row .heading h2 {
-    padding: 0 1rem;
-  }
-}
-
 @media (max-width: 768px) {
   .OurPartners_container .row .heading h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
 }

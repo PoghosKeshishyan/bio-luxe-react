@@ -14,8 +14,8 @@ export function ShoppingBag({ allAvailableSizes, orders, shoppingBadData, popula
     const [openDropdown, setOpenDropdown] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const dropdownRefs = useRef({});
-    const formRef = useRef(); 
-    
+    const formRef = useRef(); // ✅ form-ի հղում
+
     const colorTranslation = {
         am: "գույն",
         ru: "цвет",
@@ -97,8 +97,7 @@ export function ShoppingBag({ allAvailableSizes, orders, shoppingBadData, popula
           <td>${index + 1}</td>
           <td>${p.title}</td>
           <td>#${p.product_number}</td>
-          <td>${p.color}</td>
-          <td>${p.size}</td>
+          <td className="klor" style="padding: 3px 3px;"><div style="width: 25px; height: 25px; background-color: ${p.color}; border: 1px solid #000; border-radius: 50px; margin:0 auto;"></div></td>          <td>${p.size}</td>
           <td>${p.material}</td>
           <td>${p.quantity}</td>
           <td>${p.price} ֏</td>
@@ -115,10 +114,10 @@ export function ShoppingBag({ allAvailableSizes, orders, shoppingBadData, popula
 
 
         emailjs.send(
-            "service_4v2y1hj",    
-            "template_g67tfmj",   
+            "service_4v2y1hj",      // ✅ փոխիր քո service ID-ով
+            "template_g67tfmj",     // ✅ փոխիր քո template ID-ով
             templateParams,
-            "gO0LYLAsKjEHnAsQl"   
+            "gO0LYLAsKjEHnAsQl"     // ✅ փոխիր քո public key-ով
         ).then(() => {
             alert('✅ Հաջողությամբ ուղարկվեց։');
             formRef.current.reset();
@@ -131,6 +130,7 @@ export function ShoppingBag({ allAvailableSizes, orders, shoppingBadData, popula
         <>
             <div className='container'>
                 <div className='shopping_container'>
+                    {/* Breadcrumb & Back */}
                     <div className='main_shopping_link'>
                         <span className='link_div'>
                             <Link to="/" className='main'>{shoppingBadData.main} </Link> /
@@ -148,6 +148,7 @@ export function ShoppingBag({ allAvailableSizes, orders, shoppingBadData, popula
                         <div className="line"></div>
                     </div>
 
+                    {/* Products List */}
                     {orders.length === 0 ? (
                         <div className="empty-message">
                             <img src="/images/404eror.jpg" alt="Empty bag" />
@@ -201,6 +202,7 @@ export function ShoppingBag({ allAvailableSizes, orders, shoppingBadData, popula
                     )}
                 </div>
 
+                {/* Order Summary + Form */}
                 <div className='order_summary'>
                     <div className='order_div'>
                         <div className='top_side'>
@@ -231,6 +233,7 @@ export function ShoppingBag({ allAvailableSizes, orders, shoppingBadData, popula
                                         <span>{totalPrice} ֏</span>
                                     </div>
 
+                                    {/* ✅ EmailJS Form */}
                                     <form className="form1" ref={formRef} onSubmit={handleSubmit}>
                                         <div className="input-group">
                                             <input

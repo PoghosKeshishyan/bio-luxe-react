@@ -10,6 +10,8 @@ export function NewArrivals({ newArriavals, newArrivalsHeading }) {
     const { addToBasket } = useContext(CartContext);
     const {handleHeartIcon} = useContext(HeartContext);
 
+     
+
     return (
         <div id="new_arrivals">
             <div className="container">

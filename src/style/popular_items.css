@@ -32,6 +32,7 @@
 }
 
 #popular_items .container .box_container .box .title {
+  width: 313px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;

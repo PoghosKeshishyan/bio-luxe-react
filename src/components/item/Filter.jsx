@@ -100,9 +100,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
         setPriceRange([minPrice, maxPrice]);
     }, [minPrice, maxPrice]);
 
-    
-    console.log(categories);
-    // console.log(category_name);
+
 
 
     return (
@@ -113,7 +111,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
                 {/* Category */}
                 <div className="filter_group">
                     <div className="dropdown" ref={categoryRef}>
-                        <div className="dropdown_header" onClick={() => toggleDropdown("category")}>
+                        <div className="dropdown_header" onClick={() => toggleDropdown("category")}> 
                             <span>{checkedCategories.length > 0 ? ` ${checkedCategories.length}` : ''} {categoriesLink?.category}</span>
                             {openDropdown === "category" ? <FiChevronUp /> : <FiChevronDown />}
                         </div>
@@ -124,7 +122,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
                                         <input
                                             type="checkbox"
                                             checked={category.category_name === `/category/${category_name}`}
-                                            onChange={() => { }}
+                                            onChange={() => toggleCategory(category.category_name)}
                                         />
                                         <span>{category.title}</span>
                                     </div>
@@ -137,7 +135,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
                 {/* Material */}
                 <div className="filter_group">
                     <div className="dropdown" ref={materialRef}>
-                        <div className="dropdown_header" onClick={() => toggleDropdown("material")}>
+                        <div className="dropdown_header" onClick={() => toggleDropdown("material")}> 
                             <span>{selectedMaterials.length > 0 ? ` ${selectedMaterials.length}` : ''} {categoriesLink?.materials}</span>
                             {openDropdown === "material" ? <FiChevronUp /> : <FiChevronDown />}
                         </div>
@@ -162,7 +160,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
                 {/* Price */}
                 <div className="filter_group">
                     <div className="dropdown" ref={priceRef}>
-                        <div className="dropdown_header" onClick={() => toggleDropdown("price")}>
+                        <div className="dropdown_header" onClick={() => toggleDropdown("price")}> 
                             <span>{categoriesLink?.price}</span>
                             {openDropdown === "price" ? <FiChevronUp /> : <FiChevronDown />}
                         </div>
@@ -209,7 +207,7 @@ export function Filter({ categoriesLink, categories, category_name, materials, s
                 <p className="filter_title">{categoriesLink?.sort_by}</p>
                 <div className="filter_group">
                     <div className="dropdown" ref={sortRef}>
-                        <div className="dropdown_header" onClick={() => toggleDropdown("sort")}>
+                        <div className="dropdown_header" onClick={() => toggleDropdown("sort")}> 
                             <span>{filterTexts[currentLanguage][0].label}</span>
                             {openDropdown === "sort" ? <FiChevronUp /> : <FiChevronDown />}
                         </div>
