@@ -1,0 +1,161 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.slider_page .swiper {
+  width: 652px;
+  height: 980px;
+}
+
+.SwiperSlide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-height: 974px;
+}
+
+.SwiperSlide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 35px;
+}
+
+.SwiperSlide .big_images_div {
+  width: 100%;
+  height: 100%;
+}
+
+.SwiperSlide .big_images_div img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.SwiperSlide .images_div {
+  width: 100%;
+  height: 90%;
+}
+
+.SwiperSlide .images_div img {
+  width: 100%;
+  height: 100%;
+}
+
+.popular_sliter_container .swiper-wrapper div img {
+  border: 1px solid rgba(128, 128, 128, 0.663);
+}
+
+.slider_page {
+  max-width: 652px;
+  max-height: 974px;
+
+}
+
+.swiper-slide {
+  height: 100%;
+
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper2 {
+  max-width: 652px;
+  max-height: 652px;
+}
+
+.mySwiper2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-free-mode img {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper {
+  max-width: 644px;
+  max-height: 644px;
+}
+
+.mySwiper .SwiperSlide {
+  max-width: 49%;
+  max-height: 320px;
+  margin-top: 9px;
+  background-position: bottom;
+}
+
+.item .slider_page .swiper-button-next,
+.swiper-button-prev {
+  background-color: #50a2aa;
+  border-radius: 8px;
+  padding: 35px 35px;
+}
+
+
+@media (max-width: 1370px) {
+
+  .slider_page {
+    width: 100%;
+    height: 90%;
+  }
+
+  .slider_page .swiper {
+    width: 100%;
+
+  }
+
+  .SwiperSlide .images_div {
+    height: 60%;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+
+    .slider_page .mySwiper2  {
+    height: 500px;
+  }
+
+  .slider_page .mySwiper{
+    height: 300px;
+  }
+
+}
+
+@media (max-width: 904px) {
+
+  .slider_page {
+    margin: 0 auto;
+  }
+
+    .slider_page .mySwiper2  {
+    height: 600px;
+  }
+    .SwiperSlide  .images_div {
+    height: 70%;
+  }
+}
+
+@media (max-width: 580px) {
+
+    .SwiperSlide .images_div {
+    height: 50%;
+  }
+
+    .slider_page .mySwiper2  {
+    height: 400px;
+  }
+
+}

@@ -1,0 +1,156 @@
+.about_us .box_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 0;
+  justify-content: space-between;
+}
+
+
+.about_us .box_container .box_img {
+  width: 652px;
+  max-height: 100%;
+}
+
+
+.about_us .box_container .box_img img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.about_us .box_container .box_content {
+  text-align: right;
+  width: 654px;
+}
+
+
+.about_us .box_container .box_content img {
+  width: 100%;
+  height: 233px;
+  margin-top: 38px;
+}
+
+
+.about_us .box_container .box_content .descr {
+  padding-left: 20%;
+  line-height: 120%;
+  letter-spacing: 0;
+  font-family: 'inter', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #1e4051;
+}
+
+.about_us .box_container .box_content .btn {
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Didact Gothic', sans-serif;
+  line-height: 130%;
+  letter-spacing: 0;
+  color: #1e4051;
+  border: 2px solid #1e4051;
+  display: inline-block;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 22px;
+}
+
+@media (max-width: 1300px) {
+  .about_us .box_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about_us .box_container .box_content {
+    width: 80%;
+    margin: 20px;
+  }
+
+  .about_us .box_container .box_img {
+    width: 80%;
+    height: 233px;
+    margin-top: 38px;
+
+  }
+
+  .about_us .box_container .box_content .descr_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_us .box_container .box_content .btn{
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .about_us .box_container {
+    flex-direction: column;
+  }
+
+  .about_us .box_container .box_img {
+    width: 85%;
+  }
+
+  .about_us .box_container .box_content {
+    width: 85%;
+  }
+
+  .about_us .box_container .box_content .descr {
+    padding-left: 0;
+  }
+
+  .about_us .box_container .box_content .descr_div {
+    text-align: center;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .about_us .box_container .box_img {
+    height: 100%;
+    width: 95%;
+  }
+
+  .about_us .box_container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about_us .box_container .box_image img,
+  .about_us .box_container .box_content img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .about_us .box_container .box_content {
+    text-align: center;
+    width: 95%
+
+  }
+
+  .about_us .box_container .box_content .descr {
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+  }
+
+  .about_us .box_container .box_content .btn {
+    display: block;
+    margin: 20px auto 0 auto;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

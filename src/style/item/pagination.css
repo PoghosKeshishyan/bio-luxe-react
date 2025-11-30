@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: "2rem";
+    padding: 50px 0;
+}
+
+.pagination .pagination_ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.pagination .pagination_btn {
+    font-size: 16px;
+    color: #50a2aa;
+    cursor: pointer;
+}
+
+.pagination button{
+    cursor: pointer;
+}

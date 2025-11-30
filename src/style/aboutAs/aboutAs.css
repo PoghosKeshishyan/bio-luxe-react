@@ -1,0 +1,266 @@
+.about_as  {
+  max-width: 1536px;
+  margin: 56px auto ;
+}
+
+
+.about_as .about-box {
+  max-width: 1642px;
+  height: 285px;
+  background-color: #51A5AD;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.about_as .container .info_section .image_div {
+  height: 100%;
+}
+.about_as .about-box .image-box {
+  width: 60%;
+  height: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.about_as .about-box .image-box img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.about_as .about-box .image-box h2 {
+  position: absolute;
+  display: flex;
+  font-family: var(--second-family);
+  font-weight: 200;
+  font-size: 120px;
+  text-align: center;
+  color: #fff;
+}
+
+.about_as .heading {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about_as .heading h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  color: #1e4051;
+}
+
+.about_as .heading .line {
+  flex: 1;
+  height: 1px;
+  background-color:  #1e4051;
+}
+/* //////////////////////////////////////////////////////////////// */
+
+.about_as .container .main_shopping_link {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.about_as .container .main_shopping_link .link_div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 36px;
+
+}
+
+.about_as .container .main_shopping_link .link_div .main {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    color: #8c8b8b;
+}
+
+ .about_as .container .main_shopping_link .link_div .shopping_bag {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    color: #131313;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+
+.about_as .container .info_section .info {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+}
+
+.about_as .container .info_section .info p {
+  width: 429px;
+  margin-bottom: 30px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  line-height: 120%;
+  color: #1e4051;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1286px) {
+  .about_as .about-box .image-box h2{
+    font-size: 90px;
+  }
+
+}
+
+@media (max-width: 1110px) {
+  .about_as .info_section .info{
+    flex-direction: column;
+    text-align: center;
+  }
+  .about_as .image_div{
+    width: 50%;
+    height: 27vh;
+  }
+  .about_as .image_div img{
+    width: 100%;
+  }
+
+  .about_as .form-container h2 {
+    width: 140%;
+  }
+
+  .about_as .about-box {
+    height: 210px;
+  }
+
+  .about_as .about-box .image-box h2{
+    font-size: 70px;
+  }
+
+  .about_as .about-box .image-box {
+    width: 70%;
+    height: 210px;
+  }
+}
+
+@media (max-width: 973px) {
+  .about_as .about-box {
+    height: 170px;
+  }
+
+  .about_as .about-box .image-box h2{
+    font-size: 40px;
+  }
+
+  .about_as .about-box .image-box {
+    width: 60%;
+    height: 160px;
+  }
+
+
+}
+
+@media (max-width: 860px) {
+  .about_as .container .info_section .info p {
+    width: 400px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  .about_as .image_div{
+    width: 60%;
+    height: 27vh;
+  }
+  .about_as .image_div img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .about_as .about-box {
+    height: 150px;
+  }
+
+  .about_as .about-box .image-box h2{
+    font-size: 25px;
+  }
+
+  .about_as .about-box .image-box {
+    width: 50%;
+    height: 140px;
+  }
+}
+
+@media (max-width: 650px) {
+  
+  .about_as .container .info_section .info p {
+    width: 300px;
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+  .about_as .image_div{
+    width: 70%;
+    height: 27vh;
+  }
+  .about_as .image_div img{
+    width: 100%;
+  }
+
+  .about_as .about-box {
+    height: 130px;
+  }
+
+  .about_as .about-box .image-box h2{
+    font-size: 25px;
+  }
+
+  .about_as .about-box .image-box {
+    width: 65%;
+    height: 130px;
+  }
+}
+
+@media (max-width: 510px) {
+  .about_as .container .info_section .info p {
+    font-size: 11px;
+  }
+
+.about_as .image_div{
+  width: 80%;
+  height: 27vh;
+}
+
+  .about_as .about-box {
+    height: 120px;
+  }
+
+  .about_as .about-box .image-box h2{
+    font-size: 25px;
+  }
+
+  .about_as .about-box .image-box {
+    width: 70%;
+    height: 120px;
+  }
+}
+
+@media (max-width: 420px) {
+.about_as .image_div{
+  width: 95%;
+  height: 27vh;
+  }
+}
+  
